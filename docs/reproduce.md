@@ -18,11 +18,13 @@ CPU PyTorch用于源码检查，不替代完整GPU环境。
 python -m venv .venv-check
 ./.venv-check/Scripts/python.exe -m pip install torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
 ./.venv-check/Scripts/python.exe -m pip install -e '.[evaluation,dev,geneformer,final_test]' -c requirements/windows-constraints.txt
+$env:NUMBA_NUM_THREADS = '4'
 ./.venv-check/Scripts/python.exe -m ruff check src scripts tests
 ./.venv-check/Scripts/python.exe -m pytest -q --basetemp tmp/pytest-source
 ```
 
 安装依赖需要网络。记录的69项通过来自完整本机环境；纯CPU会跳过GPU专用测试，通过数量可能不同。
+差异表达实现固定请求4个Numba线程；若设置 `NUMBA_NUM_THREADS`，其上限需至少为4。GitHub CPU检查使用4，与这一实现保持一致。
 新机器从零安装和Linux/macOS全量实验尚未经本机验证，远端Actions状态以实际运行记录为准。
 
 ## 完整实验的前提

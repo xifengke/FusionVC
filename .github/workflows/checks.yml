@@ -5,7 +5,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       POLARS_MAX_THREADS: '2'
-      NUMBA_NUM_THREADS: '2'
+      # The recorded differential-expression implementation requests four threads.
+      NUMBA_NUM_THREADS: '4'
       OMP_NUM_THREADS: '2'
     steps:
       - uses: actions/checkout@v4

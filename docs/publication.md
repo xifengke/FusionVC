@@ -51,7 +51,7 @@
 - [x] 以用户提供的旧仓库核对GitHub署名与既有许可情况。
 - [x] 自有代码LICENSE：作者已选择 MIT，根目录许可证与中英文说明已同步。
 - [x] FusionVC公开仓库：[xifengke/FusionVC](https://github.com/xifengke/FusionVC)，首次发布及后续变更以仓库提交记录为准。
-- [ ] 实际GitHub Actions运行，本地通过不冒充远端CI通过。
+- [x] 已触发实际 GitHub Actions；每次运行是否通过以远端记录为准。
 
 远端检查的实时状态见 [GitHub Actions](https://github.com/xifengke/FusionVC/actions)。
 

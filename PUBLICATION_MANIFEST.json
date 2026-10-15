@@ -1,13 +1,13 @@
 {
   "format": "fusionvc-public-source-v1",
-  "created_at_utc": "2026-10-15T14:17:09.156454+00:00",
+  "created_at_utc": "2026-10-15T14:22:23.179478+00:00",
   "author_handle": "xifengke",
   "license_status": "MIT for project-owned code; third-party resources retain their own terms",
   "files": [
     {
       "path": ".github/workflows/checks.yml",
-      "bytes": 670,
-      "sha256": "77b28ae03c0e21a1d7a57b579441a188d295578c18fd25bd3aaeff5a5080ed2e"
+      "bytes": 753,
+      "sha256": "ef7610a8a1a289d135584a5e53ddd4b71fe0d067de3a3c42a212a3d8e718edfc"
     },
     {
       "path": ".gitignore",
@@ -311,8 +311,8 @@
     },
     {
       "path": "docs/publication.md",
-      "bytes": 4098,
-      "sha256": "16635b50ab8fbde6ab17de9f71a7614dab717553fdaf718ec6615a3007e27851"
+      "bytes": 4112,
+      "sha256": "fba2dcb28e8bb9996af89c97be114959e3550a0c30408eaf8a3d536718692c5a"
     },
     {
       "path": "docs/README.md",
@@ -321,8 +321,8 @@
     },
     {
       "path": "docs/reproduce.md",
-      "bytes": 6426,
-      "sha256": "a286cfd306a66426479c711552fa6a2ae98a6f7b57207cd842b8a37b57619837"
+      "bytes": 6617,
+      "sha256": "f9b066dc75d6c8b759a77fb7cf058121cc225ae944cf1b02a8cd1ca0f3c4693f"
     },
     {
       "path": "docs/resources-and-data.md",
@@ -4711,7 +4711,7 @@
     }
   ],
   "file_count_excluding_manifest": 941,
-  "total_bytes_excluding_manifest": 19904538,
+  "total_bytes_excluding_manifest": 19904826,
   "omitted": [
     "raw data",
     "pretrained weights",
