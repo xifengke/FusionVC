@@ -1,0 +1,23 @@
+{
+  "experiment": "mmd_02_transformer_energy",
+  "seed": 44,
+  "epochs_run": 21,
+  "best_epoch": 1,
+  "selection_validation_mae": 0.0364721567183733,
+  "parameters": 1279904,
+  "trainable_parameters": 1279904,
+  "training_seconds": 14.426189700000577,
+  "peak_allocated_gpu_bytes": 685706240,
+  "peak_reserved_gpu_bytes": 964689920,
+  "checkpoint_bytes": 5169530,
+  "checkpoint_sha256": "b80f3ee20804eda478a6d5447d0eec2e0204295663a807165a7d9fe7edaae32a",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "mmd-v1",
+  "loss": "unpaired_energy_mmd",
+  "model": "transformer",
+  "variant": "energy",
+  "cell_set_size": 32,
+  "target_set_size": 32,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "all training cells; separate RNG seed+100000"
+}

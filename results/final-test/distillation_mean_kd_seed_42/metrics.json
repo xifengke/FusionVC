@@ -1,0 +1,54 @@
+{
+  "protocol": "final-test-v1",
+  "split": "official test",
+  "test_used": true,
+  "label": "distillation_mean_kd_seed_42",
+  "model": "distillation",
+  "role": "main",
+  "seed": 42,
+  "variant": "mean_kd",
+  "metrics": {
+    "mae": 0.02656591490842402,
+    "discrimination_score_l1": 0.5121,
+    "overlap_at_N": 0.11523526471290368
+  },
+  "checkpoint_sha256": "8933d68aa41351e9d618f486a0dc876bf8bbe7015ed9c39cf4dc030532d563bd",
+  "gene_count": 18080,
+  "predicted_cell_count": 170846,
+  "perturbation_count": 100,
+  "control_cell_count": 38176,
+  "profile": "vcc",
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "de": "validated asymptotic Mann-Whitney acceleration",
+  "global_fdr": "BH over all genes and all test perturbations",
+  "evaluation_seconds": 107.2078963999993,
+  "distribution": {
+    "energy_mmd_rms": 0.022329644598066807,
+    "cells_per_set": 64,
+    "prediction_seed": 2026,
+    "observation_seed": 2027,
+    "kernel": "negative Euclidean distance divided by sqrt(gene_count)",
+    "scope": "supplementary sampled distribution metric; not an official VCC score"
+  },
+  "signature": {
+    "protocol": "final-test-v1",
+    "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+    "run": {
+      "label": "distillation_mean_kd_seed_42",
+      "kind": "checkpoint",
+      "model": "distillation",
+      "variant": "mean_kd",
+      "seed": 42,
+      "experiment": "08_distillation",
+      "role": "main",
+      "checkpoint_path": "outputs/08_distillation/seed_42/best.pt",
+      "checkpoint_sha256": "8933d68aa41351e9d618f486a0dc876bf8bbe7015ed9c39cf4dc030532d563bd",
+      "validation_metrics_path": "results/distillation/08_distillation/seed_42/metrics.json",
+      "validation_metrics_sha256": "14934b5f48c57faeb8fdf828ccc9dca4ff35aaeb55f906cb18b2b1d1e7ccadd2",
+      "validation_mae": 0.027803188655525446
+    },
+    "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+    "test_used": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "protocol": "final-test-v1",
+  "split": "official test",
+  "test_used": true,
+  "label": "gated_energy_seed_42",
+  "model": "gated",
+  "role": "main",
+  "seed": 42,
+  "variant": "energy",
+  "metrics": {
+    "mae": 0.0266270468570292,
+    "discrimination_score_l1": 0.5135000000000001,
+    "overlap_at_N": 0.12884550621504812
+  },
+  "checkpoint_sha256": "b7d1b0ef19a047d614d895daa57f760988ad349baa2aea1f010e0db6a1f74f14",
+  "gene_count": 18080,
+  "predicted_cell_count": 170846,
+  "perturbation_count": 100,
+  "control_cell_count": 38176,
+  "profile": "vcc",
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "de": "validated asymptotic Mann-Whitney acceleration",
+  "global_fdr": "BH over all genes and all test perturbations",
+  "evaluation_seconds": 114.37410189999719,
+  "distribution": {
+    "energy_mmd_rms": 0.022329954467713832,
+    "cells_per_set": 64,
+    "prediction_seed": 2026,
+    "observation_seed": 2027,
+    "kernel": "negative Euclidean distance divided by sqrt(gene_count)",
+    "scope": "supplementary sampled distribution metric; not an official VCC score"
+  },
+  "signature": {
+    "protocol": "final-test-v1",
+    "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+    "run": {
+      "label": "gated_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "gated",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "06_gated_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/06_gated_energy/seed_42/best.pt",
+      "checkpoint_sha256": "b7d1b0ef19a047d614d895daa57f760988ad349baa2aea1f010e0db6a1f74f14",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "c6b854e622b9dd98d3b14c3fd9296ce8a56616abadea074a46aa4a0fdad01944",
+      "validation_mae": 0.028043420519679785
+    },
+    "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+    "test_used": true
+  }
+}

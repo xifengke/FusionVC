@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fusionvc"
+version = "0.1.0"
+description = "Reproducible virtual-cell baselines and foundation-model fusion on VCC 2025"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy==2.2.6", "scipy==1.15.3", "pandas==2.2.3",
+  "h5py==3.14.0", "scikit-learn==1.7.2", "PyYAML==6.0.2",
+  "torch==2.8.0",
+]
+
+[project.optional-dependencies]
+evaluation = ["cell-eval==0.6.6", "pdex==0.1.27"]
+dev = ["pytest==8.4.2", "ruff==0.13.3"]
+geneformer = ["transformers==4.57.1", "safetensors==0.6.2"]
+final_test = ["requests==2.34.2", "google-crc32c==1.9.0"]
+
+[project.scripts]
+fusionvc = "fusionvc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.format]
+# The existing fusion-token cache binds the exact v1 extractor source bytes.
+# Preserve that historical source; future extractor edits require a new cache version.
+exclude = ["src/fusionvc/fusion_features.py"]

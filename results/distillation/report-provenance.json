@@ -1,0 +1,295 @@
+{
+  "material_passport": {
+    "origin_skill": "academic-research-suite/experiment-agent",
+    "stage": "run",
+    "date": "2026-10-15",
+    "version": "distillation-v1",
+    "verification_status": "VERIFIED",
+    "receipts": {
+      "artifacts": {
+        "path": "results\\distillation\\artifact-verification.json",
+        "sha256": "1a08fd29a2e422bee33680b3948d3803665f506b95767ef445649b41df1fa962"
+      },
+      "reproducibility": {
+        "path": "results\\distillation\\reproducibility-check.json",
+        "sha256": "ab990a815c6cdc9f87ca0c1d95dbd174ebe4d6db64c3a88696c03f9e170dc35c"
+      },
+      "zero_kd": {
+        "path": "results\\distillation\\zero-kd-parity.json",
+        "sha256": "55adb82b3d176d95c26add1f169cc2a990f7b2511684e29d06f0cb2adb137feb"
+      },
+      "validation": {
+        "path": "results\\distillation\\validation-checks.json",
+        "sha256": "a121d41a7aaf3bc823ec2b7f218ff1ddbc62629288ec6d3bc2f3598d943f1f7f"
+      },
+      "cost": {
+        "path": "results\\distillation\\cost-benchmark.json",
+        "sha256": "662093bd80885d0dce34a5d4465bc5364dd186d412942ee84bc936fda8e825d6"
+      }
+    }
+  },
+  "teacher": {
+    "rule": "minimum three-seed official validation MAE mean over nine fusion model/loss groups; exact ties by experiment; fixed seed42 checkpoint; no ensemble",
+    "candidates": [
+      {
+        "experiment": "05_concat_energy",
+        "model": "concat",
+        "variant": "energy",
+        "validation_mae_mean": 0.027686955276876687,
+        "validation_mae_std": 5.99541033563171e-05,
+        "seeds": 3
+      },
+      {
+        "experiment": "07_cross_attention_hybrid",
+        "model": "cross_attention",
+        "variant": "hybrid",
+        "validation_mae_mean": 0.02768948197364807,
+        "validation_mae_std": 7.38290295059064e-05,
+        "seeds": 3
+      },
+      {
+        "experiment": "06_gated_energy",
+        "model": "gated",
+        "variant": "energy",
+        "validation_mae_mean": 0.027762526118506988,
+        "validation_mae_std": 0.00024407334278224232,
+        "seeds": 3
+      },
+      {
+        "experiment": "07_cross_attention_energy",
+        "model": "cross_attention",
+        "variant": "energy",
+        "validation_mae_mean": 0.0278114261602362,
+        "validation_mae_std": 2.1045750208149173e-05,
+        "seeds": 3
+      },
+      {
+        "experiment": "05_concat_hybrid",
+        "model": "concat",
+        "variant": "hybrid",
+        "validation_mae_mean": 0.027816579546779394,
+        "validation_mae_std": 0.00013149169797128994,
+        "seeds": 3
+      },
+      {
+        "experiment": "07_cross_attention",
+        "model": "cross_attention",
+        "variant": "mean",
+        "validation_mae_mean": 0.027817002615580955,
+        "validation_mae_std": 0.0001816926811966675,
+        "seeds": 3
+      },
+      {
+        "experiment": "05_concat",
+        "model": "concat",
+        "variant": "mean",
+        "validation_mae_mean": 0.02794938479860624,
+        "validation_mae_std": 0.00024592710622472184,
+        "seeds": 3
+      },
+      {
+        "experiment": "06_gated_hybrid",
+        "model": "gated",
+        "variant": "hybrid",
+        "validation_mae_mean": 0.027986672477175793,
+        "validation_mae_std": 0.00021156616781979417,
+        "seeds": 3
+      },
+      {
+        "experiment": "06_gated",
+        "model": "gated",
+        "variant": "mean",
+        "validation_mae_mean": 0.02803488346437613,
+        "validation_mae_std": 0.00018876235404437054,
+        "seeds": 3
+      }
+    ],
+    "experiment": "05_concat_energy",
+    "model": "concat",
+    "variant": "energy",
+    "seed": 42,
+    "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+    "teacher_checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+    "teacher_experiment": "05_concat_energy",
+    "teacher_seed": 42,
+    "selected_checkpoint_validation_mae": 0.027640323601663113,
+    "selected_group_validation_mae_mean": 0.027686955276876687,
+    "test_used": false
+  },
+  "sources": [
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\metrics.json",
+      "sha256": "cf8ff7e6dabad4d5b0dbc597978d81ed72f35a41e556d535086eba7f9e82a734"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\config.json",
+      "sha256": "c66a9fe856575b9c228e062f3596a6f02a25a875f6e8f99fd42b75c958443aed"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\training.json",
+      "sha256": "c11ae78c9223ded10e7bbf64772142d8c2340b4305f5ff18da3eade5b5188ac4"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\per_perturbation.csv",
+      "sha256": "2cd5e447b260e85e5e47c62d4b2de4f0c9f6de81fff4503009974633f81ff1f0"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\distribution_per_perturbation.csv",
+      "sha256": "988f6cec1745c25c81cc4946b014367299a82bcd7c3c376de783a0d4eeca6d90"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\history.csv",
+      "sha256": "1bdd97108a2f0d1291c7909b2031c9f54be76663e14115de13458943016ee3ab"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_42\\config.json",
+      "sha256": "78ef95236aba99827b7fcbd1f1f420858c1c880f3676037a08876dbe24e9b0d1"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_42\\training.json",
+      "sha256": "1b6e1d539ed400b13c836148e70ee9d684ba527f5682d2120c01fca48bd085fa"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_42\\metrics.json",
+      "sha256": "14934b5f48c57faeb8fdf828ccc9dca4ff35aaeb55f906cb18b2b1d1e7ccadd2"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_42\\history.csv",
+      "sha256": "9b03567b683db58e6e8ec6618d86fb5794b0a77f49aca6493a0c51e9ad1404b5"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_42\\per_perturbation.csv",
+      "sha256": "0b56022036215ba71492b21bffc31cdd0be15168719069ad84535f2ef7f6fd77"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_42\\distribution_per_perturbation.csv",
+      "sha256": "5316f3f00c75d24751e7383601c239946fb74f14adbe5fe83651e77da392c9f3"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\metrics.json",
+      "sha256": "46406256ba70347efccd49ab441ab5fa292e3bbecc85ea71d1ee9e88d0c2c8b3"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\config.json",
+      "sha256": "9180b3f5ff7e1a69ca3e7a550da1074d678c2536c1225aff823b8f25a6cb8b51"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\training.json",
+      "sha256": "9d8b8755c0c9021b0859b2ea6a2baf956bc69692529df7fd70d39e98bb49ebec"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\per_perturbation.csv",
+      "sha256": "1af79fdc091e0ba80c941761869ac5937cab5f37fd125b3872f07b638f0919ab"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\distribution_per_perturbation.csv",
+      "sha256": "eb29a18449b8eeaaee358ebbca8204019cec6043c84161a3299fbc3e69447c5b"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\history.csv",
+      "sha256": "8f7ba32e3d2dbcf9ee373fcb4539fe0a9645c5453ecf0aea47b82ffd202d93b8"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_43\\config.json",
+      "sha256": "f60634d03461adb236af6e49a112656689647ad620becafdaacdb209a47f9fa3"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_43\\training.json",
+      "sha256": "8b5001e77c642c804119cf92e6ff0f5dfcc6f2acb70b48f3d43cd3f67e64f214"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_43\\metrics.json",
+      "sha256": "931bfb2945647321a1c1fc8359c3ff5158e136110910052d5ac3bd1681041028"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_43\\history.csv",
+      "sha256": "0f91843dfc51664b0ed74256bcb1ab5ec895dd8a990236d19068dca9254bb116"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_43\\per_perturbation.csv",
+      "sha256": "22a493fe7caf5387d10215595e9b8d169adb1b0e844a7abe4b8d0c65fdab6050"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_43\\distribution_per_perturbation.csv",
+      "sha256": "19c4c187375bf228c48c1ce23cf4c636684f4f9bad1d3a2a40a273e6b9f7c9a5"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\metrics.json",
+      "sha256": "ff134e7f05c8b251fc73ef9aafad39e35b44d0774ab29cc01ae36395308a482d"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\config.json",
+      "sha256": "3b509063a45d53810c3e230333095f1bd0a5825542bdf5c7e32d5ee3d10e8fe6"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\training.json",
+      "sha256": "6674d615eb86fba744a5c5c458155a9ff41a54e0305d136eb46bcffbb03e6420"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\per_perturbation.csv",
+      "sha256": "9c585b7c680c497b53e58e8d5a737068705d91415ddf70c7b366ac196234ccdd"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\distribution_per_perturbation.csv",
+      "sha256": "7bb91dc1ca64351389850fee07c6379c4133e16a2f531c2d3788884fc0d059ed"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\history.csv",
+      "sha256": "1ecd433687dcaadc839ef59e577f61b68569684851fd08ae04931bc805c802ea"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_44\\config.json",
+      "sha256": "6c5d3a5ee7256c9a3614903c0ab70c1a259cf60940b83d544f39790c4d976bf1"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_44\\training.json",
+      "sha256": "d543c7effab392a61e4bf3b4d62191a335f9c1d65d2b9e1a93498474ed6af23f"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_44\\metrics.json",
+      "sha256": "4efb53caaf908910820eb6caac6df82856205123a2946a7fdd5555eee5358544"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_44\\history.csv",
+      "sha256": "51a14365a1ab34dff92fd6afb559d9586a00c651de93c94e09d4f5a9cb3185fd"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_44\\per_perturbation.csv",
+      "sha256": "146306386258e55c6f64a5b908449b3b65ef4f15bdab9d25135cefa9f78a4001"
+    },
+    {
+      "path": "results\\distillation\\08_distillation\\seed_44\\distribution_per_perturbation.csv",
+      "sha256": "2cf474d47a9fa363dd0dd4d8fa8a44c0583cd0697ce8d1fee850daa017d102d9"
+    },
+    {
+      "path": "results\\fusion\\05_concat_energy\\seed_42\\metrics.json",
+      "sha256": "e8ab4cf700f35e65e43fda476a7386a306f790070b94250c8f1664ee41408bef"
+    },
+    {
+      "path": "results\\fusion\\05_concat_energy\\seed_42\\config.json",
+      "sha256": "0c83c1c112f1366b2f35d0359025d643f93d04c3b8bbcf9d2ecd702183f3d6b1"
+    },
+    {
+      "path": "results\\fusion\\05_concat_energy\\seed_42\\training.json",
+      "sha256": "51abf87918bca3019b94a6d12f8638f4f09dfdda056386791271b78fa8c203fb"
+    },
+    {
+      "path": "results\\fusion\\05_concat_energy\\seed_42\\per_perturbation.csv",
+      "sha256": "b5cf90f862d72eae041c85ed186e82c96f9f9a6da64c2060a378a2ca47732101"
+    },
+    {
+      "path": "results\\fusion\\05_concat_energy\\seed_42\\distribution_per_perturbation.csv",
+      "sha256": "d0ded3a678a48500cf17bd9c6e19f83c2bd876852b9fbaf1d41f935d065e732a"
+    },
+    {
+      "path": "results\\fusion\\05_concat_energy\\seed_42\\history.csv",
+      "sha256": "deae83b7743eec779a74393b4df43e2e5dcbd59ea7a539947c484d42e29c7e26"
+    }
+  ],
+  "prior_snapshot_sha256": "b0f1a35e3de383ba235fe32ff9f1196ad2a765174732b2fca2ecf1660bc60ab9",
+  "student_runs": 3,
+  "supervised_runs": 3,
+  "teacher_runs": 1,
+  "test_used": false,
+  "complete": true
+}

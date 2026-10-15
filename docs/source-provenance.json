@@ -1,0 +1,227 @@
+{
+  "sources": [
+    {
+      "path": "vendor/scGPT-cebd6fae655b.zip",
+      "url": "https://codeload.github.com/bowang-lab/scGPT/zip/cebd6fae655b9c585a4807daa3ac31bb764f06b4",
+      "bytes": 12117557,
+      "sha256": "1b825a687b4855dbb8c7b530f17cc246ef677d93d0e2df3fbc82330ff9d189db",
+      "revision": "cebd6fae655b9c585a4807daa3ac31bb764f06b4"
+    },
+    {
+      "path": "vendor/cell-eval-6928cf8bd7a7.zip",
+      "url": "https://codeload.github.com/ArcInstitute/cell-eval/zip/6928cf8bd7a706040ccfd13119e4085726dee64a",
+      "bytes": 66649,
+      "sha256": "b014c2f16929b2f2f5f5f0a3899d74efc3b8a9fddd5f16d33c64adad8942cea3",
+      "revision": "6928cf8bd7a706040ccfd13119e4085726dee64a"
+    },
+    {
+      "path": "vendor/Geneformer/README.md",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/README.md",
+      "bytes": 9470,
+      "sha256": "56d6e570b349cbedae9a54634421c94e7af8ea467ce0fdd79193372ae3cbdbd8"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/__init__.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/__init__.py",
+      "bytes": 1646,
+      "sha256": "bf0af7a1e703013e691be53c3cd39a886fd24c7e35986a38f69bd9990d1f4a21"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/classifier.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/classifier.py",
+      "bytes": 67433,
+      "sha256": "bda1380894755105f40c52cc6ae254b1a7ae99f296a737085c6e584d479310a6"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/classifier_utils.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/classifier_utils.py",
+      "bytes": 24410,
+      "sha256": "0b4135d336e8b8618e29c0c2b73cc55181df3d3e87a8bcc2ededd158d6c33ad3"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/collator_for_classification.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/collator_for_classification.py",
+      "bytes": 31653,
+      "sha256": "4babf2d3597e77377c58de76d1482f1ca5f560344bfa97386cd5e030b6919864"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/emb_extractor.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/emb_extractor.py",
+      "bytes": 35355,
+      "sha256": "50d4eee1677b376f4d2c50887558450fdd39150c4ed902833e9929f25f17adb0"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/ensembl_mapping_dict_gc104M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/ensembl_mapping_dict_gc104M.pkl",
+      "bytes": 3957652,
+      "sha256": "0819bcbd869cfa14279449b037eb9ed1d09a91310e77bd1a19d927465030e95c"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/evaluation_utils.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/evaluation_utils.py",
+      "bytes": 10527,
+      "sha256": "edf3cc4cb9c31ed0b38c9c67f588d96a6c95ce31b4105de0ffafc74e5f144824"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/gene_dictionaries_30m/ensembl_mapping_dict_gc30M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/ensembl_mapping_dict_gc30M.pkl",
+      "bytes": 584125,
+      "sha256": "eac0fb0b3007267871b6305ac0003ceba19d4f28d85686cb9067ecf142787869"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/gene_dictionaries_30m/gene_median_dictionary_gc30M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/gene_median_dictionary_gc30M.pkl",
+      "bytes": 940965,
+      "sha256": "b3b589bb5ec75040d05fc44dd6bf0184cf87f3c362cf158d196a6ed3b7fe5f39"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/gene_dictionaries_30m/gene_name_id_dict_gc30M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/gene_name_id_dict_gc30M.pkl",
+      "bytes": 1117117,
+      "sha256": "55e67962e79c0039a6c32d43c5c99f38e51964bbcfa32f736150ee1e285c438c"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/gene_dictionaries_30m/token_dictionary_gc30M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/token_dictionary_gc30M.pkl",
+      "bytes": 788424,
+      "sha256": "ab9dc40973fa5224d77b793e2fd114cacf3d08423ed9c4c49caf0ba9c7f218f1"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/gene_median_dictionary_gc104M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_median_dictionary_gc104M.pkl",
+      "bytes": 1512661,
+      "sha256": "a51c53f6a771d64508dfaf61529df70e394c53bd20856926117ae5d641a24bf5"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/gene_name_id_dict_gc104M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_name_id_dict_gc104M.pkl",
+      "bytes": 1660882,
+      "sha256": "fabfa0c2f49c598c59ae432a32c3499a5908c033756c663b5e0cddf58deea8e1"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/in_silico_perturber.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/in_silico_perturber.py",
+      "bytes": 67539,
+      "sha256": "5d5bee4832f6e8e934a7e05afeb96bac000e6cdcb89a66e523732e2f7f3d7881"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/in_silico_perturber_stats.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/in_silico_perturber_stats.py",
+      "bytes": 45892,
+      "sha256": "69e3a9863c40b83cbfef28dd21e16453d4fc99409e3e6cd92e27fd274b57cc51"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/__init__.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/__init__.py",
+      "bytes": 64,
+      "sha256": "b54b352926e2823cbaaad077ecdd29f75e677b38614572bade849b7b6b5bdfc0"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/collators.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/collators.py",
+      "bytes": 2881,
+      "sha256": "34f6d27f068ebe36423a455084067d797ce1a8ae3bff57260a5b4fa27aed7714"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/data.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/data.py",
+      "bytes": 8484,
+      "sha256": "b69b18c72e1ea9451fea478c26bbf62127137f2696f079f056c4ce228476cdc1"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/eval_utils.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/eval_utils.py",
+      "bytes": 3501,
+      "sha256": "5b70896430a93a46af8fc87fe9adb8781f759b181a99f06e5b1b5ef40a1d88d9"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/model.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/model.py",
+      "bytes": 4442,
+      "sha256": "8a450052007cede95ef674087a4c1487d8b4fbd9f43c7db6abc62bb2bbfcde71"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/train.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/train.py",
+      "bytes": 30277,
+      "sha256": "cccb857444832100accf5b562e3c55f5016be36f51e15032bcfa781e8147358c"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl/utils.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl/utils.py",
+      "bytes": 25924,
+      "sha256": "fd6c4c28153a55f7494fc35f747a814d91f5f3e6f844a1e0bfee43ff764da115"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/mtl_classifier.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/mtl_classifier.py",
+      "bytes": 14505,
+      "sha256": "867daad7f9b0b94aa3a2eee12bb855b12d5e019ca6c80f305e3c21abaf74a417"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/perturber_utils.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/perturber_utils.py",
+      "bytes": 32493,
+      "sha256": "ce77dd181c77ba612626e19de2282b68fd18601be7d5d495cba6502597cd4475"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/pretrainer.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/pretrainer.py",
+      "bytes": 29452,
+      "sha256": "8e0d02b545b9b19eab0b4bc2fffd8bb8d11e0ec4b3f6b8d2b442fab842d1e0e5"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/token_dictionary_gc104M.pkl",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/token_dictionary_gc104M.pkl",
+      "bytes": 425590,
+      "sha256": "67c445f4385127adfc48dcc072320cd65d6822829bf27dd38070e6e787bc597f"
+    },
+    {
+      "path": "vendor/Geneformer/geneformer/tokenizer.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/tokenizer.py",
+      "bytes": 34686,
+      "sha256": "689b71a916b75fa618fbb460a7fc460c3ab32d41e4f98064efb0ebb3ee921002"
+    },
+    {
+      "path": "vendor/Geneformer/requirements.txt",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/requirements.txt",
+      "bytes": 382,
+      "sha256": "ce24555bcc90a2af82c2516a2d8e16074247508bd78103b3025a9e4f7914c3b6"
+    },
+    {
+      "path": "vendor/Geneformer/setup.py",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/setup.py",
+      "bytes": 1087,
+      "sha256": "eaee21265f8a2f08759b498e8197b6b782596f094020cd9bf7451d96b3026868"
+    },
+    {
+      "path": "references/gene_info.csv",
+      "url": "https://github.com/bowang-lab/scGPT/files/13243634/gene_info.csv",
+      "bytes": 2549838,
+      "sha256": "ae60243501b343487c766817d0957a6231182af5129ce6b940024dc647161256"
+    },
+    {
+      "path": "references/vcc2025.pdf",
+      "source": "User-provided original PDF",
+      "bytes": 2184731
+    }
+  ],
+  "geneformer_revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+  "evaluator_note": "Downloaded official source; the exact 2025 scoring config must be locked before evaluation.",
+  "historical_sources": [
+    {
+      "path": "vendor/cell-eval-vcc2025-27c18c4f215a.zip",
+      "url": "https://codeload.github.com/ArcInstitute/cell-eval/zip/27c18c4f215a0345c1428329a41fdf7b24c24b50",
+      "bytes": 52056,
+      "sha256": "4fb4a9abfa65fc69db1cf62b0b0bcbcaaebf752c20aa642b24789a2e7fbf3d9d",
+      "revision": "27c18c4f215a0345c1428329a41fdf7b24c24b50"
+    },
+    {
+      "path": "vendor/scGPT-paper2024-74603ca5d8a2.zip",
+      "url": "https://codeload.github.com/bowang-lab/scGPT/zip/74603ca5d8a2adf2a7420936c73784a1fef01597",
+      "bytes": 12091597,
+      "sha256": "72ccce71aaae0ee6a918ab0eaa8c6cb5fa54379897b3e4e82eea867915ae29ce",
+      "revision": "74603ca5d8a2adf2a7420936c73784a1fef01597"
+    }
+  ]
+}

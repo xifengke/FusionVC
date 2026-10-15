@@ -1,0 +1,246 @@
+{
+  "contrasts": [
+    {
+      "candidate": "geneformer/mean",
+      "reference": "mlp/mean",
+      "metric": "mae",
+      "difference": -0.00010282310967643669,
+      "target_bootstrap_95": [
+        -0.00019383614649995726,
+        -9.635342905913234e-06
+      ],
+      "targets": 50,
+      "candidate_better_targets": 37
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "mlp/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.001733333333333335,
+      "target_bootstrap_95": [
+        -0.0016000000000000035,
+        0.005066666666666677
+      ],
+      "targets": 50,
+      "candidate_better_targets": 14
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "mlp/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.0018530501055482598,
+      "target_bootstrap_95": [
+        -0.006092515888226803,
+        0.002332741301224781
+      ],
+      "targets": 50,
+      "candidate_better_targets": 21
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "mlp/mean",
+      "metric": "energy_mmd_rms",
+      "difference": -2.580396831035059e-05,
+      "target_bootstrap_95": [
+        -6.320612287769266e-05,
+        9.711158772309947e-06
+      ],
+      "targets": 50,
+      "candidate_better_targets": 31
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "transformer/mean",
+      "metric": "mae",
+      "difference": -0.004628154356032607,
+      "target_bootstrap_95": [
+        -0.005318089634645729,
+        -0.003947345873961843
+      ],
+      "targets": 50,
+      "candidate_better_targets": 49
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "transformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.0014666666666666717,
+      "target_bootstrap_95": [
+        -0.00880000000000001,
+        0.005866666666666658
+      ],
+      "targets": 50,
+      "candidate_better_targets": 22
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "transformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.057169344197393085,
+      "target_bootstrap_95": [
+        -0.07801640986211139,
+        -0.03746891420928433
+      ],
+      "targets": 50,
+      "candidate_better_targets": 12
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "transformer/mean",
+      "metric": "energy_mmd_rms",
+      "difference": -0.000815608240664002,
+      "target_bootstrap_95": [
+        -0.0009120519859716187,
+        -0.000716829331591722
+      ],
+      "targets": 50,
+      "candidate_better_targets": 49
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "scgpt/mean",
+      "metric": "mae",
+      "difference": -1.7054931571083633e-05,
+      "target_bootstrap_95": [
+        -0.00022692540101706678,
+        0.00020614507716770332
+      ],
+      "targets": 50,
+      "candidate_better_targets": 26
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "scgpt/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.0050666666666666724,
+      "target_bootstrap_95": [
+        -0.014133333333333333,
+        0.002
+      ],
+      "targets": 50,
+      "candidate_better_targets": 15
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "scgpt/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.010606424552107595,
+      "target_bootstrap_95": [
+        -0.018490279736349792,
+        -0.003457961845112431
+      ],
+      "targets": 50,
+      "candidate_better_targets": 17
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "scgpt/mean",
+      "metric": "energy_mmd_rms",
+      "difference": -2.5466419756408204e-05,
+      "target_bootstrap_95": [
+        -9.019911537567124e-05,
+        3.376399011661505e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 28
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "geneformer/mean",
+      "metric": "mae",
+      "difference": -0.0002196705527603643,
+      "target_bootstrap_95": [
+        -0.00033242642972618804,
+        -0.00011486272001639244
+      ],
+      "targets": 50,
+      "candidate_better_targets": 39
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "geneformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.0006666666666666643,
+      "target_bootstrap_95": [
+        -0.002533333333333332,
+        0.0009333333333333405
+      ],
+      "targets": 50,
+      "candidate_better_targets": 8
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "geneformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.005701035697151663,
+      "target_bootstrap_95": [
+        -0.008379462257014015,
+        -0.0029748387548899184
+      ],
+      "targets": 50,
+      "candidate_better_targets": 18
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "geneformer/mean",
+      "metric": "energy_mmd_rms",
+      "difference": 7.21141695976063e-06,
+      "target_bootstrap_95": [
+        -1.7804478605591967e-05,
+        3.336245442429787e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 27
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "geneformer/mean",
+      "metric": "mae",
+      "difference": -3.426682824890184e-05,
+      "target_bootstrap_95": [
+        -7.695721788332221e-05,
+        5.8425633857664075e-06
+      ],
+      "targets": 50,
+      "candidate_better_targets": 26
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "geneformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.0005333333333333285,
+      "target_bootstrap_95": [
+        -0.0019999999999999883,
+        0.0006699999999999718
+      ],
+      "targets": 50,
+      "candidate_better_targets": 5
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "geneformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.003217709124241833,
+      "target_bootstrap_95": [
+        -0.006694876205941297,
+        5.301512039260414e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 25
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "geneformer/mean",
+      "metric": "energy_mmd_rms",
+      "difference": 5.038194358344197e-06,
+      "target_bootstrap_95": [
+        -5.7905502617379105e-06,
+        1.6932146623727282e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 28
+    }
+  ],
+  "scope": "seed-averaged paired validation targets; conditional on fitted models; 5000 target bootstraps",
+  "test_used": false
+}

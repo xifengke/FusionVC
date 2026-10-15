@@ -1,0 +1,23 @@
+{
+  "experiment": "mmd_01_mlp_mean",
+  "seed": 44,
+  "epochs_run": 21,
+  "best_epoch": 1,
+  "selection_validation_mae": 0.0325630409270525,
+  "parameters": 1266144,
+  "trainable_parameters": 1266144,
+  "training_seconds": 4.7793759999999565,
+  "peak_allocated_gpu_bytes": 385229824,
+  "peak_reserved_gpu_bytes": 629145600,
+  "checkpoint_bytes": 5104973,
+  "checkpoint_sha256": "4aef2cf86a274a6c242bc7e9eefeda6a04bd119d82794da92dc65d4e7d7fa849",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "mmd-v1",
+  "loss": "unpaired_pseudobulk_mse",
+  "model": "mlp",
+  "variant": "mean",
+  "cell_set_size": 32,
+  "target_set_size": null,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "not sampled; all-cell pseudobulk means"
+}

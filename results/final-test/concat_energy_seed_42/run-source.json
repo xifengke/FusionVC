@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "concat_energy_seed_42",
+    "kind": "checkpoint",
+    "model": "concat",
+    "variant": "energy",
+    "seed": 42,
+    "experiment": "05_concat_energy",
+    "role": "main",
+    "checkpoint_path": "outputs/05_concat_energy/seed_42/best.pt",
+    "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+    "validation_metrics_path": "results/fusion/05_concat_energy/seed_42/metrics.json",
+    "validation_metrics_sha256": "e8ab4cf700f35e65e43fda476a7386a306f790070b94250c8f1664ee41408bef",
+    "validation_mae": 0.027640323601663113
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

@@ -1,0 +1,116 @@
+{
+  "experiment": "03_scgpt_hybrid",
+  "seed": 44,
+  "epochs_run": 21,
+  "best_epoch": 1,
+  "selection_validation_mae": 0.032554116025567056,
+  "parameters": 51570976,
+  "trainable_parameters": 1292576,
+  "training_seconds": 14.64820179999515,
+  "peak_allocated_gpu_bytes": 576107520,
+  "peak_reserved_gpu_bytes": 817889280,
+  "checkpoint_bytes": 5180738,
+  "checkpoint_sha256": "e4bc293f313c6a25d0b7428a38f94de4eaf1c6b5b1397509e54d785944736d39",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "scgpt-v1",
+  "loss": "unpaired_mean_energy_mmd",
+  "model": "scgpt",
+  "variant": "hybrid",
+  "cell_set_size": 32,
+  "target_set_size": 32,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "all training cells; separate RNG seed+100000",
+  "frozen_features": {
+    "signature": {
+      "version": "scgpt-frozen-v1",
+      "adapter_sha256": "b61740f35e58b1a4b832e4841466d351614e07525dd3d77aa8343a0d03278a10",
+      "upstream_model_sha256": "5c31e5c52f3be338c40a495bf11d38c52429b7e5bf239e9fa35c6417b1d647e8",
+      "assets": {
+        "best_model.pt": "6cb5d451ab5c4b33eb673adbe4fddc61d2389df1b89b7651a9fe2e557572b922",
+        "args.json": "c18e075e018140cb8b2d9029387b9de26607a5ce6a8ccabd6ead70cd76b95d60",
+        "vocab.json": "acca93d114ca62c3f0f50debbd23e8c87f0714f4737764454f6b2b13f2e8580f"
+      },
+      "inputs": {
+        "manifest.json": "280ebe8477a69d35cac9e83713dbc4420db8361a5a6005b1d043587b836de384",
+        "genes.json": "a12b25bcaaba61e5ce00edbf52f330455000b82921bc854e89cfcf1401e3ec47",
+        "gene_descriptors.npy": "b6dc5d4658e253c93154926d600389b3e07c16a7b1df0f887b669bf6d13ea966",
+        "input_gene_indices.npy": "0c977ef436d7b32605b0e717952aa16c49623a0630f4d40cdca294a01044531c"
+      },
+      "control_source": {
+        "bytes": 2760888448,
+        "mtime_ns": 1791004152333443300
+      },
+      "feature_seed": 2025,
+      "feature_cells": 2048,
+      "bins": 51,
+      "include_zero_gene": true,
+      "pooling": "mean of all recognized input tokens, then mean of training control cells",
+      "target_embedding": "frozen normalized pretrained gene embedding + train-only descriptor + coverage",
+      "fit_source": "training non-targeting cells only; no perturbation labels",
+      "precision": "float32 frozen feature extraction; dropout disabled"
+    },
+    "feature_hashes": {
+      "control_indices.npy": "b3232ab007f0377a9631bc4ebb191f7fe00181b405dc922afbc0cb116c034cba",
+      "control_embeddings.npy": "3844b8c5bf8d37ed771fade2d3fccf1a1dffadca9f5bb411d93bf26faa4f4464",
+      "context.npy": "ba1de79ffd49c80a9021b56b75a33a6f9c1876dcd2fe3cfbadc43b4af2b686fb",
+      "target_features.npy": "e0df2900b02c6513caac495e3e4f566c992101bfbe2926f07e1cd797e10d9bd7"
+    },
+    "loaded_encoder_tensors": 153,
+    "ignored_non_encoder_tensors": [
+      "decoder.fc.0.bias",
+      "decoder.fc.0.weight",
+      "decoder.fc.2.bias",
+      "decoder.fc.2.weight",
+      "decoder.fc.4.bias",
+      "decoder.fc.4.weight",
+      "flag_encoder.weight",
+      "mvc_decoder.W.weight",
+      "mvc_decoder.gene2query.bias",
+      "mvc_decoder.gene2query.weight"
+    ],
+    "frozen_parameters": 50278400,
+    "strict_load": true,
+    "qkv_mapping": "Wqkv. -> in_proj_; official PyTorch backend conversion",
+    "input_gene_count": 256,
+    "recognized_input_genes": 242,
+    "missing_input_genes": [
+      "HIST1H1C",
+      "HIST1H1A",
+      "HIST1H1B",
+      "HIST1H2BH",
+      "HIST1H1D",
+      "HIST1H3E",
+      "H1F0",
+      "HIST1H4C",
+      "HIST3H2A",
+      "HIST1H3G",
+      "RGS5",
+      "H2AFY2",
+      "HIST1H3H",
+      "HIST1H2AG"
+    ],
+    "output_genes": 18080,
+    "covered_output_genes": 17840,
+    "target_coverage": {
+      "train": {
+        "total": 150,
+        "covered": 150,
+        "missing": []
+      },
+      "validation": {
+        "total": 50,
+        "covered": 50,
+        "missing": []
+      }
+    },
+    "missing_target_policy": "zero pretrained embedding plus train-only descriptor and coverage=0",
+    "control_cells": 2048,
+    "elapsed_seconds": 6.918310999993992,
+    "peak_allocated_gpu_bytes": 276903424,
+    "test_used": false
+  },
+  "frozen_parameters": 50278400,
+  "feature_extraction_seconds": 6.918310999993992,
+  "feature_extraction_shared_across_runs": true,
+  "architecture": "frozen scGPT train-control context + gene embedding; shared condition mean shift"
+}

@@ -1,0 +1,30 @@
+{
+  "experiment": "04_geneformer",
+  "protocol": "geneformer-v1",
+  "results_group": "geneformer",
+  "model": "geneformer",
+  "encoder_frozen": true,
+  "variant": "mean",
+  "width": 64,
+  "dropout": 0.1,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 120,
+  "patience": 20,
+  "batch_size": 16,
+  "control_bank_size": 32,
+  "target_bank_size": 32,
+  "validation_control_cells": 256,
+  "distribution_eval_cells": 64,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "loss": "unpaired_pseudobulk_mse",
+  "energy_weight": 0.1,
+  "selection": "validation_pseudobulk_mae",
+  "mixed_precision": "bf16",
+  "seed": 43
+}

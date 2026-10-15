@@ -1,0 +1,73 @@
+{
+  "completed_runs": [
+    {
+      "experiment": "01_mlp",
+      "seed": 42,
+      "complete": true,
+      "targets_scored": 50,
+      "checkpoint_sha256": "c7b170cd9bb6c9c7611962b8ca607f7cd6d4c011fb2b809f54720e0bb1188189"
+    },
+    {
+      "experiment": "01_mlp",
+      "seed": 43,
+      "complete": true,
+      "targets_scored": 50,
+      "checkpoint_sha256": "4ea10a900d2796bdbfe9a3646826fd073d365d11b4dbb68b318ebc34e0f120ed"
+    },
+    {
+      "experiment": "01_mlp",
+      "seed": 44,
+      "complete": true,
+      "targets_scored": 50,
+      "checkpoint_sha256": "3f20916106363d0462d5bf6ce895f26ed29595f6a715f1bd3de4ee991cdb9921"
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 42,
+      "complete": true,
+      "targets_scored": 50,
+      "checkpoint_sha256": "6d6cf1a85325f3813e2c46b3b224094ea193e3c07d11b20d06cfff6df98c334a"
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 43,
+      "complete": true,
+      "targets_scored": 50,
+      "checkpoint_sha256": "b97ad627daf154a67dfb485fa4569fdeb22a529cbf12b97702108b38eac6fba2"
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 44,
+      "complete": true,
+      "targets_scored": 50,
+      "checkpoint_sha256": "6e338e7b6ca89d17ace64f96a3402d61962d99014ee18766ee570ba5358f57d5"
+    }
+  ],
+  "unfinished_prediction_files": 0,
+  "unit_tests_passed": 7,
+  "real_data_parity": "passed",
+  "repeated_training_weights": "identical for seed 42, both models",
+  "source_sha256": {
+    "src/fusionvc/cli.py": "a8596a232daa7d6da66680a5332f93966823d861b1edc278777ffc6c0c3ea03e",
+    "src/fusionvc/controls.py": "75975e11992cbae0aa46cac3a68df0b802776c2950fce4ac76545f8fc1e68d47",
+    "src/fusionvc/evaluate.py": "f15f8a1eba1dbfb6f829d9d64b9de021787dda191f08b5d2858c903e4eaaa40e",
+    "src/fusionvc/fast_de.py": "bc09d63b9e880058fb6906e72f5812d16273eab63801017489c51912640659f9",
+    "src/fusionvc/io.py": "8f609d342f9382f501b6ae6cd0ab258614dc53100f3c9a63337852dab78f507c",
+    "src/fusionvc/models.py": "ce6fcb31e2b96c10362713188020c57cfe5214f1864470645749f2725054ed28",
+    "src/fusionvc/preprocess.py": "70deddbbc3bbac6602ed8ca8a82757eed9cf96c4a3db2c9012f06b8b4d3b67b6",
+    "src/fusionvc/report.py": "2ee4b5deaf16d42dee78783533009a75e3cbf77d7bc0dfd4a0acf720cf9becf0",
+    "src/fusionvc/train.py": "fc1218a1fc7f5fff4d1103eb0b185ecb2b8097e99ef28c23114ba26d32197087",
+    "src/fusionvc/__init__.py": "573b763cdd6b39f42eb1bcec236a626d4dfeb27ee4dc601460a2cd781e8bbb98",
+    "configs/experiments/01_mlp.yaml": "97c21ca437e872723416e0675c273e78d1a5c7415a75e0a3c5ad45b1302009fb",
+    "configs/experiments/02_transformer.yaml": "4dcead81c9c7f947ddddfa5ee07ff54c46a37a211dd3628105436b325c0a95be",
+    "scripts/check_real_parity.py": "cf57b909c0d5ec4378830b6a239c610a01f535812537cd95aa9f2f3398079510",
+    "scripts/download_assets.py": "75f7635ef87956eafb34177603792b88e208a10b768214c1c7214d339f3ae3d5",
+    "scripts/lock_environment.py": "bb1bc93d78e273bbcd843059173800bf44a3e116620dd99aa68380907c5e064d",
+    "scripts/prepare_sources.py": "063643fa9228b4a0fd3bc179a098a4a9fff15461e3aaa781b7d64eb1b9d1368f",
+    "scripts/run_baselines.ps1": "bab5484c688248bab473ea0c6c66aaed18bde792fe1465d7892c5840b988fa12",
+    "scripts/setup_download.ps1": "145ba7c664fa41782d4f755b0f0d69c0d9bc4512970f86fe9e067e011b8bbd82",
+    "scripts/setup_training.ps1": "7634a7b0b45f5be057eb665674b80398fd228f5bde48f8dcd01b966236133fec",
+    "scripts/validate_assets.py": "3be7e6eeb86044d688a93f89bdeba89d775947ca85754c410441c5dda6ad5b00"
+  },
+  "disk_free_bytes": 61687623680
+}

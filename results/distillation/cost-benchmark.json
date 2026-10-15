@@ -1,0 +1,732 @@
+{
+  "rows": [
+    {
+      "label": "supervised_mlp",
+      "experiment": "01_mlp",
+      "seed": 42,
+      "checkpoint_sha256": "c7b170cd9bb6c9c7611962b8ca607f7cd6d4c011fb2b809f54720e0bb1188189",
+      "parameters": 1266144,
+      "trainable_parameters": 1266144,
+      "frozen_parameters": 0,
+      "checkpoint_bytes": 5104781,
+      "target_feature_file_bytes": 2459008,
+      "offline_source_encoder_weight_bytes": 0,
+      "shared_training_control_file_bytes": 2760888448,
+      "current_research_loader_dependencies": {
+        "files": [
+          {
+            "path": "data\\processed\\baselines-v1\\controls.npy",
+            "bytes": 2760888448,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\gene_descriptors.npy",
+            "bytes": 2459008,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "current MLP loader builds target descriptors and fixed control context"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\genes.json",
+            "bytes": 224506,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\input_gene_indices.npy",
+            "bytes": 2176,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "current MLP loader builds target descriptors and fixed control context"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\manifest.json",
+            "bytes": 561,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\train_stats.npz",
+            "bytes": 18401170,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "current MLP loader builds target descriptors and fixed control context"
+            ]
+          },
+          {
+            "path": "outputs\\01_mlp\\seed_42\\best.pt",
+            "bytes": 5104781,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "selected model weights and fixed buffers"
+            ]
+          },
+          {
+            "path": "outputs\\01_mlp\\seed_42\\config.json",
+            "bytes": 490,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "selected architecture configuration"
+            ]
+          }
+        ],
+        "numerical_payload_and_configuration_bytes": 2787081140,
+        "provenance_only_read_bytes": 0,
+        "stat_only_source_bytes": 0,
+        "scope": "current cached research-loader file inventory, not a minimal inference bundle; stat-only source size is never counted as numerical model payload; installed Python/packages are excluded"
+      },
+      "cached_model_and_inputs_load_seconds": 0.07771709999906307,
+      "measured_peak_allocated_gpu_bytes": 53274112,
+      "existing_recorded_shared_preprocessing_seconds": 126.10423989999981,
+      "existing_recorded_encoder_feature_extraction_seconds": 0.0,
+      "measurements": {
+        "warm_cached_head": {
+          "seconds": [
+            0.005374700000174926,
+            0.006035899999915273,
+            0.00482939999892551,
+            0.004749699999592849,
+            0.0047374999994644895
+          ],
+          "median_seconds": 0.00482939999892551,
+          "p95_seconds": 0.005903659999967203,
+          "median_seconds_per_perturbation": 3.219599999283673e-05,
+          "checksum": -5296.2900390625
+        },
+        "warm_cached_head_and_expression": {
+          "seconds": [
+            0.008239700000558514,
+            0.010927799999990384,
+            0.012024199999359553,
+            0.010298499999407795,
+            0.008387300000322284
+          ],
+          "median_seconds": 0.010298499999407795,
+          "p95_seconds": 0.011804919999485719,
+          "median_seconds_per_perturbation": 6.865666666271863e-05,
+          "checksum": 66611888.0
+        }
+      }
+    },
+    {
+      "label": "distilled_mlp",
+      "experiment": "08_distillation",
+      "seed": 42,
+      "checkpoint_sha256": "8933d68aa41351e9d618f486a0dc876bf8bbe7015ed9c39cf4dc030532d563bd",
+      "parameters": 1266144,
+      "trainable_parameters": 1266144,
+      "frozen_parameters": 0,
+      "checkpoint_bytes": 5115981,
+      "target_feature_file_bytes": 2459008,
+      "offline_source_encoder_weight_bytes": 0,
+      "shared_training_control_file_bytes": 2760888448,
+      "current_research_loader_dependencies": {
+        "files": [
+          {
+            "path": "data\\processed\\baselines-v1\\controls.npy",
+            "bytes": 2760888448,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\gene_descriptors.npy",
+            "bytes": 2459008,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "current MLP loader builds target descriptors and fixed control context"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\genes.json",
+            "bytes": 224506,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\input_gene_indices.npy",
+            "bytes": 2176,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "current MLP loader builds target descriptors and fixed control context"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\manifest.json",
+            "bytes": 561,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\train_stats.npz",
+            "bytes": 18401170,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "current MLP loader builds target descriptors and fixed control context"
+            ]
+          },
+          {
+            "path": "outputs\\08_distillation\\seed_42\\best.pt",
+            "bytes": 5115981,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "selected model weights and fixed buffers"
+            ]
+          },
+          {
+            "path": "outputs\\08_distillation\\seed_42\\config.json",
+            "bytes": 649,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "selected architecture configuration"
+            ]
+          }
+        ],
+        "numerical_payload_and_configuration_bytes": 2787092499,
+        "provenance_only_read_bytes": 0,
+        "stat_only_source_bytes": 0,
+        "scope": "current cached research-loader file inventory, not a minimal inference bundle; stat-only source size is never counted as numerical model payload; installed Python/packages are excluded"
+      },
+      "cached_model_and_inputs_load_seconds": 0.06433519999882265,
+      "measured_peak_allocated_gpu_bytes": 54154752,
+      "existing_recorded_shared_preprocessing_seconds": 126.10423989999981,
+      "existing_recorded_encoder_feature_extraction_seconds": 0.0,
+      "measurements": {
+        "warm_cached_head": {
+          "seconds": [
+            0.005686999998943065,
+            0.004722900001070229,
+            0.006574200000613928,
+            0.005021099999794387,
+            0.004813700001250254
+          ],
+          "median_seconds": 0.005021099999794387,
+          "p95_seconds": 0.006396760000279755,
+          "median_seconds_per_perturbation": 3.347399999862925e-05,
+          "checksum": -6673.3046875
+        },
+        "warm_cached_head_and_expression": {
+          "seconds": [
+            0.012118200000259094,
+            0.008671000001413631,
+            0.00901479999993171,
+            0.008502500000759028,
+            0.010281200000463286
+          ],
+          "median_seconds": 0.00901479999993171,
+          "p95_seconds": 0.011750800000299932,
+          "median_seconds_per_perturbation": 6.0098666666211404e-05,
+          "checksum": 66641664.0
+        }
+      }
+    },
+    {
+      "label": "teacher",
+      "experiment": "05_concat_energy",
+      "seed": 42,
+      "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+      "parameters": 61794976,
+      "trainable_parameters": 1319584,
+      "frozen_parameters": 60475392,
+      "checkpoint_bytes": 5297069,
+      "target_feature_file_bytes": 60604416,
+      "offline_source_encoder_weight_bytes": 246568794,
+      "shared_training_control_file_bytes": 2760888448,
+      "current_research_loader_dependencies": {
+        "files": [
+          {
+            "path": "data\\processed\\baselines-v1\\controls.npy",
+            "bytes": 2760888448,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\gene_descriptors.npy",
+            "bytes": 2459008,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "frozen feature baseline-input signature"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\genes.json",
+            "bytes": 224506,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank",
+              "frozen feature baseline-input signature"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\input_gene_indices.npy",
+            "bytes": 2176,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "frozen feature baseline-input signature"
+            ]
+          },
+          {
+            "path": "data\\processed\\baselines-v1\\manifest.json",
+            "bytes": 561,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "common normalization/gene IDs and prediction control bank",
+              "frozen feature baseline-input signature"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\context.npy",
+            "bytes": 1152,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation",
+              "current fusion loader target/context/control identity arrays"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\control_embeddings.npy",
+            "bytes": 2097280,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\control_indices.npy",
+            "bytes": 16512,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation",
+              "current fusion loader target/context/control identity arrays"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\control_token_ids.npy",
+            "bytes": 4161664,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\control_token_lengths.npy",
+            "bytes": 16512,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\gene_mapping.json",
+            "bytes": 2853067,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\gene_token_ids.npy",
+            "bytes": 144768,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\input_gene_indices.npy",
+            "bytes": 2160,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\manifest.json",
+            "bytes": 4353,
+            "access": [
+              "provenance_read"
+            ],
+            "purpose": [
+              "immutable frozen feature/source receipt"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\raw_control_rows.npy",
+            "bytes": 16512,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\geneformer-frozen-v1\\target_features.npy",
+            "bytes": 21045248,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation",
+              "current fusion loader target/context/control identity arrays"
+            ]
+          },
+          {
+            "path": "data\\processed\\scgpt-frozen-v1\\context.npy",
+            "bytes": 2176,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation",
+              "current fusion loader target/context/control identity arrays"
+            ]
+          },
+          {
+            "path": "data\\processed\\scgpt-frozen-v1\\control_embeddings.npy",
+            "bytes": 4194432,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation"
+            ]
+          },
+          {
+            "path": "data\\processed\\scgpt-frozen-v1\\control_indices.npy",
+            "bytes": 16512,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation",
+              "current fusion loader target/context/control identity arrays"
+            ]
+          },
+          {
+            "path": "data\\processed\\scgpt-frozen-v1\\manifest.json",
+            "bytes": 3239,
+            "access": [
+              "provenance_read"
+            ],
+            "purpose": [
+              "immutable frozen feature/source receipt"
+            ]
+          },
+          {
+            "path": "data\\processed\\scgpt-frozen-v1\\target_features.npy",
+            "bytes": 39559168,
+            "access": [
+              "payload_read",
+              "sha256_read"
+            ],
+            "purpose": [
+              "cached-feature integrity validation",
+              "current fusion loader target/context/control identity arrays"
+            ]
+          },
+          {
+            "path": "data\\raw\\vcc2025\\train\\adata_Training.h5ad",
+            "bytes": 15482497461,
+            "access": [
+              "stat_only"
+            ],
+            "purpose": [
+              "Geneformer source size/mtime identity only; counts are not opened"
+            ]
+          },
+          {
+            "path": "docs\\download-status.json",
+            "bytes": 8338,
+            "access": [
+              "provenance_read"
+            ],
+            "purpose": [
+              "recorded original asset checksums"
+            ]
+          },
+          {
+            "path": "models\\geneformer-v1\\config.json",
+            "bytes": 565,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\geneformer-v1\\dictionaries\\ensembl_mapping_dict_gc30M.pkl",
+            "bytes": 584125,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\geneformer-v1\\dictionaries\\gene_median_dictionary_gc30M.pkl",
+            "bytes": 940965,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\geneformer-v1\\dictionaries\\token_dictionary_gc30M.pkl",
+            "bytes": 788424,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\geneformer-v1\\model.safetensors",
+            "bytes": 41183536,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\scgpt\\whole-human\\args.json",
+            "bytes": 1300,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\scgpt\\whole-human\\best_model.pt",
+            "bytes": 205385258,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "models\\scgpt\\whole-human\\vocab.json",
+            "bytes": 1317639,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "research source validation; no foundation-model forward pass"
+            ]
+          },
+          {
+            "path": "outputs\\05_concat_energy\\seed_42\\best.pt",
+            "bytes": 5297069,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "selected model weights and fixed buffers"
+            ]
+          },
+          {
+            "path": "outputs\\05_concat_energy\\seed_42\\config.json",
+            "bytes": 678,
+            "access": [
+              "payload_read"
+            ],
+            "purpose": [
+              "selected architecture configuration"
+            ]
+          },
+          {
+            "path": "src\\fusionvc\\geneformer.py",
+            "bytes": 15303,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "adapter source signature"
+            ]
+          },
+          {
+            "path": "src\\fusionvc\\scgpt.py",
+            "bytes": 12004,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "adapter source signature"
+            ]
+          },
+          {
+            "path": "vendor\\Geneformer\\geneformer\\tokenizer.py",
+            "bytes": 34686,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "pinned upstream tokenizer signature"
+            ]
+          },
+          {
+            "path": "vendor\\scGPT-paper2024\\scgpt\\model\\model.py",
+            "bytes": 39110,
+            "access": [
+              "sha256_read"
+            ],
+            "purpose": [
+              "pinned upstream source signature"
+            ]
+          }
+        ],
+        "numerical_payload_and_configuration_bytes": 2827052030,
+        "provenance_only_read_bytes": 266266424,
+        "stat_only_source_bytes": 15482497461,
+        "scope": "current cached research-loader file inventory, not a minimal inference bundle; stat-only source size is never counted as numerical model payload; installed Python/packages are excluded"
+      },
+      "cached_model_and_inputs_load_seconds": 4.543128600000273,
+      "measured_peak_allocated_gpu_bytes": 54820352,
+      "existing_recorded_shared_preprocessing_seconds": 126.10423989999981,
+      "existing_recorded_encoder_feature_extraction_seconds": 11.336265299993102,
+      "measurements": {
+        "warm_cached_head": {
+          "seconds": [
+            0.017117100000177743,
+            0.022284399999989546,
+            0.014135400000668596,
+            0.01770070000020496,
+            0.01240959999995539
+          ],
+          "median_seconds": 0.017117100000177743,
+          "p95_seconds": 0.021367660000032627,
+          "median_seconds_per_perturbation": 0.00011411400000118495,
+          "checksum": -3714.06396484375
+        },
+        "warm_cached_head_and_expression": {
+          "seconds": [
+            0.02009850000104052,
+            0.021709500000724802,
+            0.01937720000023546,
+            0.026439499999469263,
+            0.019814699999187724
+          ],
+          "median_seconds": 0.02009850000104052,
+          "p95_seconds": 0.02549349999972037,
+          "median_seconds_per_perturbation": 0.0001339900000069368,
+          "checksum": 66742572.0
+        }
+      }
+    }
+  ],
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "torch": "2.8.0+cu128",
+  "workload": {
+    "perturbations": 150,
+    "targets_source": "fixed training split IDs; no response expression labels",
+    "controls": 32,
+    "control_sampling_seed": 2025,
+    "output_genes": 18080,
+    "target_batch_size": 4,
+    "warmup_rounds": 1,
+    "measured_rounds": 5,
+    "precision": "float32 eval"
+  },
+  "scope": {
+    "loading": "wall time for checkpoint/config, current cached-input loader including source hash checks, target lookup and transfer, controls transfer and CUDA synchronization; initialized process; OS page caches not cleared; not a fresh machine cold start",
+    "head": "150 cached-feature condition deltas; no encoding, apply_residual, disk output or official scoring",
+    "expression": "same 150 targets by 32 training controls by 18080 genes; head and shared apply_residual; no output-file I/O, validation/test responses or DE scoring",
+    "peak_memory": "includes model/input loading and both inference workloads; excludes historical encoder extraction",
+    "historical_costs": "existing measured source-manifest preprocessing/encoder extraction, shared across seeds; not newly measured cold-start timings",
+    "deployment": "both teacher and student use cached inputs in this protocol; frozen source encoder counts/weights do not measure warm speedups; current research-loader numerical payload, provenance checksum reads and stat-only raw training source are inventoried separately; none is a measured minimal inference bundle",
+    "harness_setup": "the benchmark validates the distillation cache and obtains its 150 training IDs before timers; that experimental setup is separate from Student inference dependencies; no response labels are used in measured workloads"
+  },
+  "test_used": false
+}

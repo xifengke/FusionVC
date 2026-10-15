@@ -1,0 +1,31 @@
+{
+  "runs": [
+    {
+      "reference_experiment": "01_mlp",
+      "repeated_experiment": "zero_kd_08_distillation",
+      "seed": 42,
+      "kd_weight": 0.0,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "core_training_history_equal": true,
+      "distillation_provenance_equal": false,
+      "original_checkpoint_sha256": "c7b170cd9bb6c9c7611962b8ca607f7cd6d4c011fb2b809f54720e0bb1188189",
+      "repeated_checkpoint_sha256": "0047439dd9bc76a5d69bbf6bb5b8f1ed01ed8f8e1910d8c1da4db78aef53010c"
+    },
+    {
+      "reference_experiment": "08_distillation",
+      "repeated_experiment": "repro_check_08_distillation",
+      "seed": 42,
+      "kd_weight": 1.0,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "core_training_history_equal": true,
+      "distillation_provenance_equal": true,
+      "original_checkpoint_sha256": "8933d68aa41351e9d618f486a0dc876bf8bbe7015ed9c39cf4dc030532d563bd",
+      "repeated_checkpoint_sha256": "366d6d072c2aeab01bf730660fa8c245ecb7cbcdd224c2fc26ebfb712515e38a"
+    }
+  ],
+  "all_tensors_equal": true,
+  "test_used": false,
+  "scope": "seed42 zero-KD MLP parity and KD student exact rerun on the same hardware/software; evaluation not repeated for identical tensors"
+}

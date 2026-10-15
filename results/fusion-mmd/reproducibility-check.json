@@ -1,0 +1,62 @@
+{
+  "runs": [
+    {
+      "experiment": "05_concat_energy",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+      "repeated_checkpoint_sha256": "5f81d9fdc8fb2abab9f83c7a6f929fae45f5d64b587f2b808810714f3300a126"
+    },
+    {
+      "experiment": "05_concat_hybrid",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "c992dd593626a49aa97e1a1a8ee0921a60bd04a84c0bde3c7d5ccccbd94f48c8",
+      "repeated_checkpoint_sha256": "85d6791af7ddfcd1c5a41cde79e4487855b2dff8136d6373f3220290c57a1b30"
+    },
+    {
+      "experiment": "06_gated_energy",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "b7d1b0ef19a047d614d895daa57f760988ad349baa2aea1f010e0db6a1f74f14",
+      "repeated_checkpoint_sha256": "01aa0aa22d25e720d77847ec11bad53384d644c0c17b44dc82007e5ff878e6f3"
+    },
+    {
+      "experiment": "06_gated_hybrid",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "9d0cb4df38aec956b1ef532a543f5f67c604823d18cacd93cb99a3dfa9b5f8f0",
+      "repeated_checkpoint_sha256": "ac59be53a9b2e4de3ff22004f58952c7c2ffe579eb5464df9fe5a4cbe24e106e"
+    },
+    {
+      "experiment": "07_cross_attention_energy",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "6b8746be9ce190e46a8fadc929e091a598e074e2b553ee179ea27fbd5aadf5b5",
+      "repeated_checkpoint_sha256": "cad9ad09b13a1fce7c1bdb8007fbba741c0bd7dd185553835d78c9568cf421ce"
+    },
+    {
+      "experiment": "07_cross_attention_hybrid",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "456a7432ce793a27792f6c47c8d0622638b83e4451e1392bcf73e2a74b2ae642",
+      "repeated_checkpoint_sha256": "4732c2767fe92ee38ad4317ffc874a7d26f5cc39c11219ad987012fb6cf6d9ec"
+    }
+  ],
+  "all_tensors_equal": true,
+  "pretrained_assets_unchanged": true,
+  "scope": "six new architecture/loss groups rerun at seed42; equal tensors so official scoring not repeated; same hardware/software only",
+  "test_used": false
+}

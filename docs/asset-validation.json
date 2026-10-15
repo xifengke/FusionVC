@@ -1,0 +1,899 @@
+{
+  "gene_count": 18080,
+  "scgpt_vocabulary_size": 60697,
+  "scgpt_gene_coverage": 17840,
+  "scgpt_missing_genes": [
+    "AL391650.1",
+    "YARS",
+    "ADPRHL2",
+    "TCTEX1D4",
+    "TCTEX1D1",
+    "WDR78",
+    "AC118549.1",
+    "WDR63",
+    "KIAA1324",
+    "SARS",
+    "HIST2H2BE",
+    "AL162596.1",
+    "LOR",
+    "C1orf61",
+    "AL590560.2",
+    "RGS5",
+    "DUSP27",
+    "EPRS",
+    "MARC2",
+    "MARC1",
+    "H3F3A",
+    "HIST3H3",
+    "HIST3H2A",
+    "HIST3H2BB",
+    "AL109810.2",
+    "TBCE",
+    "TBCE-1",
+    "ADSS",
+    "AL451007.3",
+    "FAM49A",
+    "AL845331.2",
+    "AC092835.1",
+    "KIAA1211L",
+    "DARS",
+    "MARCH7",
+    "PDE11A",
+    "MARCH4",
+    "QARS",
+    "CCDC36",
+    "CYB561D2",
+    "C3orf67",
+    "MAATS1",
+    "KIAA1257",
+    "H1FX",
+    "H1FOO",
+    "ACPP",
+    "CCDC39",
+    "AC072022.2",
+    "TCTEX1D2",
+    "AC093323.1",
+    "KIAA1211",
+    "H2AFZ",
+    "TMEM155",
+    "MARCH1",
+    "MARCH6",
+    "MARCH11",
+    "AC106774.4",
+    "H3.Y",
+    "TARS",
+    "C5orf30",
+    "AC010255.3",
+    "MARCH3",
+    "H2AFY",
+    "TMEM173",
+    "HARS",
+    "LARS",
+    "RARS",
+    "AC113348.1",
+    "HIST1H2AA",
+    "HIST1H2BA",
+    "HIST1H1A",
+    "HIST1H4B",
+    "HIST1H2BB",
+    "HIST1H1C",
+    "HIST1H4C",
+    "HIST1H2AC",
+    "HIST1H1E",
+    "HIST1H4E",
+    "HIST1H2BG",
+    "HIST1H2AE",
+    "HIST1H3E",
+    "HIST1H1D",
+    "HIST1H4G",
+    "HIST1H2BH",
+    "HIST1H3G",
+    "HIST1H2AG",
+    "HIST1H4I",
+    "HIST1H2AI",
+    "HIST1H3H",
+    "HIST1H4J",
+    "HIST1H2BN",
+    "HIST1H2AK",
+    "HIST1H1B",
+    "ZNRD1",
+    "VARS",
+    "ICK",
+    "AL135905.2",
+    "FGFR1OP",
+    "TCTE3",
+    "AC187653.1",
+    "AC013470.2",
+    "TWISTNB",
+    "AC004593.3",
+    "GARS",
+    "AC115220.1",
+    "KIAA1324L",
+    "AC011005.1",
+    "SSPO",
+    "AC073111.4",
+    "AC021097.2",
+    "WDR60",
+    "PINX1",
+    "IMPAD1",
+    "WDYHV1",
+    "FAM49B",
+    "TSTA3",
+    "AL162231.1",
+    "FAM122A",
+    "AL353572.3",
+    "IARS",
+    "AL160269.1",
+    "TMEM246",
+    "PALM2-AKAP2",
+    "DEC1",
+    "B3GNT10",
+    "WDR34",
+    "AL354761.1",
+    "BX255925.3",
+    "HSPA14-1",
+    "ARMC4",
+    "C10orf142",
+    "MARCH8",
+    "AC067752.1",
+    "KIF1BP",
+    "H2AFY2",
+    "DUPD1",
+    "MARCH5",
+    "ATP5MD",
+    "AL603764.2",
+    "AC132217.2",
+    "CARS",
+    "AC104389.5",
+    "ST5",
+    "MRVI1",
+    "C11orf74",
+    "OR5R1",
+    "AP002495.1",
+    "C11orf88",
+    "CCDC84",
+    "H2AFX",
+    "HIST4H4",
+    "H2AFJ",
+    "LRMP",
+    "CASC1",
+    "H3F3C",
+    "H1FNT",
+    "C12orf81",
+    "GRASP",
+    "AC021072.1",
+    "C12orf10",
+    "MARS",
+    "MARCH9",
+    "CLLU1OS",
+    "C12orf74",
+    "C12orf49",
+    "WDR66",
+    "SPATA13",
+    "SPERT",
+    "AL445238.1",
+    "SFTA3",
+    "ELMSAN1",
+    "WARS",
+    "ATP5MPL",
+    "ADSSL1",
+    "GOLGA8M",
+    "AC091057.6",
+    "C15orf41",
+    "CASC4",
+    "AC015871.1",
+    "TARSL2",
+    "TMEM8A",
+    "AL032819.3",
+    "AC025283.2",
+    "AC099489.1",
+    "FOPNL",
+    "KIAA0556",
+    "C16orf58",
+    "AC007906.2",
+    "FAM192A",
+    "AARS",
+    "KARS",
+    "AC025287.4",
+    "FAM92B",
+    "AC087498.1",
+    "AC233723.1",
+    "SLFN12L",
+    "TTC25",
+    "G6PC",
+    "C17orf53",
+    "AC011195.2",
+    "MARCH10",
+    "H3F3B",
+    "NARS",
+    "AC090360.1",
+    "AC005551.1",
+    "AC119396.1",
+    "MARCH2",
+    "CCDC151",
+    "C19orf57",
+    "AC008397.1",
+    "KIAA0355",
+    "CNTD2",
+    "CD3EAP",
+    "BHMG1",
+    "CCDC114",
+    "AC008687.4",
+    "CCDC155",
+    "AC010325.1",
+    "SIGLEC5",
+    "GDF5OS",
+    "TMEM189",
+    "FP565260.1",
+    "AP000552.4",
+    "ELFN2",
+    "H1F0",
+    "Z82206.1",
+    "ARSE",
+    "CXorf21",
+    "HYPM",
+    "BX276092.9",
+    "TMSB15B",
+    "H2BFWT",
+    "H2BFM",
+    "TMSB15B-1",
+    "PIH1D3",
+    "AL772284.2",
+    "CXorf56",
+    "FAM122B",
+    "FAM122C",
+    "CXorf40A"
+  ],
+  "datasets": {
+    "train": {
+      "status": "readable",
+      "root_keys": [
+        "X",
+        "layers",
+        "obs",
+        "obsm",
+        "obsp",
+        "uns",
+        "var",
+        "varm",
+        "varp"
+      ],
+      "obs_keys": [
+        "_index",
+        "batch",
+        "guide_id",
+        "target_gene"
+      ],
+      "var_keys": [
+        "_index",
+        "gene_id"
+      ],
+      "gene_order_matches_official": true,
+      "expression_encoding": "csr_matrix",
+      "shape": [
+        221273,
+        18080
+      ],
+      "nonzero_entries": 1932554688,
+      "sample_dtype": "float32",
+      "sample_finite_nonnegative": true,
+      "sample_integer_valued": true,
+      "target_counts": {
+        "ACAT2": 1765,
+        "ACVR1B": 1400,
+        "AKT2": 938,
+        "ANTXR1": 1448,
+        "ARID1A": 1256,
+        "ATM": 455,
+        "ATP1B1": 2121,
+        "ATP6V0B": 245,
+        "ATP6V0C": 33,
+        "BIRC2": 1116,
+        "BRD9": 67,
+        "C1QBP": 711,
+        "CALM3": 681,
+        "CAMSAP2": 1750,
+        "CASP2": 1590,
+        "CASP3": 1037,
+        "CAST": 2252,
+        "CDCA2": 1717,
+        "CENPO": 1193,
+        "CHMP3": 1168,
+        "CLDN6": 864,
+        "CLDN7": 1303,
+        "CREG1": 1703,
+        "DAXX": 1332,
+        "DHCR24": 1420,
+        "DHX36": 1392,
+        "DLG5": 864,
+        "DNAJA3": 65,
+        "DNMT1": 893,
+        "DZIP3": 447,
+        "EID2": 1167,
+        "EIF4B": 1585,
+        "EPB41L2": 219,
+        "EPHB4": 241,
+        "ETV4": 263,
+        "EWSR1": 538,
+        "FDPS": 154,
+        "FOXH1": 1967,
+        "GSK3B": 1059,
+        "HAT1": 1025,
+        "HIRA": 3407,
+        "HMGB2": 1487,
+        "HMGN1": 2004,
+        "HSBP1": 166,
+        "IDE": 2248,
+        "IGF2R": 3109,
+        "IKBKG": 790,
+        "INSIG1": 1363,
+        "IRF3": 985,
+        "KAT2A": 2120,
+        "KDM1A": 352,
+        "KDM2B": 2142,
+        "KDR": 2056,
+        "KIF1B": 2407,
+        "KIF20A": 183,
+        "KLF10": 1932,
+        "LAD1": 1361,
+        "LRPPRC": 1053,
+        "LZTR1": 1381,
+        "MAP1B": 784,
+        "MAP3K7": 2019,
+        "MAPKAPK2": 2196,
+        "MAST2": 1029,
+        "MAU2": 1021,
+        "MBTPS1": 626,
+        "MED1": 407,
+        "MED12": 2766,
+        "MED13": 2787,
+        "MED13L": 2469,
+        "MED24": 455,
+        "METTL3": 498,
+        "METTL14": 468,
+        "METTL17": 790,
+        "MKI67": 968,
+        "MTA1": 1434,
+        "NCK2": 2929,
+        "NDUFB4": 1413,
+        "NDUFB6": 863,
+        "NISCH": 2101,
+        "NIT1": 1287,
+        "NRAS": 1172,
+        "NREP": 352,
+        "OXA1L": 63,
+        "OXCT1": 740,
+        "PAGR1": 1953,
+        "PBX1": 2313,
+        "PHF10": 450,
+        "PHF14": 899,
+        "PLCB3": 1110,
+        "PMEL": 356,
+        "PMS1": 1100,
+        "POLB": 1905,
+        "PRCP": 4331,
+        "PRDM14": 359,
+        "PRR12": 1286,
+        "PTPN1": 2195,
+        "RAB3B": 594,
+        "RAF1": 791,
+        "RNF2": 1844,
+        "RNF20": 47,
+        "RRM1": 638,
+        "SAFB": 827,
+        "SALL4": 180,
+        "SDC1": 215,
+        "SEC62": 286,
+        "SHPRH": 241,
+        "SIN3B": 586,
+        "SIX4": 642,
+        "SLC25A3": 805,
+        "SLC39A6": 178,
+        "SMAGP": 788,
+        "SMARCA4": 1015,
+        "SMARCA5": 1795,
+        "SNCA": 386,
+        "SOX2": 806,
+        "SRC": 2403,
+        "SSBP1": 905,
+        "STAG2": 1573,
+        "STAT1": 2493,
+        "STAT6": 858,
+        "STX4": 1249,
+        "SUPT4H1": 364,
+        "SV2A": 580,
+        "TADA1": 4035,
+        "TAF13": 138,
+        "TARBP2": 2032,
+        "TAZ": 749,
+        "TCF3": 1343,
+        "TET1": 2428,
+        "TFAM": 1105,
+        "TGFBR2": 1474,
+        "TMBIM6": 505,
+        "TMSB4X": 4760,
+        "TMSB10": 872,
+        "TRAM2": 1756,
+        "TRAPPC6A": 589,
+        "TSC22D4": 1970,
+        "TWF2": 1008,
+        "TXNDC9": 514,
+        "UBE3C": 1590,
+        "UQCRQ": 1161,
+        "USP22": 2491,
+        "WFS1": 2043,
+        "WSB2": 712,
+        "XRCC4": 591,
+        "ZNF286A": 1059,
+        "ZNF426": 1132,
+        "ZNF562": 418,
+        "ZNF593": 797,
+        "ZNF714": 852,
+        "non-targeting": 38176
+      },
+      "metadata_count_mismatches": [],
+      "metadata_perturbation_count": 150
+    },
+    "validation": {
+      "status": "readable",
+      "root_keys": [
+        "X",
+        "layers",
+        "obs",
+        "obsm",
+        "obsp",
+        "uns",
+        "var",
+        "varm",
+        "varp"
+      ],
+      "obs_keys": [
+        "_index",
+        "batch",
+        "guide_id",
+        "target_gene"
+      ],
+      "var_keys": [
+        "_index",
+        "log1p_mean_counts",
+        "log1p_total_counts",
+        "mean_counts",
+        "mt",
+        "n_cells",
+        "n_cells_by_counts",
+        "pct_dropout_by_counts",
+        "ribo",
+        "total_counts"
+      ],
+      "gene_order_matches_official": true,
+      "expression_encoding": "csr_matrix",
+      "shape": [
+        98927,
+        18080
+      ],
+      "nonzero_entries": 864793017,
+      "sample_dtype": "float32",
+      "sample_finite_nonnegative": true,
+      "sample_integer_valued": true,
+      "target_counts": {
+        "ACLY": 1026,
+        "ANXA6": 2496,
+        "ARPC2": 980,
+        "CENPB": 1379,
+        "COX4I1": 1058,
+        "COX6C": 1025,
+        "CSK": 1572,
+        "CTSV": 1989,
+        "CXCL12": 1201,
+        "DOT1L": 1484,
+        "DPH2": 670,
+        "EHMT1": 1601,
+        "EIF3H": 323,
+        "FUBP1": 288,
+        "GNG12": 677,
+        "GSTZ1": 1077,
+        "HDAC3": 504,
+        "HDAC8": 1204,
+        "HMGCR": 843,
+        "HMGXB4": 1594,
+        "HTATSF1": 892,
+        "IGF1R": 2056,
+        "ITGAV": 2034,
+        "JAZF1": 709,
+        "JMJD8": 767,
+        "KLHDC2": 1763,
+        "KRT18": 1602,
+        "MAT2A": 1428,
+        "MAX": 161,
+        "MGST1": 2096,
+        "MTFR1": 1787,
+        "NFE2L1": 926,
+        "PACSIN3": 2101,
+        "PAXIP1": 1644,
+        "PPP2R3C": 624,
+        "SH3BP4": 2925,
+        "SLIRP": 2000,
+        "SMARCB1": 1706,
+        "SMARCE1": 597,
+        "STRAP": 644,
+        "SUPV3L1": 339,
+        "TCF7L2": 484,
+        "THY1": 1104,
+        "TUSC3": 1287,
+        "UQCRB": 959,
+        "USF2": 1207,
+        "VCL": 894,
+        "WAC": 267,
+        "ZNF581": 2502,
+        "ZNF598": 255,
+        "non-targeting": 38176
+      },
+      "metadata_count_mismatches": [],
+      "metadata_perturbation_count": 50
+    }
+  },
+  "geneformer_tensor_shapes": {
+    "bert.embeddings.LayerNorm.bias": [
+      256
+    ],
+    "bert.embeddings.LayerNorm.weight": [
+      256
+    ],
+    "bert.embeddings.position_embeddings.weight": [
+      2048,
+      256
+    ],
+    "bert.embeddings.position_ids": [
+      1,
+      2048
+    ],
+    "bert.embeddings.token_type_embeddings.weight": [
+      2,
+      256
+    ],
+    "bert.embeddings.word_embeddings.weight": [
+      25426,
+      256
+    ],
+    "bert.encoder.layer.0.attention.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.attention.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.0.attention.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.attention.output.dense.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.0.attention.self.key.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.attention.self.key.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.0.attention.self.query.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.attention.self.query.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.0.attention.self.value.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.attention.self.value.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.0.intermediate.dense.bias": [
+      512
+    ],
+    "bert.encoder.layer.0.intermediate.dense.weight": [
+      512,
+      256
+    ],
+    "bert.encoder.layer.0.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.0.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.0.output.dense.weight": [
+      256,
+      512
+    ],
+    "bert.encoder.layer.1.attention.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.attention.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.1.attention.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.attention.output.dense.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.1.attention.self.key.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.attention.self.key.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.1.attention.self.query.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.attention.self.query.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.1.attention.self.value.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.attention.self.value.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.1.intermediate.dense.bias": [
+      512
+    ],
+    "bert.encoder.layer.1.intermediate.dense.weight": [
+      512,
+      256
+    ],
+    "bert.encoder.layer.1.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.1.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.1.output.dense.weight": [
+      256,
+      512
+    ],
+    "bert.encoder.layer.2.attention.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.attention.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.2.attention.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.attention.output.dense.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.2.attention.self.key.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.attention.self.key.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.2.attention.self.query.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.attention.self.query.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.2.attention.self.value.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.attention.self.value.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.2.intermediate.dense.bias": [
+      512
+    ],
+    "bert.encoder.layer.2.intermediate.dense.weight": [
+      512,
+      256
+    ],
+    "bert.encoder.layer.2.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.2.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.2.output.dense.weight": [
+      256,
+      512
+    ],
+    "bert.encoder.layer.3.attention.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.attention.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.3.attention.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.attention.output.dense.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.3.attention.self.key.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.attention.self.key.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.3.attention.self.query.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.attention.self.query.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.3.attention.self.value.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.attention.self.value.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.3.intermediate.dense.bias": [
+      512
+    ],
+    "bert.encoder.layer.3.intermediate.dense.weight": [
+      512,
+      256
+    ],
+    "bert.encoder.layer.3.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.3.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.3.output.dense.weight": [
+      256,
+      512
+    ],
+    "bert.encoder.layer.4.attention.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.attention.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.4.attention.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.attention.output.dense.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.4.attention.self.key.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.attention.self.key.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.4.attention.self.query.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.attention.self.query.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.4.attention.self.value.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.attention.self.value.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.4.intermediate.dense.bias": [
+      512
+    ],
+    "bert.encoder.layer.4.intermediate.dense.weight": [
+      512,
+      256
+    ],
+    "bert.encoder.layer.4.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.4.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.4.output.dense.weight": [
+      256,
+      512
+    ],
+    "bert.encoder.layer.5.attention.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.attention.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.5.attention.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.attention.output.dense.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.5.attention.self.key.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.attention.self.key.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.5.attention.self.query.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.attention.self.query.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.5.attention.self.value.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.attention.self.value.weight": [
+      256,
+      256
+    ],
+    "bert.encoder.layer.5.intermediate.dense.bias": [
+      512
+    ],
+    "bert.encoder.layer.5.intermediate.dense.weight": [
+      512,
+      256
+    ],
+    "bert.encoder.layer.5.output.LayerNorm.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.output.LayerNorm.weight": [
+      256
+    ],
+    "bert.encoder.layer.5.output.dense.bias": [
+      256
+    ],
+    "bert.encoder.layer.5.output.dense.weight": [
+      256,
+      512
+    ],
+    "cls.predictions.bias": [
+      25426
+    ],
+    "cls.predictions.transform.LayerNorm.bias": [
+      256
+    ],
+    "cls.predictions.transform.LayerNorm.weight": [
+      256
+    ],
+    "cls.predictions.transform.dense.bias": [
+      256
+    ],
+    "cls.predictions.transform.dense.weight": [
+      256,
+      256
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "geneformer_energy_seed_44",
+    "kind": "checkpoint",
+    "model": "geneformer",
+    "variant": "energy",
+    "seed": 44,
+    "experiment": "04_geneformer_energy",
+    "role": "main",
+    "checkpoint_path": "outputs/04_geneformer_energy/seed_44/best.pt",
+    "checkpoint_sha256": "339714ba00cb56a1a4144cfb52418bc3ee044a57a9cc0038434d344103121b77",
+    "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_44/metrics.json",
+    "validation_metrics_sha256": "bf8a14f8d51f862e8c4183e46dace1b830c2de07044c2d202b5fd05581849e22",
+    "validation_mae": 0.027629983443766833
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

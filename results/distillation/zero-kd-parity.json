@@ -1,0 +1,17 @@
+{
+  "run": {
+    "reference_experiment": "01_mlp",
+    "repeated_experiment": "zero_kd_08_distillation",
+    "seed": 42,
+    "kd_weight": 0.0,
+    "every_tensor_equal": true,
+    "selected_epoch_equal": true,
+    "core_training_history_equal": true,
+    "distillation_provenance_equal": false,
+    "original_checkpoint_sha256": "c7b170cd9bb6c9c7611962b8ca607f7cd6d4c011fb2b809f54720e0bb1188189",
+    "repeated_checkpoint_sha256": "0047439dd9bc76a5d69bbf6bb5b8f1ed01ed8f8e1910d8c1da4db78aef53010c"
+  },
+  "all_tensors_equal": true,
+  "test_used": false,
+  "scope": "independent distillation trainer with zero KD; exact original MLP weights, selected epoch and core training history"
+}

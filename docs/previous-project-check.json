@@ -1,0 +1,22 @@
+{
+  "checked_on": "2026-10-15",
+  "repository": "https://github.com/xifengke/k562-perturbation-benchmark",
+  "owner": "xifengke",
+  "default_branch": "main",
+  "github_detected_license": null,
+  "readme_license_statement": "项目自有代码尚未指定开源许可证",
+  "statement_location": "README.md, section 15",
+  "inspected_commit": "b8db034c78f74c75c628b6734b2be1990441d3cd",
+  "new_project_license": "MIT, explicitly selected by the author on 2026-10-15; third-party terms unchanged",
+  "scope": "initial read-only inspection; the null license and README statement above describe the repository before the authorized follow-up below",
+  "follow_up": {
+    "date": "2026-10-15",
+    "action": "author authorized adding MIT to both projects",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2026 xifengke",
+    "commit": "9fe2ea78634764248cc2cb59e762d7a7a00272ce",
+    "commit_url": "https://github.com/xifengke/k562-perturbation-benchmark/commit/9fe2ea78634764248cc2cb59e762d7a7a00272ce",
+    "changed_files": ["LICENSE", "README.md", "UPLOAD.md"],
+    "remote_files_and_main_branch_verified": true
+  }
+}

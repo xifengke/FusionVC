@@ -1,0 +1,38 @@
+{
+  "protocol": "project-completion-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "validation_matrix_runs": 63,
+  "distilled_student_runs": 3,
+  "prior_checkpoints_preserved": 69,
+  "prior_small_artifacts_preserved": 567,
+  "final_checkpoint_evaluations": 27,
+  "final_reference_evaluations": 1,
+  "test_cells": 170846,
+  "test_genes": 18080,
+  "test_perturbations": 100,
+  "all_checks_passed": true,
+  "checks": {
+    "fusion_mmd_verified": true,
+    "distillation_verified": true,
+    "final_local_tests_and_code_hashes_verified": true,
+    "historical_artifacts_unchanged": true,
+    "frozen_selection_and_test_lineage_current": true,
+    "all_final_scores_and_published_sources_match": true,
+    "standalone_student_tensors_match_evaluated_model": true,
+    "standalone_demo_reproduces_exactly": true,
+    "temporary_final_predictions_removed": true
+  },
+  "receipts": {
+    "docs/final-model-selection.json": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+    "docs/test-download-status.json": "a03ffa2bfd6508ce6a93cff4823cde7faf7057db068e7b45a590b23f1a7ff854",
+    "docs/student-demo-verification.json": "05a8e8b438bd45e692e8a6483344ca4e7f53d12e97dfe93d4efacd39b1ff2654",
+    "docs/final-validation-checks.json": "ad44ff7511b2e3dcf364c3af056bd726c49024bc3c28250d92595c16906644eb",
+    "results/final-test/report-provenance.json": "9e067d553658c0853eba988931b42dab802044497102b892e4de1be8eb25d15e",
+    "results/final-test/artifact-verification.json": "aa213591b72f63ef48993ca20487e0e382376f4c11847fdeaaee08f4504b28ab",
+    "results/fusion-mmd/report-provenance.json": "05395bbf1ddabffaf541616e6352fe124b7677580ec0cf8712d017aef7305fd1",
+    "results/distillation/report-provenance.json": "575f87577eb0e49556a2abe996741a0f08e9d440a194d6b387b3502f92a7c071"
+  },
+  "script_sha256": "78f44f2626ced600e79cc33a1d791070594540bd0b9a44a303c391993c4acce6",
+  "test_used": true,
+  "scope": "local artifact integrity and reproducibility; no retraining or new model selection; no remote publication or CI claim"
+}

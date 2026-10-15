@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-15",
+  "authorization": "User asked to finish fusion MMD, then knowledge distillation and complete project if checks pass",
+  "active_stage": "complete: all eight planned model groups, fusion MMD, distillation, frozen held-out test, standalone inference and final documentation",
+  "stages": [
+    {
+      "stage": "fusion MMD",
+      "status": "complete",
+      "state": "docs/fusion-mmd-run-state.json"
+    },
+    {
+      "stage": "knowledge distillation",
+      "status": "complete",
+      "constraints": [
+        "teacher selected only from fusion validation results",
+        "same MLP student architecture as un-distilled control",
+        "teacher soft labels only for training perturbations",
+        "student inference independent of foundation encoders"
+      ]
+    },
+    {
+      "stage": "final held-out test evaluation",
+      "status": "complete",
+      "constraints": [
+        "freeze selection before accessing test responses",
+        "never train or tune on test labels"
+      ]
+    },
+    {
+      "stage": "final documentation and reproducibility",
+      "status": "complete"
+    }
+  ],
+  "test_used": true,
+  "pending": [],
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "status": "complete",
+  "completed_at_utc": "2026-10-15T06:50:21.788970+00:00",
+  "evidence": {
+    "validation_matrix_runs": 63,
+    "distillation_runs": 3,
+    "final_checkpoint_evaluations": 27,
+    "final_reference_evaluations": 1,
+    "test_cells": 170846,
+    "test_genes": 18080,
+    "test_perturbations": 100,
+    "tests_passed": 69,
+    "prior_checkpoints_preserved": 69,
+    "prior_small_artifacts_preserved": 567,
+    "all_checks_passed": true,
+    "completion_verification_sha256": "6ce553e897f8906957b9beebfabbd32c55d544d38d178ce439f0fc7f4b1bee72",
+    "final_report": "results/final-test/README.md",
+    "standalone_demo": "docs/student-demo-verification.json"
+  },
+  "resolved_runtime_issues": [
+    "Windows child-process log encoding fixed without changing model sources or weights",
+    "network-restricted initial download retried through approved anonymous official access; completed with source CRC32C and SHA256 verification"
+  ]
+}

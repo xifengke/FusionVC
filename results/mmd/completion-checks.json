@@ -1,0 +1,138 @@
+{
+  "runs_checked": 18,
+  "checkpoints_match_recorded_hashes": true,
+  "histories_match_summary": true,
+  "parameter_counts_fixed_within_model": true,
+  "baseline_weights_and_scores_match": true,
+  "temporary_prediction_matrices_removed": true,
+  "validation_conditions": 50,
+  "test_used": false,
+  "checks": [
+    {
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 42,
+      "best_epoch": 10,
+      "epochs_run": 30,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 43,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 44,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 42,
+      "best_epoch": 17,
+      "epochs_run": 37,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 43,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 44,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 42,
+      "best_epoch": 16,
+      "epochs_run": 36,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 43,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 44,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1266144
+    },
+    {
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 42,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 43,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 44,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 42,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 43,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 44,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 42,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 43,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    },
+    {
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 44,
+      "best_epoch": 1,
+      "epochs_run": 21,
+      "parameters": 1279904
+    }
+  ]
+}

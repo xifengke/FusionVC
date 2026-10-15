@@ -1,0 +1,88 @@
+{
+  "rule": "minimum three-seed official validation MAE mean over nine fusion model/loss groups; exact ties by experiment; fixed seed42 checkpoint; no ensemble",
+  "candidates": [
+    {
+      "experiment": "05_concat_energy",
+      "model": "concat",
+      "variant": "energy",
+      "validation_mae_mean": 0.027686955276876687,
+      "validation_mae_std": 5.99541033563171e-05,
+      "seeds": 3
+    },
+    {
+      "experiment": "07_cross_attention_hybrid",
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "validation_mae_mean": 0.02768948197364807,
+      "validation_mae_std": 7.38290295059064e-05,
+      "seeds": 3
+    },
+    {
+      "experiment": "06_gated_energy",
+      "model": "gated",
+      "variant": "energy",
+      "validation_mae_mean": 0.027762526118506988,
+      "validation_mae_std": 0.00024407334278224232,
+      "seeds": 3
+    },
+    {
+      "experiment": "07_cross_attention_energy",
+      "model": "cross_attention",
+      "variant": "energy",
+      "validation_mae_mean": 0.0278114261602362,
+      "validation_mae_std": 2.1045750208149173e-05,
+      "seeds": 3
+    },
+    {
+      "experiment": "05_concat_hybrid",
+      "model": "concat",
+      "variant": "hybrid",
+      "validation_mae_mean": 0.027816579546779394,
+      "validation_mae_std": 0.00013149169797128994,
+      "seeds": 3
+    },
+    {
+      "experiment": "07_cross_attention",
+      "model": "cross_attention",
+      "variant": "mean",
+      "validation_mae_mean": 0.027817002615580955,
+      "validation_mae_std": 0.0001816926811966675,
+      "seeds": 3
+    },
+    {
+      "experiment": "05_concat",
+      "model": "concat",
+      "variant": "mean",
+      "validation_mae_mean": 0.02794938479860624,
+      "validation_mae_std": 0.00024592710622472184,
+      "seeds": 3
+    },
+    {
+      "experiment": "06_gated_hybrid",
+      "model": "gated",
+      "variant": "hybrid",
+      "validation_mae_mean": 0.027986672477175793,
+      "validation_mae_std": 0.00021156616781979417,
+      "seeds": 3
+    },
+    {
+      "experiment": "06_gated",
+      "model": "gated",
+      "variant": "mean",
+      "validation_mae_mean": 0.02803488346437613,
+      "validation_mae_std": 0.00018876235404437054,
+      "seeds": 3
+    }
+  ],
+  "experiment": "05_concat_energy",
+  "model": "concat",
+  "variant": "energy",
+  "seed": 42,
+  "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+  "teacher_checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+  "teacher_experiment": "05_concat_energy",
+  "teacher_seed": 42,
+  "selected_checkpoint_validation_mae": 0.027640323601663113,
+  "selected_group_validation_mae_mean": 0.027686955276876687,
+  "test_used": false
+}

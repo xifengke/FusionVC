@@ -1,0 +1,17 @@
+{
+  "verified_assets": 14,
+  "core_asset_bytes": 22662903756,
+  "directory_bytes": {
+    "data": 22411585824,
+    "models": 251319933,
+    "vendor": 72945954,
+    "references": 43107433,
+    ".venv-download": 83103608,
+    "docs": 100640,
+    "scripts": 26738,
+    "tmp": 752730
+  },
+  "project_bytes": 22862942944,
+  "disk_free_bytes": 84361453568,
+  "unfinished_files": []
+}

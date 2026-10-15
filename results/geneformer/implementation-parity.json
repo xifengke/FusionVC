@@ -1,0 +1,35 @@
+{
+  "loaded_encoder_tensors": 101,
+  "ignored_non_encoder_tensors": [
+    "cls.predictions.bias",
+    "cls.predictions.transform.LayerNorm.bias",
+    "cls.predictions.transform.LayerNorm.weight",
+    "cls.predictions.transform.dense.bias",
+    "cls.predictions.transform.dense.weight"
+  ],
+  "legacy_position_ids_validated": true,
+  "strict_load": true,
+  "frozen_parameters": 10196992,
+  "transformers_version": "4.57.1",
+  "attention_backend": "eager",
+  "full_encoder_max_absolute_difference": 0.0,
+  "pooling_max_absolute_difference": 0.0,
+  "rank_tokens_equal": true,
+  "upstream_tokenizer_sha256": "689b71a916b75fa618fbb460a7fc460c3ab32d41e4f98064efb0ebb3ee921002",
+  "upstream_pooling_sha256": "ce77dd181c77ba612626e19de2282b68fd18601be7d5d495cba6502597cd4475",
+  "reference": "BertForMaskedLM.from_pretrained, pinned local V1-10M; hidden_states[-1]",
+  "official_loading_info": {
+    "missing_keys": [],
+    "unexpected_keys": [],
+    "mismatched_keys": [],
+    "error_msgs": []
+  },
+  "cached_real_control_cells_checked": 16,
+  "real_count_rank_tokens_equal": true,
+  "same_control_cells_as_scgpt": true,
+  "only_training_non_targeting": true,
+  "cached_embedding_max_absolute_difference": 0.0,
+  "feature_manifest_verified": true,
+  "all_checks_passed": true,
+  "test_used": false
+}

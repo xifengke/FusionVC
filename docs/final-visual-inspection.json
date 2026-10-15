@@ -1,0 +1,13 @@
+{
+  "plot": "results/final-test/comparison.png",
+  "plot_sha256": "4f51a11b7623aadf8237e1a09e9d90f3311973df1068161580d7bdb94da2e126",
+  "comparison_plot_visually_inspected": true,
+  "checks": {
+    "four_panels_legible": true,
+    "all_eight_models_and_reference_visible": true,
+    "three_seed_standard_deviations_shown": true,
+    "supplementary_energy_labelled": true,
+    "labels_not_clipped": true
+  },
+  "test_used": true
+}

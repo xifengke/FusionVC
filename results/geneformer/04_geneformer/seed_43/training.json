@@ -1,0 +1,117 @@
+{
+  "experiment": "04_geneformer",
+  "seed": 43,
+  "epochs_run": 23,
+  "best_epoch": 3,
+  "selection_validation_mae": 0.032872152924537656,
+  "parameters": 11456800,
+  "trainable_parameters": 1259808,
+  "training_seconds": 6.151334599999245,
+  "peak_allocated_gpu_bytes": 385397248,
+  "peak_reserved_gpu_bytes": 629145600,
+  "checkpoint_bytes": 5049794,
+  "checkpoint_sha256": "888bde681ab7f3af8f6f3f61365e774252aff30ddd491c2171715d44edf7a46b",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "geneformer-v1",
+  "loss": "unpaired_pseudobulk_mse",
+  "model": "geneformer",
+  "variant": "mean",
+  "cell_set_size": 32,
+  "target_set_size": null,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "not sampled; all-cell pseudobulk means",
+  "frozen_features": {
+    "signature": {
+      "version": "geneformer-frozen-v1",
+      "adapter_sha256": "ac0c1e00c385cf3a0cec2233ba63ffea374910aa04eecbd663cd05c581d49ac3",
+      "upstream_tokenizer_sha256": "689b71a916b75fa618fbb460a7fc460c3ab32d41e4f98064efb0ebb3ee921002",
+      "assets": {
+        "config.json": "9cf69ca3bdb0215c4188b54c451b6f02adfe68b8f66011a57d0f32845133fd4b",
+        "model.safetensors": "a5e33a757431643b3697de7ef6127950cdc49e06e58d4266b3a3ab191b683f14",
+        "dictionaries/token_dictionary_gc30M.pkl": "ab9dc40973fa5224d77b793e2fd114cacf3d08423ed9c4c49caf0ba9c7f218f1",
+        "dictionaries/gene_median_dictionary_gc30M.pkl": "b3b589bb5ec75040d05fc44dd6bf0184cf87f3c362cf158d196a6ed3b7fe5f39",
+        "dictionaries/ensembl_mapping_dict_gc30M.pkl": "eac0fb0b3007267871b6305ac0003ceba19d4f28d85686cb9067ecf142787869"
+      },
+      "inputs": {
+        "manifest.json": "280ebe8477a69d35cac9e83713dbc4420db8361a5a6005b1d043587b836de384",
+        "genes.json": "a12b25bcaaba61e5ce00edbf52f330455000b82921bc854e89cfcf1401e3ec47",
+        "gene_descriptors.npy": "b6dc5d4658e253c93154926d600389b3e07c16a7b1df0f887b669bf6d13ea966",
+        "input_gene_indices.npy": "0c977ef436d7b32605b0e717952aa16c49623a0630f4d40cdca294a01044531c"
+      },
+      "raw_training_source": {
+        "bytes": 15482497461,
+        "mtime_ns": 1790999608313258500
+      },
+      "transformers_version": "4.57.1",
+      "feature_seed": 2025,
+      "feature_cells": 2048,
+      "input_gene_policy": "fixed baseline 256 candidates; covered, nonzero genes only",
+      "gene_mapping": "official training var/gene_id; pinned 30M canonical-ID dictionary",
+      "rank_encoding": "raw training counts / Genecorpus-30M gene median; descending np.argsort",
+      "max_length": 2048,
+      "special_tokens": false,
+      "pooling": "last encoder layer; mean nonpadding tokens, then mean training control cells",
+      "target_embedding": "frozen pretrained word embedding + train-only descriptor + coverage",
+      "fit_source": "training non-targeting cells only; no perturbation labels",
+      "precision": "float32 frozen feature extraction; dropout disabled; eager attention"
+    },
+    "feature_hashes": {
+      "control_indices.npy": "b3232ab007f0377a9631bc4ebb191f7fe00181b405dc922afbc0cb116c034cba",
+      "raw_control_rows.npy": "3f85ed4b7f7657e4e4ed8173fd9d06a3212e64229dcf5bc4c0b089b34aae38f7",
+      "control_token_ids.npy": "14c194711941f5cce47bfbeedc8d1e213dd35c84091cf0282faca747288b7551",
+      "control_token_lengths.npy": "2f8f38d506dd455b6c963e3d61f8bcb24672094043a03849e1d3e96a8e5240a1",
+      "input_gene_indices.npy": "55a9cbfac9f66486d5678a1c4c4b4da178030bb057840746334ddd6167579160",
+      "gene_token_ids.npy": "17756c6072bd477d66f9a79ac834d7d670ab7ed39d77c6b710b60f1a8b09c830",
+      "control_embeddings.npy": "3baa563caf838c57a23f361529a056e0d4ab5aeff0903e8ee60e09b8057ed99c",
+      "context.npy": "9e2f3450ea00b787f079ce01375de76d4b9b2ae6b12f7f8743ed317ff6e77a9e",
+      "target_features.npy": "b38b84ba0e7442c7ef310e5c61a593b99299fe23a9d7bb1b8916cf5bae374bc5",
+      "gene_mapping.json": "9d1df5b7234de3ebe543cca42a434edcbc0dcd33d65c42c0c1e1d8bc1b7963bf"
+    },
+    "loaded_encoder_tensors": 101,
+    "ignored_non_encoder_tensors": [
+      "cls.predictions.bias",
+      "cls.predictions.transform.LayerNorm.bias",
+      "cls.predictions.transform.LayerNorm.weight",
+      "cls.predictions.transform.dense.bias",
+      "cls.predictions.transform.dense.weight"
+    ],
+    "legacy_position_ids_validated": true,
+    "strict_load": true,
+    "frozen_parameters": 10196992,
+    "transformers_version": "4.57.1",
+    "attention_backend": "eager",
+    "input_gene_count": 256,
+    "recognized_input_genes": 254,
+    "missing_input_genes": [
+      "C13orf42",
+      "APELA"
+    ],
+    "output_genes": 18080,
+    "covered_output_genes": 17915,
+    "target_coverage": {
+      "train": {
+        "total": 150,
+        "covered": 150,
+        "missing": []
+      },
+      "validation": {
+        "total": 50,
+        "covered": 50,
+        "missing": []
+      }
+    },
+    "missing_target_policy": "zero pretrained embedding plus train-only descriptor and coverage=0",
+    "collapsed_input_columns": 0,
+    "control_cells": 2048,
+    "sequence_length_min": 128,
+    "sequence_length_max": 254,
+    "sequence_length_mean": 211.83056640625,
+    "elapsed_seconds": 4.41795429999911,
+    "peak_allocated_gpu_bytes": 153826816,
+    "test_used": false
+  },
+  "frozen_parameters": 10196992,
+  "feature_extraction_seconds": 4.41795429999911,
+  "feature_extraction_shared_across_runs": true,
+  "architecture": "frozen geneformer train-control context + gene embedding; shared condition mean shift"
+}

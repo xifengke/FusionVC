@@ -1,0 +1,15 @@
+{
+  "experiment": "02_transformer",
+  "seed": 43,
+  "epochs_run": 21,
+  "best_epoch": 1,
+  "selection_validation_mae": 0.03633276343345642,
+  "parameters": 1279904,
+  "trainable_parameters": 1279904,
+  "training_seconds": 6.316519999998491,
+  "peak_allocated_gpu_bytes": 458541568,
+  "peak_reserved_gpu_bytes": 738197504,
+  "checkpoint_bytes": 5169338,
+  "checkpoint_sha256": "b97ad627daf154a67dfb485fa4569fdeb22a529cbf12b97702108b38eac6fba2",
+  "scope": "validation only; test untouched; pseudobulk-trained mean-shift baseline"
+}

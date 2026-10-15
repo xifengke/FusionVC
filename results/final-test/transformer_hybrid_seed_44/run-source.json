@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "transformer_hybrid_seed_44",
+    "kind": "checkpoint",
+    "model": "transformer",
+    "variant": "hybrid",
+    "seed": 44,
+    "experiment": "mmd_02_transformer_hybrid",
+    "role": "main",
+    "checkpoint_path": "outputs/mmd_02_transformer_hybrid/seed_44/best.pt",
+    "checkpoint_sha256": "d7371a2c3d2e6c33dd1c61d907198630232183a55bd22236f4e97daec6f52dbd",
+    "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_44/metrics.json",
+    "validation_metrics_sha256": "ce87d9997803fa2ea9c2782f9f435d29f6449e9f061dd132bd4f4c297e42f666",
+    "validation_mae": 0.03245035115629435
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

@@ -1,0 +1,13 @@
+{
+  "tests": {
+    "command": "./.venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest-project-completion-20261015-final --tb=short",
+    "passed": 69,
+    "warnings": 12,
+    "seconds": 21.88,
+    "exit_code": 0,
+    "output_sha256": "b9fa7ab67e0a7af4d7578e3d472b0b02e49bc63b2cc65a9242ed5b26b09e4dbb"
+  },
+  "ruff_passed": true,
+  "comparison_plot_visually_inspected": true,
+  "test_used": false
+}

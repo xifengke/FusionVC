@@ -1,0 +1,36 @@
+{
+  "checks": [
+    {
+      "model": "mmd_01_mlp_mean",
+      "seed": "seed_42",
+      "metrics_equal": true
+    },
+    {
+      "model": "mmd_01_mlp_mean",
+      "seed": "seed_43",
+      "metrics_equal": true
+    },
+    {
+      "model": "mmd_01_mlp_mean",
+      "seed": "seed_44",
+      "metrics_equal": true
+    },
+    {
+      "model": "mmd_02_transformer_mean",
+      "seed": "seed_42",
+      "metrics_equal": true
+    },
+    {
+      "model": "mmd_02_transformer_mean",
+      "seed": "seed_43",
+      "metrics_equal": true
+    },
+    {
+      "model": "mmd_02_transformer_mean",
+      "seed": "seed_44",
+      "metrics_equal": true
+    }
+  ],
+  "available_checks": 6,
+  "all_equal": true
+}

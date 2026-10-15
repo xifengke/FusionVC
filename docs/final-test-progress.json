@@ -1,0 +1,25 @@
+{
+  "completed": 28,
+  "total": 28,
+  "completed_by_model": {
+    "concat": 3,
+    "cross_attention": 3,
+    "distillation": 3,
+    "gated": 3,
+    "geneformer": 3,
+    "mlp": 6,
+    "no_perturbation": 1,
+    "scgpt": 3,
+    "transformer": 3
+  },
+  "latest_log_lines": [
+    "DE genes=17920/18080 targets=100",
+    "DE genes=18080/18080 targets=100",
+    "FINAL COMPLETE no_perturbation: {'mae': 0.02634157902095467, 'discrimination_score_l1': 0.5096, 'overlap_at_N': 0.00018931884944659234}"
+  ],
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "test_used": true,
+  "status": "complete",
+  "final_report": "results/final-test/README.md",
+  "completion_verification": "docs/project-completion-verification.json"
+}

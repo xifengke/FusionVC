@@ -1,0 +1,156 @@
+{
+  "reference_metrics_sha256": "f62aae8a487349787c631c19cb48cc5ea05d8d0d3eb783feb9c0c45b7c970116",
+  "comparison_runs_source_sha256": "35814d27f0fed9b56c92a217ab8dc9ac0c49d6b65422042eea8508b60efe8203",
+  "comparison_targets_source_sha256": "61db2156f8f541e5286b77adf58eb88766ff3b6374e8010dd593e7dd5151dd6e",
+  "model_metric_sources": [
+    {
+      "path": "results\\geneformer\\04_geneformer_energy\\seed_42\\metrics.json",
+      "sha256": "16dbc7b6c0885893200877566ac166cc8483a69ceb2d72a0c7f542b776b27b3b"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer_energy\\seed_43\\metrics.json",
+      "sha256": "269b4da458fa727ae391549e2d7e31646a18d08749f191f0d1b632a0ec76df49"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer_energy\\seed_44\\metrics.json",
+      "sha256": "bf8a14f8d51f862e8c4183e46dace1b830c2de07044c2d202b5fd05581849e22"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer_hybrid\\seed_42\\metrics.json",
+      "sha256": "c7a96e9b690c86f2991849f9fc252c176dce0c9f65d167d213184fa349bbaa13"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer_hybrid\\seed_43\\metrics.json",
+      "sha256": "88c3cba14ea6a9e5c0e8ec60407068363aca5585643a98e054295ecfbd633f4a"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer_hybrid\\seed_44\\metrics.json",
+      "sha256": "021b09063cbb9a740cd422aad8af585d9bc368081d020bef96d2374f5f002e7e"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer\\seed_42\\metrics.json",
+      "sha256": "8c64430ebd97fd1a682796bf1d036ab6dbe85e11a940784eaa1c3a6fa7260414"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer\\seed_43\\metrics.json",
+      "sha256": "fe32948f73b33f7d5b47ac8f55d29d78a9e061a68ae663b4213fb2e9292ff48c"
+    },
+    {
+      "path": "results\\geneformer\\04_geneformer\\seed_44\\metrics.json",
+      "sha256": "9b9a893b605c70c00ba4b104504906370cf5c746d853ca7f749faaf792473955"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_energy\\seed_42\\metrics.json",
+      "sha256": "a854b516e0f17f774364f3c900e89b98c4fa9566753f5cef58d2a9a1c3e611e6"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_energy\\seed_43\\metrics.json",
+      "sha256": "f1c5385ea09e7888d5afa93e2bc9ea177c326399c4d24f78af6b351c000e715d"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_energy\\seed_44\\metrics.json",
+      "sha256": "c72d8652e6f52a6fd181ded9dbcc45c5a9caf52420bbcccf7a28a08328e2d516"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_hybrid\\seed_42\\metrics.json",
+      "sha256": "782571d87e0a36cbf309d2e066c28ad1bb3e5f786ea5e83a570cdc5450f91ecb"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_hybrid\\seed_43\\metrics.json",
+      "sha256": "806dffe59d6c133a4f71d3100fac0ba3ca6ccb49427e9ac7e0b8e32aab41c2cf"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_hybrid\\seed_44\\metrics.json",
+      "sha256": "eca32a0bc4e14466071c5a1addd773de840f941ef68b9a62656d48ef5ad0d1f9"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_42\\metrics.json",
+      "sha256": "cf8ff7e6dabad4d5b0dbc597978d81ed72f35a41e556d535086eba7f9e82a734"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_43\\metrics.json",
+      "sha256": "46406256ba70347efccd49ab441ab5fa292e3bbecc85ea71d1ee9e88d0c2c8b3"
+    },
+    {
+      "path": "results\\mmd\\mmd_01_mlp_mean\\seed_44\\metrics.json",
+      "sha256": "ff134e7f05c8b251fc73ef9aafad39e35b44d0774ab29cc01ae36395308a482d"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt_energy\\seed_42\\metrics.json",
+      "sha256": "6cba71d35e02a8b3639fd49446acb557d34173fb151ec1b5f8180f12a1d92620"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt_energy\\seed_43\\metrics.json",
+      "sha256": "f06b3feeac2807399e39e69789ca0a7e8b4955fea5a3829211988d421a990114"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt_energy\\seed_44\\metrics.json",
+      "sha256": "1871fcbaeb3c151d310718ff3212f76faea7b028e39f0c110707f3a33bcbf3e7"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt_hybrid\\seed_42\\metrics.json",
+      "sha256": "8553873dbf8029a9c418e8171c742440c4d2d3032f8d4d5f53c127f9dfe30637"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt_hybrid\\seed_43\\metrics.json",
+      "sha256": "7b4e23d30dfb4d4f04d45bbd7fd1bcc2f866327aa2969a4b0eb9c48ede093d9e"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt_hybrid\\seed_44\\metrics.json",
+      "sha256": "a540551806a79f8ddb7b0d4be435ac817e5bedfc567e1705b26f6e351d45056e"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt\\seed_42\\metrics.json",
+      "sha256": "367e2fca05ffba986e33c5f54728d239e0039a6913fe77e9e41e7ea17dd851cb"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt\\seed_43\\metrics.json",
+      "sha256": "315f79b4e1fdc2e3806863bfdffa6a9a99710352713e3f566e564ad1e6d9d4b4"
+    },
+    {
+      "path": "results\\scgpt\\03_scgpt\\seed_44\\metrics.json",
+      "sha256": "ab7d7ad2dfd1357b610bd5b3f7e6f045d4816e569ed1674c73ad3ddc89681792"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_energy\\seed_42\\metrics.json",
+      "sha256": "70e15774cf5529f3f4d9d0a434209091b44bfb5761c6c67e6c036a84bfa2096d"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_energy\\seed_43\\metrics.json",
+      "sha256": "dd19b4bb6c59f2b1d5a881f0aea269b6cf623a1dff190c671b920071df391c1c"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_energy\\seed_44\\metrics.json",
+      "sha256": "761dd26e47b2bac12b398781a3fb2fe6ea34d6ef9c141ba4ac5cb9d6435f37c2"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_hybrid\\seed_42\\metrics.json",
+      "sha256": "cf6abb9b6300a965ad1fc344b4563f0c283f8b6c204ccf6e95aa5789696b77e9"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_hybrid\\seed_43\\metrics.json",
+      "sha256": "acce5786263752bd3d9ce1dc9cf032be1f8a244e1e81eaabeb44e514907778c7"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_hybrid\\seed_44\\metrics.json",
+      "sha256": "ce87d9997803fa2ea9c2782f9f435d29f6449e9f061dd132bd4f4c297e42f666"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_mean\\seed_42\\metrics.json",
+      "sha256": "bb443e3cb777f5031cd92a5011e44a5b58ebb47c9217a3cae8d05be869703f5a"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_mean\\seed_43\\metrics.json",
+      "sha256": "2fe08c3c7194821b91b5219aa4aa824f8961216fb093a842870d25aeb3ef660e"
+    },
+    {
+      "path": "results\\mmd\\mmd_02_transformer_mean\\seed_44\\metrics.json",
+      "sha256": "16e66f7827ba1067606a18047739b96d8655df287fe820f4f989715a8baa5b44"
+    }
+  ],
+  "models": 4,
+  "loss_variants": 3,
+  "model_runs": 36,
+  "complete": true,
+  "test_used": false
+}

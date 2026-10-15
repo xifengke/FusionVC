@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "cross_attention_hybrid_seed_42",
+    "kind": "checkpoint",
+    "model": "cross_attention",
+    "variant": "hybrid",
+    "seed": 42,
+    "experiment": "07_cross_attention_hybrid",
+    "role": "main",
+    "checkpoint_path": "outputs/07_cross_attention_hybrid/seed_42/best.pt",
+    "checkpoint_sha256": "456a7432ce793a27792f6c47c8d0622638b83e4451e1392bcf73e2a74b2ae642",
+    "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_42/metrics.json",
+    "validation_metrics_sha256": "f64c62dc2788c7e25299560a361ad054efab7879b610c67d67531d292c0f6464",
+    "validation_mae": 0.027704687137156726
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

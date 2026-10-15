@@ -1,0 +1,130 @@
+{
+  "files": [
+    {
+      "name": "virtual-cell-challenge/2025/gene_names.csv",
+      "generation": "1765906114880540",
+      "size": "116023",
+      "md5Hash": "PnSuaCYgIvYvcHAb7FolCQ==",
+      "crc32c": "Px7c5g==",
+      "size_bytes": 116023,
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/gene_names.csv?generation=1765906114880540",
+      "path": "data/raw/vcc2025/gene_names.csv"
+    },
+    {
+      "name": "virtual-cell-challenge/2025/train/adata_Training.h5ad",
+      "generation": "1765904883947296",
+      "size": "15482497461",
+      "crc32c": "/Z0row==",
+      "size_bytes": 15482497461,
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad?generation=1765904883947296",
+      "path": "data/raw/vcc2025/train/adata_Training.h5ad"
+    },
+    {
+      "name": "virtual-cell-challenge/2025/train/pert_counts_Training.csv",
+      "generation": "1765906581937013",
+      "size": "2824",
+      "md5Hash": "bh3NLwtPpGQowaNqmLiQdA==",
+      "crc32c": "scYxHQ==",
+      "size_bytes": 2824,
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/pert_counts_Training.csv?generation=1765906581937013",
+      "path": "data/raw/vcc2025/train/pert_counts_Training.csv"
+    },
+    {
+      "name": "virtual-cell-challenge/2025/validation/adata_Validation.h5ad",
+      "generation": "1765905029341737",
+      "size": "6928967541",
+      "crc32c": "EendZg==",
+      "size_bytes": 6928967541,
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/adata_Validation.h5ad?generation=1765905029341737",
+      "path": "data/raw/vcc2025/validation/adata_Validation.h5ad"
+    },
+    {
+      "name": "virtual-cell-challenge/2025/validation/pert_counts_Validation.csv",
+      "generation": "1765906468730692",
+      "size": "978",
+      "md5Hash": "GxyJJsYNW+VZ2fyzHbfbEA==",
+      "crc32c": "KEc2qw==",
+      "size_bytes": 978,
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/pert_counts_Validation.csv?generation=1765906468730692",
+      "path": "data/raw/vcc2025/validation/pert_counts_Validation.csv"
+    },
+    {
+      "name": "args.json",
+      "file_id": "1hh2zGKyWAx3DyovD30GStZ3QlzmSqdk1",
+      "size_bytes": 1300,
+      "drive_id": "1hh2zGKyWAx3DyovD30GStZ3QlzmSqdk1",
+      "url": "https://drive.google.com/uc?id=1hh2zGKyWAx3DyovD30GStZ3QlzmSqdk1",
+      "path": "models/scgpt/whole-human/args.json"
+    },
+    {
+      "name": "best_model.pt",
+      "file_id": "14AebJfGOUF047Eg40hk57HCtrb0fyDTm",
+      "size_bytes": 205385258,
+      "drive_id": "14AebJfGOUF047Eg40hk57HCtrb0fyDTm",
+      "url": "https://drive.google.com/uc?id=14AebJfGOUF047Eg40hk57HCtrb0fyDTm",
+      "path": "models/scgpt/whole-human/best_model.pt"
+    },
+    {
+      "name": "vocab.json",
+      "file_id": "1H3E_MJ-Dl36AQV6jLbna2EdvgPaqvqcC",
+      "size_bytes": 1317639,
+      "drive_id": "1H3E_MJ-Dl36AQV6jLbna2EdvgPaqvqcC",
+      "url": "https://drive.google.com/uc?id=1H3E_MJ-Dl36AQV6jLbna2EdvgPaqvqcC",
+      "path": "models/scgpt/whole-human/vocab.json"
+    },
+    {
+      "name": "config.json",
+      "size_bytes": 565,
+      "revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+      "sha256": null,
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/Geneformer-V1-10M/config.json",
+      "path": "models/geneformer-v1/config.json"
+    },
+    {
+      "name": "model.safetensors",
+      "size_bytes": 41183536,
+      "revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+      "sha256": "a5e33a757431643b3697de7ef6127950cdc49e06e58d4266b3a3ab191b683f14",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/Geneformer-V1-10M/model.safetensors",
+      "path": "models/geneformer-v1/model.safetensors"
+    },
+    {
+      "name": "ensembl_mapping_dict_gc30M.pkl",
+      "size_bytes": 584125,
+      "revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+      "sha256": "eac0fb0b3007267871b6305ac0003ceba19d4f28d85686cb9067ecf142787869",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/ensembl_mapping_dict_gc30M.pkl",
+      "path": "models/geneformer-v1/dictionaries/ensembl_mapping_dict_gc30M.pkl"
+    },
+    {
+      "name": "gene_median_dictionary_gc30M.pkl",
+      "size_bytes": 940965,
+      "revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+      "sha256": "b3b589bb5ec75040d05fc44dd6bf0184cf87f3c362cf158d196a6ed3b7fe5f39",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/gene_median_dictionary_gc30M.pkl",
+      "path": "models/geneformer-v1/dictionaries/gene_median_dictionary_gc30M.pkl"
+    },
+    {
+      "name": "gene_name_id_dict_gc30M.pkl",
+      "size_bytes": 1117117,
+      "revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+      "sha256": "55e67962e79c0039a6c32d43c5c99f38e51964bbcfa32f736150ee1e285c438c",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/gene_name_id_dict_gc30M.pkl",
+      "path": "models/geneformer-v1/dictionaries/gene_name_id_dict_gc30M.pkl"
+    },
+    {
+      "name": "token_dictionary_gc30M.pkl",
+      "size_bytes": 788424,
+      "revision": "1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5",
+      "sha256": "ab9dc40973fa5224d77b793e2fd114cacf3d08423ed9c4c49caf0ba9c7f218f1",
+      "url": "https://huggingface.co/ctheodoris/Geneformer/resolve/1f7fbae4e469a5f4f1af8c111a529cfe1b3829f5/geneformer/gene_dictionaries_30m/token_dictionary_gc30M.pkl",
+      "path": "models/geneformer-v1/dictionaries/token_dictionary_gc30M.pkl"
+    }
+  ],
+  "excluded": [
+    "test matrices",
+    "FASTQ",
+    "pretraining corpora"
+  ],
+  "total_bytes": 22662903756
+}

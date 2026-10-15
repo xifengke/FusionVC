@@ -1,0 +1,235 @@
+{
+  "stages": [
+    {
+      "label": "prepare",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "prepare-distillation"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\prepare-1792040810440568900.log",
+      "output_sha256": "88d45fe1cd517b0b31f9c8482af794c725fa3938e328e5ae64ed70ed6560bdbe",
+      "exit_code": 0,
+      "seconds": 12.886655000000246,
+      "failure": null
+    },
+    {
+      "label": "zero-kd-parity",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "scripts/check_distillation_reproducibility.py",
+        "--zero-only"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\zero-kd-parity-1792040823327502800.log",
+      "output_sha256": "4559c72f2d4ec4503d71f386224152b067bb1c056e64617639930bfa988c5f87",
+      "exit_code": 0,
+      "seconds": 16.2803643999996,
+      "failure": null
+    },
+    {
+      "label": "train-42",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "train-distillation",
+        "--config",
+        "E:\\各种项目\\FusionVC\\configs\\experiments\\08_distillation.yaml",
+        "--seed",
+        "42"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\train-42-1792040839609308400.log",
+      "output_sha256": "3bed90b44c849686cc70d302794b2e1ab6e5aca2ef395d063cb560086c690e00",
+      "exit_code": 0,
+      "seconds": 12.065640200000416,
+      "failure": null
+    },
+    {
+      "label": "train-43",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "train-distillation",
+        "--config",
+        "E:\\各种项目\\FusionVC\\configs\\experiments\\08_distillation.yaml",
+        "--seed",
+        "43"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\train-43-1792040851675752800.log",
+      "output_sha256": "b593b26d9029af7e0d4037b8a20536ba8013805a1d7936bcc339b08eb3146a0e",
+      "exit_code": 0,
+      "seconds": 12.502467000000252,
+      "failure": null
+    },
+    {
+      "label": "train-44",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "train-distillation",
+        "--config",
+        "E:\\各种项目\\FusionVC\\configs\\experiments\\08_distillation.yaml",
+        "--seed",
+        "44"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\train-44-1792040864178573800.log",
+      "output_sha256": "b4098f5680964f564f5c13d82f4074c059550baf0e0993c4d65e55a06b849d54",
+      "exit_code": 0,
+      "seconds": 10.779489400001694,
+      "failure": null
+    },
+    {
+      "label": "evaluate-42",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "evaluate",
+        "--run",
+        "E:\\各种项目\\FusionVC\\outputs\\08_distillation\\seed_42"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\evaluate-42-1792040874959532900.log",
+      "output_sha256": "1decc26b53d4a385e4883cf2faed9ce4e8935a27277cc490e039408fd89e418b",
+      "exit_code": 0,
+      "seconds": 65.61950419999994,
+      "failure": null
+    },
+    {
+      "label": "evaluate-43",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "evaluate",
+        "--run",
+        "E:\\各种项目\\FusionVC\\outputs\\08_distillation\\seed_43"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\evaluate-43-1792040940579690700.log",
+      "output_sha256": "47158ea0d957cb8661394086e28c30a24ea1b1ce19c72276188232fe8f930694",
+      "exit_code": 0,
+      "seconds": 60.947144100000514,
+      "failure": null
+    },
+    {
+      "label": "evaluate-44",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "evaluate",
+        "--run",
+        "E:\\各种项目\\FusionVC\\outputs\\08_distillation\\seed_44"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\evaluate-44-1792041001527831400.log",
+      "output_sha256": "c969a875820b0a21401e894d3bbf28fa04bb546e1816115e45f6fb431c4950e2",
+      "exit_code": 0,
+      "seconds": 61.65483800000038,
+      "failure": null
+    },
+    {
+      "label": "reproducibility",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "scripts/check_distillation_reproducibility.py"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\reproducibility-1792041063183151700.log",
+      "output_sha256": "9c663344f24de11ab1d4511497139747a7eac70464e85e11749132bed5244c61",
+      "exit_code": 0,
+      "seconds": 20.081032899999627,
+      "failure": null
+    },
+    {
+      "label": "benchmark",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "scripts/benchmark_distillation.py"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\benchmark-1792041083265437100.log",
+      "output_sha256": "9582bf476e3a86d94458c9d84f4303545d0ea5f6da613c34188fcf3cf0351b8c",
+      "exit_code": 0,
+      "seconds": 9.685489100000268,
+      "failure": null
+    },
+    {
+      "label": "tests",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "-q",
+        "tests/test_distillation.py",
+        "--basetemp",
+        "E:\\各种项目\\FusionVC\\tmp\\pytest-distillation"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\tests-1792041092952249500.log",
+      "output_sha256": "3ff5187ce9e035965a980c42fedf2fe7e20584651d2086c2aeb6f8db35e283b0",
+      "exit_code": 0,
+      "seconds": 8.219228100000691,
+      "failure": null
+    },
+    {
+      "label": "ruff",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ruff",
+        "check",
+        "--no-cache",
+        "src",
+        "scripts",
+        "tests"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\ruff-1792041101173300600.log",
+      "output_sha256": "82b3e6a6c090a57601d22943bd23fca9218d1031dbe5a7b754092f9a156b4f18",
+      "exit_code": 0,
+      "seconds": 0.12770869999985734,
+      "failure": null
+    },
+    {
+      "label": "artifact-verification",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "scripts/verify_distillation_artifacts.py"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\artifact-verification-1792041101302936400.log",
+      "output_sha256": "5cf98f7af5b931f76fc4f88960b52122d2dc569f870b0c1906a19fa556b0036e",
+      "exit_code": 0,
+      "seconds": 14.12943819999964,
+      "failure": null
+    },
+    {
+      "label": "report",
+      "command": [
+        "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+        "-m",
+        "fusionvc.cli",
+        "--root",
+        "E:\\各种项目\\FusionVC",
+        "report-distillation"
+      ],
+      "log": "outputs\\distillation-recipe\\logs\\report-1792041115433154500.log",
+      "output_sha256": "e0aee1d82484d2924b0510c4f6c5a3a1b3ffe5245615ea012f7bc34ea2f92bde",
+      "exit_code": 0,
+      "seconds": 7.254026299999168,
+      "failure": null
+    }
+  ],
+  "test_used": false
+}

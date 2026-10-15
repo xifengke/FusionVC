@@ -1,0 +1,54 @@
+{
+  "protocol": "final-test-v1",
+  "split": "official test",
+  "test_used": true,
+  "label": "mlp_energy_seed_42",
+  "model": "mlp",
+  "role": "main",
+  "seed": 42,
+  "variant": "energy",
+  "metrics": {
+    "mae": 0.026979920910671352,
+    "discrimination_score_l1": 0.5138999999999999,
+    "overlap_at_N": 0.1371185910555686
+  },
+  "checkpoint_sha256": "d57823a2d0533238d42a4ad4af8c1bc0182c406fcec520759fa51aa0cce454b0",
+  "gene_count": 18080,
+  "predicted_cell_count": 170846,
+  "perturbation_count": 100,
+  "control_cell_count": 38176,
+  "profile": "vcc",
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "de": "validated asymptotic Mann-Whitney acceleration",
+  "global_fdr": "BH over all genes and all test perturbations",
+  "evaluation_seconds": 128.08665200000178,
+  "distribution": {
+    "energy_mmd_rms": 0.02234938234090805,
+    "cells_per_set": 64,
+    "prediction_seed": 2026,
+    "observation_seed": 2027,
+    "kernel": "negative Euclidean distance divided by sqrt(gene_count)",
+    "scope": "supplementary sampled distribution metric; not an official VCC score"
+  },
+  "signature": {
+    "protocol": "final-test-v1",
+    "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+    "run": {
+      "label": "mlp_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "mmd_01_mlp_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_01_mlp_energy/seed_42/best.pt",
+      "checkpoint_sha256": "d57823a2d0533238d42a4ad4af8c1bc0182c406fcec520759fa51aa0cce454b0",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "a854b516e0f17f774364f3c900e89b98c4fa9566753f5cef58d2a9a1c3e611e6",
+      "validation_mae": 0.028182023726403712
+    },
+    "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+    "test_used": true
+  }
+}

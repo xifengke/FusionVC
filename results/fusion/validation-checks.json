@@ -1,0 +1,13 @@
+{
+  "tests": {
+    "command": "./.venv/Scripts/python.exe -m pytest -q --basetemp=tmp/pytest-fusion-final-20261015 --tb=short",
+    "passed": 30,
+    "warnings": 12,
+    "seconds": 21.38,
+    "exit_code": 0,
+    "output_sha256": "b533dd7ecc3e39f50d626de22dd78f64f146a528b9500e8a35f498b4a752ad03"
+  },
+  "ruff_passed": true,
+  "comparison_plot_visually_inspected": true,
+  "test_used": false
+}

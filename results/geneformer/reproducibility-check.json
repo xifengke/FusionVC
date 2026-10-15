@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "experiment": "04_geneformer",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "d6e9e51a392e8b5dd08379aac3c668bdb545eb37badf47fd034e7d2fb98f9518",
+      "repeated_checkpoint_sha256": "714d9f2be5d2d939083db3d34c0e193d7a995205cbd9312491e1d605afe66bdb"
+    },
+    {
+      "experiment": "04_geneformer_energy",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "8edfebd9a052f0888972912c78d54df38d706e1da278dabfc8dc1b7513d77e0f",
+      "repeated_checkpoint_sha256": "ab28b84dfd4bf2b5a7a0484593f18fa536235769a137afdf01cf79086cc75304"
+    },
+    {
+      "experiment": "04_geneformer_hybrid",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "2e363de2eb21f0deedc8d607dee9e8667a9430034066b346c5df8d69f436abc5",
+      "repeated_checkpoint_sha256": "35d43df27dce8cd04290f10cf81eb052be14e4de976984dfe00cc636660f18d1"
+    }
+  ],
+  "all_tensors_equal": true,
+  "pretrained_assets_unchanged": true,
+  "scope": "seed 42 repeated for all three losses; official evaluation not repeated for equal tensors",
+  "test_used": false
+}

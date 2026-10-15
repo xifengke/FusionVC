@@ -1,0 +1,2 @@
+[console_scripts]
+fusionvc = fusionvc.cli:main

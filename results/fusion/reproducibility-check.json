@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "experiment": "05_concat",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "45e66e8f811382943eb5b7d04dfab56912c8871fd16b7940354cc64b7b8c1851",
+      "repeated_checkpoint_sha256": "3438dddee5db53bfc87dc4881891ba42891a3973cd78670a338d649a0c564c51"
+    },
+    {
+      "experiment": "06_gated",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "31e70826bc0642e26d0988824a781aa03bab108205313c6caa59f7f50e5edd2e",
+      "repeated_checkpoint_sha256": "41de542e6fa974bf09f23af7c25bf8405212250eb811d7413f71bd658280f64b"
+    },
+    {
+      "experiment": "07_cross_attention",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "f9163f9776b6717fb8e482f1eb3d0d53e9d128437b40e565d56c668b16d9ac43",
+      "repeated_checkpoint_sha256": "1feae59e7e9c546c98e309dff46cb6b064be3c345488aa3f268852463fce7c3d"
+    }
+  ],
+  "all_tensors_equal": true,
+  "pretrained_assets_unchanged": true,
+  "scope": "three seed-42 heads rerun; equal tensors so official evaluation not repeated; same device/software only",
+  "test_used": false
+}

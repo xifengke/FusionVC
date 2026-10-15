@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-15",
+  "request": "Implement and attempt all three fusions; sequential execution authorized",
+  "protocol": "docs/fusion-protocol.md",
+  "status": "complete",
+  "experiments": [
+    "05_concat",
+    "06_gated",
+    "07_cross_attention"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "loss": "unpaired_pseudobulk_mse",
+  "test_used": false,
+  "completed": [
+    "30 tests passed; Ruff passed",
+    "native token identity/count audit passed (242/254 genes, 86363 padding slots)",
+    "pooled feature parity: both max abs difference 0",
+    "three-model two-epoch smoke passed",
+    "all 9 formal runs and full official validation complete",
+    "three seed42 reruns: every tensor, selected epoch and source equal",
+    "9 new runs, 21 comparisons and 42 unchanged old checkpoints verified",
+    "600 gate weights exported",
+    "plots visually inspected; final report VERIFIED",
+    "README and project status updated"
+  ],
+  "pending": [],
+  "failed_attempts": [
+    {
+      "stage": "preflight",
+      "cause": "pytest default temporary directory could not create numbered dirs under sandbox Temp",
+      "resolution": "explicit workspace --basetemp=tmp/pytest-fusion-preflight-20261015"
+    },
+    {
+      "stage": "token preflight",
+      "cause": "CPU numpy float32 mean vs original CUDA mean produced 1.1444e-5 pooling difference",
+      "resolution": "compare pooled embeddings with the identical original CUDA reduction; no tolerance change"
+    }
+  ],
+  "artifacts": [
+    "results/fusion/README.md",
+    "results/fusion/reproducibility-check.json",
+    "results/fusion/artifact-verification.json",
+    "results/fusion/implementation-check.json",
+    "results/fusion/validation-checks.json"
+  ]
+}

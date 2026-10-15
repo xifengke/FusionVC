@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "mlp_energy_seed_44",
+    "kind": "checkpoint",
+    "model": "mlp",
+    "variant": "energy",
+    "seed": 44,
+    "experiment": "mmd_01_mlp_energy",
+    "role": "main",
+    "checkpoint_path": "outputs/mmd_01_mlp_energy/seed_44/best.pt",
+    "checkpoint_sha256": "3cd62cc06a06b1171691b768632396bfc288d998c4cf079e746895a36ccf0235",
+    "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_44/metrics.json",
+    "validation_metrics_sha256": "c72d8652e6f52a6fd181ded9dbcc45c5a9caf52420bbcccf7a28a08328e2d516",
+    "validation_mae": 0.027740585915744305
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

@@ -1,0 +1,54 @@
+{
+  "protocol": "final-test-v1",
+  "split": "official test",
+  "test_used": true,
+  "label": "geneformer_energy_seed_43",
+  "model": "geneformer",
+  "role": "main",
+  "seed": 43,
+  "variant": "energy",
+  "metrics": {
+    "mae": 0.02655978308059275,
+    "discrimination_score_l1": 0.5111000000000001,
+    "overlap_at_N": 0.10480971734287568
+  },
+  "checkpoint_sha256": "568e59deb7d3b16c8089ce540f04522485afcbe6c1072b80831f1559052959c6",
+  "gene_count": 18080,
+  "predicted_cell_count": 170846,
+  "perturbation_count": 100,
+  "control_cell_count": 38176,
+  "profile": "vcc",
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "de": "validated asymptotic Mann-Whitney acceleration",
+  "global_fdr": "BH over all genes and all test perturbations",
+  "evaluation_seconds": 112.32471599999917,
+  "distribution": {
+    "energy_mmd_rms": 0.022380150221288204,
+    "cells_per_set": 64,
+    "prediction_seed": 2026,
+    "observation_seed": 2027,
+    "kernel": "negative Euclidean distance divided by sqrt(gene_count)",
+    "scope": "supplementary sampled distribution metric; not an official VCC score"
+  },
+  "signature": {
+    "protocol": "final-test-v1",
+    "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+    "run": {
+      "label": "geneformer_energy_seed_43",
+      "kind": "checkpoint",
+      "model": "geneformer",
+      "variant": "energy",
+      "seed": 43,
+      "experiment": "04_geneformer_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/04_geneformer_energy/seed_43/best.pt",
+      "checkpoint_sha256": "568e59deb7d3b16c8089ce540f04522485afcbe6c1072b80831f1559052959c6",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "269b4da458fa727ae391549e2d7e31646a18d08749f191f0d1b632a0ec76df49",
+      "validation_mae": 0.02777005881071091
+    },
+    "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+    "test_used": true
+  }
+}

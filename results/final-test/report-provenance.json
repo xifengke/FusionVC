@@ -1,0 +1,684 @@
+{
+  "selection_path": "docs/final-model-selection.json",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "source_artifacts": [
+    {
+      "path": "results/final-test/mlp_energy_seed_42/metrics.json",
+      "sha256": "85ef4b989624a69a36e418e929d9b1e40960b60205bec867b5e0f1ce6e476ec4"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_42/per_perturbation.csv",
+      "sha256": "4162cc2791baa4dcc821cca9b5598afff3328d32baf101f4491022a38cc4e1ca"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_42/distribution_per_perturbation.csv",
+      "sha256": "ad2063243ebf685b7bb790a954af2dca883a53d4836a964fb09abed4daf5ec3d"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_42/prediction-info.json",
+      "sha256": "8bd520e3d00d089cd08b2f574db20efac8174e1f403af48406ad85d10d9f24f7"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_42/run-source.json",
+      "sha256": "94c34d3b2c306136a3d6b2dc57936b9a16a123835c965088ff252662186d8aa1"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_43/metrics.json",
+      "sha256": "5e928d23b809b2cffa57edf0f6e6ee8e68f3f4acf4c1ebecf1aa5d3fd5190bc4"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_43/per_perturbation.csv",
+      "sha256": "01ed5886c8118278dff64f76cf92bcabde411583ba2c22522f000caab2c8590a"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_43/distribution_per_perturbation.csv",
+      "sha256": "dca3b8c2671993b575f0a980427126a0bbc0eb8a76e1e3403811b7b075274d44"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_43/prediction-info.json",
+      "sha256": "a52f86485dcdfcecafcd743c0c83e3babe6be0e5b0b3b9a52e05ec5baa2fbdfd"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_43/run-source.json",
+      "sha256": "48e66cb805f9b28c3cc2171ed7e60a3a525dc0c7cf7184769894ba28b59bae74"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_44/metrics.json",
+      "sha256": "9ef11f493356a57fa5fec92dd6cdb1f488e549b7d69e7b3be54ee3c3274e5a48"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_44/per_perturbation.csv",
+      "sha256": "6d75f01a4f697756b3b8fc7925be3aa24c8deb0008d5932c4f08e1d174d8fed6"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_44/distribution_per_perturbation.csv",
+      "sha256": "1ac9e2a38e59ab721adf6f64951db7557a4a21f76bb8171bccb4d24c2ee73c9c"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_44/prediction-info.json",
+      "sha256": "79d045397450f94e61c363d9af5dafcee0d234c7a02fbe4b0bf867f23bbe3e65"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_44/run-source.json",
+      "sha256": "3bd4a81d6d0569cda95952eb67ee6283e8320eca31f7e71ae6e78e74d76fee9c"
+    },
+    {
+      "path": "results/final-test/mlp_energy_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_42/metrics.json",
+      "sha256": "eb53bccecac15b9be60fb62c621d5c4e0e587a5b3b477b179e09f58339ed19f8"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_42/per_perturbation.csv",
+      "sha256": "4c10ed29a4875622b6b59bb36c251aa5e158acaf17e72b3ea8df914f85860974"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_42/distribution_per_perturbation.csv",
+      "sha256": "455af87223ce8ad4e4103c45d7df0de178ca64dffe3c206c3260ae9c103b74af"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_42/prediction-info.json",
+      "sha256": "5af819ac60e91232740b51ac9beb6978c715149db24f545f3c72fc3f5656e2af"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_42/run-source.json",
+      "sha256": "e8f56885c31f46486a43ebbacf4eb154810c232b3f40b6d1b97731e37c129051"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_43/metrics.json",
+      "sha256": "953dd8ab0394cde6cc6f36fabf115ed6288dd027f74fa66777ffe110c84e0b12"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_43/per_perturbation.csv",
+      "sha256": "1ceaaa6c18d65f247f3ce783b6b179c70a9911cb389413d9263cbb1b6a345582"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_43/distribution_per_perturbation.csv",
+      "sha256": "5e6522540ee8b5cf93a7079b6dff3aef9701d095c6fb7c9a95d47899c0cc763b"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_43/prediction-info.json",
+      "sha256": "1401c065a6d0f466578c57502d82d20f9f3f64e1efed1b351c3e435d342c0839"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_43/run-source.json",
+      "sha256": "3b95caca5d71094d8b83bcac80783a453c4b550e000665c18dc5a0e9602b871b"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_44/metrics.json",
+      "sha256": "b06857787637b6e0efeda036f4ba308ff95761d699b065aa7b808363581b00ca"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_44/per_perturbation.csv",
+      "sha256": "167cb3680755ec8993faa34ba29b2590cb5f589f08ae4b8a468287d7e5191d05"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_44/distribution_per_perturbation.csv",
+      "sha256": "0093e91fbdafd6f071675191d9fa106f736b9a9b3955b1a0eb83d111c06689e3"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_44/prediction-info.json",
+      "sha256": "ce076fabca6d41c19a09206433784d7c0be083b10319446e672057f2dabb0422"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_44/run-source.json",
+      "sha256": "08256ec3971ad6edce97f1ed9c16ace5bb96e395c5e9733284a45357d101a613"
+    },
+    {
+      "path": "results/final-test/transformer_hybrid_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_42/metrics.json",
+      "sha256": "24e668bf31af7af3055559b1289aa07f4250335c36b7feaa55192c75f8f5f802"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_42/per_perturbation.csv",
+      "sha256": "5cca5863b8a7f6c9feea17061d3f504dbada67d488cb50de1b24d859cfc18dda"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_42/distribution_per_perturbation.csv",
+      "sha256": "f6390b835ba0a4627ce88c7aeb4485170e5c034bd74dd32347baebe32cd6cb48"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_42/prediction-info.json",
+      "sha256": "4cc60440cc743aaf279a9c44eda81db5d47f0efc75cecc96a67d7222248b6081"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_42/run-source.json",
+      "sha256": "939234843e08bf2826ba40e38f2f0dc142929aa6814889d079a3a5c2e2b81f30"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_43/metrics.json",
+      "sha256": "b1aa653493efd1581d41a3d48bf8f5fea653cfef96f5989d5165de77e856ff7b"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_43/per_perturbation.csv",
+      "sha256": "68d0d5198d29132ff1b7489e6cf92dddb64b086f5fbf3c03c0645f1a1a00d980"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_43/distribution_per_perturbation.csv",
+      "sha256": "f7cc9d76935d6d0085afeec794552f0f039bbc2f7e8530eb1474580a28b68f0f"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_43/prediction-info.json",
+      "sha256": "0e9ba9ad1c6e0705549c34ee92d9638bef78472b921e599bd77dbd498ab4999d"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_43/run-source.json",
+      "sha256": "1fa0e0c4b70e2440918b31154343f5e2f2f0c093332e7ab1f39ee43132ad82ee"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_44/metrics.json",
+      "sha256": "2e5c51a98e2f9d308f8f231181d87dbf30b9bea3c22aa1014819a2a044cbc242"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_44/per_perturbation.csv",
+      "sha256": "665f5fe89ac8ca072945d64dbc4f2d5fbc97c1a9f246103efb8131f93023b38d"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_44/distribution_per_perturbation.csv",
+      "sha256": "4615ab1411a5723add1de0ff3b6e389568b453a96f610f4acbaf2b1defb2a21d"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_44/prediction-info.json",
+      "sha256": "e1fc8b4f94e8befa408e8aa43d7d0571788f2fdec0dbc41f105d79636e2c0e1f"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_44/run-source.json",
+      "sha256": "dcabb118d5b454fbcfc364b124e49859b97a31df6e945ce9858f7162fa88e60a"
+    },
+    {
+      "path": "results/final-test/scgpt_energy_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_42/metrics.json",
+      "sha256": "88f9370d7d57e81f306ccd9dd496c3f69c9fa112616dd1f59ba8192d0d9c56d7"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_42/per_perturbation.csv",
+      "sha256": "16b1a932987d3a5d1d0c0e37a7615b451a668463e7cf1a9506bef01dca46105d"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_42/distribution_per_perturbation.csv",
+      "sha256": "857d6ebf87ff59b9109666714063b0a85e538f14bc76192a895a1f01cd6d737d"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_42/prediction-info.json",
+      "sha256": "e83925c7f13bbf6539ad198b2e2de97a4e16100e6e829a045622f828fa7465b3"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_42/run-source.json",
+      "sha256": "8d456f12f619b535f2e14756d636cb8115063146a26773cef1c87025bc4a5a7e"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_43/metrics.json",
+      "sha256": "6f07909a84929cfe332d2f51eaa24d6c0e117490e16007d464f72185bc8b398a"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_43/per_perturbation.csv",
+      "sha256": "88730a290fd5c7ca6114b3e0a03cc48e9113beef9e1acb91849520da3bbc6776"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_43/distribution_per_perturbation.csv",
+      "sha256": "b2b7358f5ebe59f482158b629c88f3425a453da615542a460cd0413cf12d2dda"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_43/prediction-info.json",
+      "sha256": "98d8ea20156014562a87c4e3e5c516e3058509cdb889dd175a9418d29053b573"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_43/run-source.json",
+      "sha256": "7ed6b51805af4f517452ea20cc00a5f7bfd588d126d338518a509cabbcaaeb94"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_44/metrics.json",
+      "sha256": "1da2499f07b7f7cb5918dfc965bbd656871751457b15204c37579a84632343e3"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_44/per_perturbation.csv",
+      "sha256": "d08504e8e4d2032d85c91fd2ae90f688a657650abfb20247b1f91cb77edfb97a"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_44/distribution_per_perturbation.csv",
+      "sha256": "fb64bf5ff93716fbaaaea55285275e90afb6461e24cb1d86ec51246490920556"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_44/prediction-info.json",
+      "sha256": "91bbde8bba61d20d4185e31c579c736f7cb565eec7f09ff14ddf4959aa3bcc48"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_44/run-source.json",
+      "sha256": "4e70560bbdde5a6f8883870083ec6d7d93938f869afca0730433f9363bda743e"
+    },
+    {
+      "path": "results/final-test/geneformer_energy_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_42/metrics.json",
+      "sha256": "01f24604fd819ef3ce5e356f3d2d5845a8752b1644fe686cbe29f92d1ffb10d7"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_42/per_perturbation.csv",
+      "sha256": "98edd60409c5614ba2357ed06d984d014f5e044264fc111424a02c294e6c8e18"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_42/distribution_per_perturbation.csv",
+      "sha256": "7d52ec992b745a0dad6264003e96147812d95a5f891053f26fc4ae21bc36ecd3"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_42/prediction-info.json",
+      "sha256": "bf7a7fc473a4ff24224dc788f98e8b625194f2e77cdee1eff957c5f990adc661"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_42/run-source.json",
+      "sha256": "6bab1c18bea6f8576c5085d486d7ae79c2ec613c904c7bf803deb25cf7c4b456"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_43/metrics.json",
+      "sha256": "d9031d9fa079254917a2e712c63774da286655a69537eed51a13b050077de1c4"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_43/per_perturbation.csv",
+      "sha256": "5ae7533d301f042311df9dffd8828efee5aa2b271cce95bd2b12aa80386f1a2e"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_43/distribution_per_perturbation.csv",
+      "sha256": "2d88f3b21a7cb463448a22e7e1ea481050125bfe122b219ab7f67ab8732aec9f"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_43/prediction-info.json",
+      "sha256": "85dd12b5b3e2302611361c2fceca65fbca86e35daafae0a94148ea64fc9dbfab"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_43/run-source.json",
+      "sha256": "fd8946ecbf26f52b6f0338e528fdb1ac1b75d66e048e3b6d54e4d82e1318f6b0"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_44/metrics.json",
+      "sha256": "97cf058bb4e5509afffe0cb28801f8dd7bb0277936cb34767ca2b937b0cc0ba8"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_44/per_perturbation.csv",
+      "sha256": "6b0e56e18e859a4aa8bd5a7b832bebe2b510d07bd0c62a2f7c703965028e231f"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_44/distribution_per_perturbation.csv",
+      "sha256": "034e0cb60baeaabcb44dbbdb5e36433ed50ac06de85c743367a4a3285994c23f"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_44/prediction-info.json",
+      "sha256": "c5cb0cd8102da0c723bce4956405ea98c6c52d69ea6e242c7fd04508c7130a07"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_44/run-source.json",
+      "sha256": "5f3624ed6cd9d31be04c9c9e1ccd5e3c08c5f381b52bd26279f525443d8e3afa"
+    },
+    {
+      "path": "results/final-test/concat_energy_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_42/metrics.json",
+      "sha256": "8d6b283a857b372130ef6a6aeb14cd35b15c5ee07284a8b9f8599c9eaa1e8810"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_42/per_perturbation.csv",
+      "sha256": "e9c0fc3fa7e15154b5366a9e2fda04f44f9ee5f68898d097cd0e8fde7f0839e5"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_42/distribution_per_perturbation.csv",
+      "sha256": "9b3a86c7dde2274c86fb57f354226d60f8e1f816f9c82dcbb0f844a4eb52ae33"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_42/prediction-info.json",
+      "sha256": "4d3854e2e0a4e80869608c56d77610d0d037b97ecb92f29d196119e78930f56a"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_42/run-source.json",
+      "sha256": "102d91e0d8ca7d4b2c9d65cd7c11d3306ff12373f2b05b0584444e630d760c3b"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_43/metrics.json",
+      "sha256": "a97e774fdfa7568c41d3ab9bdb61aaff887806d2eedc3285cf86d5d121f46e0f"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_43/per_perturbation.csv",
+      "sha256": "fbfee6df7c6f905f6693f4bfaac30f4445cfefa900ce72b911b4c4851d0b4ff2"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_43/distribution_per_perturbation.csv",
+      "sha256": "0a411bd9f47dc38994f45a1436ff08d09eb87c75b6df6c044f6039ea7e38888b"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_43/prediction-info.json",
+      "sha256": "a1b11d2baa8c591914be02b55c900e34d4e8bc4d6a03da913001ca0361a16615"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_43/run-source.json",
+      "sha256": "78c45651185fbbcaeefa3129ef93274757215bf14280e196efb85dd99b89e6a0"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_44/metrics.json",
+      "sha256": "8bb669a862afac74b16bfc0860983f5dc34abf51b957dedb57e44e355d8ff05e"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_44/per_perturbation.csv",
+      "sha256": "ee07e122295659a553126637b0ac9684aa5a05cdb443bc16e04e6d5e51784eac"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_44/distribution_per_perturbation.csv",
+      "sha256": "6bf0764762033492a2000379d76be8ccdda398112e6e381856c0cca665b2de5e"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_44/prediction-info.json",
+      "sha256": "600fe662e0cb4131cbcb022cc95ddb87b68f664043d92a438b24318ae75df9db"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_44/run-source.json",
+      "sha256": "dc9f45fae4fd12adf90c01a16f5c4cd7d16a2cd3300df8a24946077a1db727df"
+    },
+    {
+      "path": "results/final-test/gated_energy_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_42/metrics.json",
+      "sha256": "8779dbe1855dac55fc12871a2657e4e807a7c513b751ff63065c74344fe1a071"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_42/per_perturbation.csv",
+      "sha256": "23da2126d7447f28bfec6f6428337abf7320ee0ceffaee0f467f0d7e510eae92"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_42/distribution_per_perturbation.csv",
+      "sha256": "8dba96da76904aead89469b8d88409599e5957225b25ec8b55994904fab7e99b"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_42/prediction-info.json",
+      "sha256": "896c7f664e18227121b9b701a75749298835c6f6d5f246e770fa7e5675fe364f"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_42/run-source.json",
+      "sha256": "4c0b182e14a65e3c373b632fa95fd33f8b37ba06874b88f6be52ac3b3f6743c8"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_43/metrics.json",
+      "sha256": "e7d5bca21bfda17f488c96c5f43f6926ceede32ac3c8a7c9007def584d8eaaa5"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_43/per_perturbation.csv",
+      "sha256": "b0ab40ca07c911f7d77aae2193b1d34498d481d2c3f438c65613e1304fe4e371"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_43/distribution_per_perturbation.csv",
+      "sha256": "b2690302e917d7666a3650d7c0fdd639c5f1ed9563f256eb5e42730a547e8f35"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_43/prediction-info.json",
+      "sha256": "4758f070799758dfbf1afaae5c3e161c9dca4139e635c871115b977880a7c8f5"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_43/run-source.json",
+      "sha256": "9ca68582fca2566b63a21023ffa75c8871128c703a97479c9ab3073ec13bddc2"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_44/metrics.json",
+      "sha256": "7baf59c7a32ca37167d54bb8f5f4ef82bdcd9b85a673a0cb6e36446dd5507ed7"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_44/per_perturbation.csv",
+      "sha256": "f68015be8da74535e5b3f149b606bc47033dcab79e8864337b0d7d396d45096c"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_44/distribution_per_perturbation.csv",
+      "sha256": "438ba65ff59cc6c377818643360a5a5f762bc51f22f573b8f1c5605f861d8e5a"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_44/prediction-info.json",
+      "sha256": "38e02a0e565c74eb613bfccd0ddec21a8eefc892ac3db20f7684175aab6cdeea"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_44/run-source.json",
+      "sha256": "160a65d403ef541043cf7a255806fae1b60c6b953e5d22a802db1893c3df50e9"
+    },
+    {
+      "path": "results/final-test/cross_attention_hybrid_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_42/metrics.json",
+      "sha256": "6735eb3d65984950769bcaf557331c188dd43a1f59c735075607ba185ca34deb"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_42/per_perturbation.csv",
+      "sha256": "4177d082441650e0b30f70dbb789df82a62ddc876498681d38f321ce28960688"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_42/distribution_per_perturbation.csv",
+      "sha256": "41d226bcad66f770b8ffa3ed833b42d935d537c1c2d7ae973951410cf03930d4"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_42/prediction-info.json",
+      "sha256": "3a99ae58ddf86690c809492e7c707598b3774bc3f236745f269623241dbbe6d6"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_42/run-source.json",
+      "sha256": "e2f40b6195586b829cb50b814ad71d213ab9a921f5ceebafb697abe15233e39e"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_43/metrics.json",
+      "sha256": "212da1c7dd009d1b0d8e369851609fd615580eb2811f7fb8d4e7d256c51fc9c5"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_43/per_perturbation.csv",
+      "sha256": "9b21e852c9ef0619a5a9a761f27bdf50f54c853d3c38f176e48592adbc7cc850"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_43/distribution_per_perturbation.csv",
+      "sha256": "ca0a4ebdb66b8939f7bb20aa9699364986d1fa65ebd62b8f4e3317e2d5b8c559"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_43/prediction-info.json",
+      "sha256": "956b274be2a4086b0149f93c2ff4589191016bd7b6a733ba030ebfae119c8bd1"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_43/run-source.json",
+      "sha256": "06fd194c61e62246b59b0f12bd3d58c6412f524b1adb17bcc378b89562a4edfa"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_44/metrics.json",
+      "sha256": "58e5b0db85e603016f697188b6349ca7ad99bd4525c54340946d485a8cddc800"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_44/per_perturbation.csv",
+      "sha256": "c569aabd42efb4acda8f642ad36b6e63f90bdd1cc4ab70ca78d7b67bdff10eb2"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_44/distribution_per_perturbation.csv",
+      "sha256": "2bd08e0b9e112d842f67163d32719ed4a95c56eae7819ee6a581b314283ee340"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_44/prediction-info.json",
+      "sha256": "0d6ad9efbcab75ef551a1d0b5dd30e603855567d0d8a43d3a8dca717653add06"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_44/run-source.json",
+      "sha256": "9ee2c6185ca96e133c6b126f41620331cfe025802b3fbca56fa27291825bf23d"
+    },
+    {
+      "path": "results/final-test/mlp_mean_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_42/metrics.json",
+      "sha256": "0440d97d650161884b215951ca33bda395e3507b683da77e7c8c9ae0c3273b53"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_42/per_perturbation.csv",
+      "sha256": "5a081950ee28a5022f68ee63fd3879572ad3aeb9dda0e0cc1e57030fcc8888f6"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_42/distribution_per_perturbation.csv",
+      "sha256": "d723f642560015c880ec7ceb86c534d5e12808c69fcd3ceb32890ff6f0a11b86"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_42/prediction-info.json",
+      "sha256": "d5c4200a8dd912803174bd765e95e29e4be943d53625663c895cc544e52e4c12"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_42/run-source.json",
+      "sha256": "b1fcd716bdca5f444f5e451e3a41221242208729acbf64fa6603de5074f6fd7e"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_42/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_43/metrics.json",
+      "sha256": "df763a086a610f70cc2374a23115c2c479ec157a92ae881fe8119e2172b0d0b3"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_43/per_perturbation.csv",
+      "sha256": "3506e7b0a3508bf501dc8547bda84410db5de226d0a8f4278b7de9964ed2a142"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_43/distribution_per_perturbation.csv",
+      "sha256": "ca9e9bf93c2f7c8c2cb955f796d851a3583f8427aeae6c72fc5db9fdcd685566"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_43/prediction-info.json",
+      "sha256": "1a4dce1495e39f57e23a4ba2e8af253e49fc14338f99c57a03e3d4fc23d00835"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_43/run-source.json",
+      "sha256": "3b08ce7e0d82ce0b342f9edb2b1d469738485193226a055b3be7e176df349e10"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_43/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_44/metrics.json",
+      "sha256": "f1930e1012f53989138371c61316f92d4f18a99b42025301ed10edc55b43b074"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_44/per_perturbation.csv",
+      "sha256": "7ae023b489468eb977dfd4a3ab0e962edb3199d73e47ebeebac9eab444fdfbc6"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_44/distribution_per_perturbation.csv",
+      "sha256": "e2a2ba0bf14e61121ab4a91b438dc6222841e2298800202264f3b81de9e7471b"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_44/prediction-info.json",
+      "sha256": "fb960fdc843d7c448f1ee244a847f044a7b63991274f684b032909146de40dfd"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_44/run-source.json",
+      "sha256": "57cc36f99376c40200f8eac5b7f62c80ca5b01a0672d42263f36ee7fa9e38588"
+    },
+    {
+      "path": "results/final-test/distillation_mean_kd_seed_44/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    },
+    {
+      "path": "results/final-test/no_perturbation/metrics.json",
+      "sha256": "f7b06f7eddf27833151ab973e1c2bdb44353999d5d23ec342970172bc865821c"
+    },
+    {
+      "path": "results/final-test/no_perturbation/per_perturbation.csv",
+      "sha256": "6a9095be8d96df1a51ee7b27bd3fd1bde4d5b64650c19abeeead9e174cad1868"
+    },
+    {
+      "path": "results/final-test/no_perturbation/distribution_per_perturbation.csv",
+      "sha256": "e59f900b985405f967dc5a0e2b020769ec96a616142f4f88137290aed7f93e91"
+    },
+    {
+      "path": "results/final-test/no_perturbation/prediction-info.json",
+      "sha256": "6888992bda0737f8fc53887e6d4a153a420710e1fdeefa4964b05e086286e015"
+    },
+    {
+      "path": "results/final-test/no_perturbation/run-source.json",
+      "sha256": "f8802fb74ee8b4b79c682bd26a82f6604419f1906d34fd3280f19ecb5287e37e"
+    },
+    {
+      "path": "results/final-test/no_perturbation/control_sampling.npz",
+      "sha256": "d05b7e708ec7332abf87758c2eaf906fa64bc1a92be7603771223249c382a3cd"
+    }
+  ],
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "actual_teacher_label": "concat_energy_seed_42",
+  "main_models": 8,
+  "checkpoint_evaluations": 27,
+  "complete": true,
+  "test_used": true
+}

@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "gated_energy_seed_42",
+    "kind": "checkpoint",
+    "model": "gated",
+    "variant": "energy",
+    "seed": 42,
+    "experiment": "06_gated_energy",
+    "role": "main",
+    "checkpoint_path": "outputs/06_gated_energy/seed_42/best.pt",
+    "checkpoint_sha256": "b7d1b0ef19a047d614d895daa57f760988ad349baa2aea1f010e0db6a1f74f14",
+    "validation_metrics_path": "results/fusion/06_gated_energy/seed_42/metrics.json",
+    "validation_metrics_sha256": "c6b854e622b9dd98d3b14c3fd9296ce8a56616abadea074a46aa4a0fdad01944",
+    "validation_mae": 0.028043420519679785
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

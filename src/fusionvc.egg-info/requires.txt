@@ -1,0 +1,15 @@
+numpy==2.2.6
+scipy==1.15.3
+pandas==2.2.3
+h5py==3.14.0
+scikit-learn==1.7.2
+PyYAML==6.0.2
+torch==2.8.0
+
+[dev]
+pytest==8.4.2
+ruff==0.13.3
+
+[evaluation]
+cell-eval==0.6.6
+pdex==0.1.27

@@ -1,0 +1,27 @@
+{
+  "loaded_encoder_tensors": 153,
+  "ignored_non_encoder_tensors": [
+    "decoder.fc.0.bias",
+    "decoder.fc.0.weight",
+    "decoder.fc.2.bias",
+    "decoder.fc.2.weight",
+    "decoder.fc.4.bias",
+    "decoder.fc.4.weight",
+    "flag_encoder.weight",
+    "mvc_decoder.W.weight",
+    "mvc_decoder.gene2query.bias",
+    "mvc_decoder.gene2query.weight"
+  ],
+  "frozen_parameters": 50278400,
+  "strict_load": true,
+  "qkv_mapping": "Wqkv. -> in_proj_; official PyTorch backend conversion",
+  "reference_revision": "74603ca5d8a2adf2a7420936c73784a1fef01597",
+  "reference": "vendor/scGPT-paper2024/scgpt/model/model.py TransformerModel._encode",
+  "full_encoder_max_absolute_difference": 6.556510925292969e-06,
+  "forward_rtol": 1e-05,
+  "forward_atol": 1e-05,
+  "binning_equal_with_identical_random_draws": true,
+  "frozen_and_eval_after_train_call": true,
+  "device": "cuda",
+  "test_data_used": false
+}

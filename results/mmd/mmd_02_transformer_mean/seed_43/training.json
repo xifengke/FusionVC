@@ -1,0 +1,23 @@
+{
+  "experiment": "mmd_02_transformer_mean",
+  "seed": 43,
+  "epochs_run": 21,
+  "best_epoch": 1,
+  "selection_validation_mae": 0.03633276343345642,
+  "parameters": 1279904,
+  "trainable_parameters": 1279904,
+  "training_seconds": 5.3941727000001265,
+  "peak_allocated_gpu_bytes": 494502400,
+  "peak_reserved_gpu_bytes": 738197504,
+  "checkpoint_bytes": 5169530,
+  "checkpoint_sha256": "ee0fea3f3aa7deafa02670201b567f3bc8bac38ad9906067c3d770facf75ac77",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "mmd-v1",
+  "loss": "unpaired_pseudobulk_mse",
+  "model": "transformer",
+  "variant": "mean",
+  "cell_set_size": 32,
+  "target_set_size": null,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "not sampled; all-cell pseudobulk means"
+}

@@ -1,0 +1,89 @@
+Metadata-Version: 2.4
+Name: fusionvc
+Version: 0.1.0
+Summary: Reproducible virtual-cell baselines and foundation-model fusion on VCC 2025
+Requires-Python: <3.13,>=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: numpy==2.2.6
+Requires-Dist: scipy==1.15.3
+Requires-Dist: pandas==2.2.3
+Requires-Dist: h5py==3.14.0
+Requires-Dist: scikit-learn==1.7.2
+Requires-Dist: PyYAML==6.0.2
+Requires-Dist: torch==2.8.0
+Provides-Extra: evaluation
+Requires-Dist: cell-eval==0.6.6; extra == "evaluation"
+Requires-Dist: pdex==0.1.27; extra == "evaluation"
+Provides-Extra: dev
+Requires-Dist: pytest==8.4.2; extra == "dev"
+Requires-Dist: ruff==0.13.3; extra == "dev"
+
+# FusionVC
+
+面向 VCC 2025 未见基因扰动预测的可复现实验项目。目标是依次比较 MLP、随机初始化
+Transformer、冻结 scGPT/Geneformer、三种融合与知识蒸馏，共八组实验。
+
+当前阶段实现比赛数据监督的两组基线。所有结果来自本机实际运行，正式测试集保留到八组模型
+完成后统一评估。项目研究范围为 H1 hESC 单基因 CRISPRi，不声明通用虚拟细胞能力。
+
+## Repository layout
+
+```text
+configs/experiments/      # 模型、优化、种子和选择规则
+configs/splits/           # 官方训练/验证靶点列表
+src/fusionvc/            # 数据处理、模型、训练、官方评价适配、报告
+tests/                   # 无配对损失、表达空间等关键协议测试
+scripts/                 # 下载、校验、环境及实验运行入口
+requirements/            # 环境说明与实际依赖锁定
+docs/                    # 协议、资源来源、设计说明
+results/                 # 可提交 GitHub 的小型成绩、按靶点结果和图
+data/ models/ vendor/     # 本地大型资源，Git 忽略
+outputs/                 # checkpoint、完整日志、评价缓存，Git 忽略
+```
+
+## Baselines
+
+两组共享训练对照构建的 34 维基因描述（32 个控制细胞表达 SVD loading 与均值/标准差）、
+256 个输入基因及 64 维解码器输入。输出保留全部 18,080 个基因。没有外部基因网络、
+预训练权重或验证标签构造的输入特征。MLP 编码表达向量和靶点描述；Transformer 对
+256 个基因 token 与一个靶点 token 做两层 self-attention，全部参数从零初始化。
+
+Perturb-seq 没有同一细胞扰动前后的真实配对，因此按扰动比较预测细胞集合与真实细胞的均值。
+模型学习靶点特异的表达位移，作用于不同的训练对照细胞，保留对照异质性，并做非负约束及
+library size 归一化。这是 **pseudobulk 训练的均值位移基线**，没有声称学习完整单细胞分布。
+
+协议与资源边界见 [docs/baseline-protocol.md](docs/baseline-protocol.md)。
+
+## Reproduce on Windows
+
+先按 [下载记录](docs/download-summary.md) 取得 VCC 2025 数据及官方 evaluator 源码。
+Python 3.12、RTX 4060 Laptop 8GB 是本项目的实际运行设备。
+
+```powershell
+./scripts/setup_training.ps1 -Python 'E:/Python/python.exe'
+./.venv/Scripts/python.exe -m pytest
+./.venv/Scripts/fusionvc.exe prepare
+./.venv/Scripts/fusionvc.exe train --config configs/experiments/01_mlp.yaml --seed 42
+./.venv/Scripts/fusionvc.exe evaluate --run outputs/01_mlp/seed_42
+./.venv/Scripts/fusionvc.exe train --config configs/experiments/02_transformer.yaml --seed 42
+./.venv/Scripts/fusionvc.exe evaluate --run outputs/02_transformer/seed_42
+./.venv/Scripts/fusionvc.exe report
+```
+
+正式基线重复种子为 42、43、44，两组采用相同预算和早停规则。按实际最佳验证 checkpoint
+评价，验证指标不能冒充最终测试指标或历史排行榜总分。
+
+## Results
+
+实际结果将保存到 `results/baselines/`。训练与评分未完成时，不填写虚构成绩。
+
+## References and provenance
+
+- [Virtual Cell Challenge 2025](https://doi.org/10.1016/j.cell.2025.06.008)
+- [scGPT](https://doi.org/10.1038/s41592-024-02201-0)
+- [Geneformer](https://doi.org/10.1038/s41586-023-06139-9)
+- [Official cell-eval](https://github.com/ArcInstitute/cell-eval)
+
+模型/数据来源记录于 `docs/download-status.json`、`docs/source-provenance.json`。
+本仓库不包含第三方数据、论文、源码或预训练权重的再许可；使用时遵循其各自条款。
+

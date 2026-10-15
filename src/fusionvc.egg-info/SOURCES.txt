@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/fusionvc/__init__.py
+src/fusionvc/cli.py
+src/fusionvc/io.py
+src/fusionvc/models.py
+src/fusionvc/preprocess.py
+src/fusionvc/train.py
+src/fusionvc.egg-info/PKG-INFO
+src/fusionvc.egg-info/SOURCES.txt
+src/fusionvc.egg-info/dependency_links.txt
+src/fusionvc.egg-info/entry_points.txt
+src/fusionvc.egg-info/requires.txt
+src/fusionvc.egg-info/top_level.txt
+tests/test_protocol.py

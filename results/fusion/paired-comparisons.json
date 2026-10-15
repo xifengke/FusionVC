@@ -1,0 +1,655 @@
+{
+  "contrasts": [
+    {
+      "candidate": "concat/mean",
+      "reference": "mlp/mean",
+      "metric": "mae",
+      "difference": -0.0002008771523833268,
+      "target_bootstrap_95": [
+        -0.0003877990410352751,
+        -5.322390546394701e-07
+      ],
+      "candidate_better_targets": 34,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "mlp/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.008799999999999997,
+      "target_bootstrap_95": [
+        -0.00186666666666667,
+        0.021599999999999994
+      ],
+      "candidate_better_targets": 18,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "mlp/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.01926527078429751,
+      "target_bootstrap_95": [
+        0.009131118220029431,
+        0.03064317914179945
+      ],
+      "candidate_better_targets": 33,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "transformer/mean",
+      "metric": "mae",
+      "difference": -0.004726208398739498,
+      "target_bootstrap_95": [
+        -0.005472978952185563,
+        -0.003931662442628297
+      ],
+      "candidate_better_targets": 48,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "transformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0055999999999999895,
+      "target_bootstrap_95": [
+        -0.005333333333333349,
+        0.017733333333333327
+      ],
+      "candidate_better_targets": 19,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "transformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.03605102330754732,
+      "target_bootstrap_95": [
+        -0.06327439099722858,
+        -0.009708806488884761
+      ],
+      "candidate_better_targets": 24,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "scgpt/mean",
+      "metric": "mae",
+      "difference": -0.00011510897427797372,
+      "target_bootstrap_95": [
+        -0.0002441331961502643,
+        1.4004853554068258e-05
+      ],
+      "candidate_better_targets": 31,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "scgpt/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.00199999999999999,
+      "target_bootstrap_95": [
+        -0.0040000000000000166,
+        0.009066666666666666
+      ],
+      "candidate_better_targets": 15,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "scgpt/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.010511896337738174,
+      "target_bootstrap_95": [
+        -0.0006222917645140155,
+        0.02195115589900384
+      ],
+      "candidate_better_targets": 24,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "geneformer/mean",
+      "metric": "mae",
+      "difference": -9.80540427068901e-05,
+      "target_bootstrap_95": [
+        -0.0003308525136672023,
+        0.0001322578319037969
+      ],
+      "candidate_better_targets": 31,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "geneformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.007066666666666661,
+      "target_bootstrap_95": [
+        -0.0020000000000000096,
+        0.01919999999999999
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "geneformer/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.021118320889845766,
+      "target_bootstrap_95": [
+        0.009524858010435889,
+        0.03406673547896097
+      ],
+      "candidate_better_targets": 34,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00040251128685971505,
+      "target_bootstrap_95": [
+        0.00010630073188805087,
+        0.0007017985483786663
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.00986666666666666,
+      "target_bootstrap_95": [
+        -0.000933333333333331,
+        0.024269999999999955
+      ],
+      "candidate_better_targets": 22,
+      "targets": 50
+    },
+    {
+      "candidate": "concat/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.12993062694713486,
+      "target_bootstrap_95": [
+        0.10552680032168425,
+        0.154473253765527
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "mlp/mean",
+      "metric": "mae",
+      "difference": -0.00011537848661343136,
+      "target_bootstrap_95": [
+        -0.0002652980756635453,
+        3.2342957953615626e-05
+      ],
+      "candidate_better_targets": 27,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "mlp/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.004400000000000006,
+      "target_bootstrap_95": [
+        -0.0029333333333333256,
+        0.014000000000000007
+      ],
+      "candidate_better_targets": 15,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "mlp/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.0043559742780379974,
+      "target_bootstrap_95": [
+        -0.0010664748091534987,
+        0.010268840646896982
+      ],
+      "candidate_better_targets": 25,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "transformer/mean",
+      "metric": "mae",
+      "difference": -0.0046407097329696015,
+      "target_bootstrap_95": [
+        -0.005394858111006521,
+        -0.003907432519830762
+      ],
+      "candidate_better_targets": 49,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "transformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0011999999999999988,
+      "target_bootstrap_95": [
+        -0.007733333333333347,
+        0.010400000000000012
+      ],
+      "candidate_better_targets": 23,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "transformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.05096031981380683,
+      "target_bootstrap_95": [
+        -0.07020538387413813,
+        -0.03244356130513847
+      ],
+      "candidate_better_targets": 11,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "scgpt/mean",
+      "metric": "mae",
+      "difference": -2.9610308508078302e-05,
+      "target_bootstrap_95": [
+        -0.00012509943436210766,
+        6.333024753257013e-05
+      ],
+      "candidate_better_targets": 25,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "scgpt/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.0024000000000000007,
+      "target_bootstrap_95": [
+        -0.006000000000000008,
+        0.0005333333333333285
+      ],
+      "candidate_better_targets": 7,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "scgpt/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.004397400168521337,
+      "target_bootstrap_95": [
+        -0.00789773018911536,
+        -0.0008521992224188431
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "geneformer/mean",
+      "metric": "mae",
+      "difference": -1.255537693699467e-05,
+      "target_bootstrap_95": [
+        -0.00021942510812854348,
+        0.00017073158593848106
+      ],
+      "candidate_better_targets": 22,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "geneformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0026666666666666718,
+      "target_bootstrap_95": [
+        -0.0033333333333333405,
+        0.010400000000000012
+      ],
+      "candidate_better_targets": 14,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "geneformer/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.006209024383586257,
+      "target_bootstrap_95": [
+        -2.6653526491551664e-05,
+        0.013086755389607017
+      ],
+      "candidate_better_targets": 29,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00048800995262961047,
+      "target_bootstrap_95": [
+        0.00023327395568292262,
+        0.0007468928191810887
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.00546666666666667,
+      "target_bootstrap_95": [
+        -0.0024000000000000007,
+        0.016133333333333333
+      ],
+      "candidate_better_targets": 13,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11502133044087534,
+      "target_bootstrap_95": [
+        0.08966177960516387,
+        0.14032549223167456
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "mlp/mean",
+      "metric": "mae",
+      "difference": -0.00033325933540860625,
+      "target_bootstrap_95": [
+        -0.0005173306792663959,
+        -0.00015469023973369876
+      ],
+      "candidate_better_targets": 35,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "mlp/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.011066666666666664,
+      "target_bootstrap_95": [
+        0.0006666666666666674,
+        0.023469999999999963
+      ],
+      "candidate_better_targets": 18,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "mlp/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.007076149353222019,
+      "target_bootstrap_95": [
+        -0.0048802335456023275,
+        0.01898281418271898
+      ],
+      "candidate_better_targets": 33,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "transformer/mean",
+      "metric": "mae",
+      "difference": -0.004858590581764776,
+      "target_bootstrap_95": [
+        -0.005643965356362357,
+        -0.004112743813699735
+      ],
+      "candidate_better_targets": 48,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "transformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.007866666666666655,
+      "target_bootstrap_95": [
+        -0.0020000000000000035,
+        0.019466666666666653
+      ],
+      "candidate_better_targets": 22,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "transformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.04824014473862281,
+      "target_bootstrap_95": [
+        -0.07864001077842285,
+        -0.018337564584153813
+      ],
+      "candidate_better_targets": 25,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "scgpt/mean",
+      "metric": "mae",
+      "difference": -0.0002474911573032532,
+      "target_bootstrap_95": [
+        -0.00039901553730790386,
+        -0.00010113840410486153
+      ],
+      "candidate_better_targets": 33,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "scgpt/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0042666666666666565,
+      "target_bootstrap_95": [
+        -0.0017333333333333304,
+        0.011999999999999997
+      ],
+      "candidate_better_targets": 20,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "scgpt/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.0016772250933373154,
+      "target_bootstrap_95": [
+        -0.016364579471688914,
+        0.012230408626392469
+      ],
+      "candidate_better_targets": 27,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "geneformer/mean",
+      "metric": "mae",
+      "difference": -0.00023043622573216957,
+      "target_bootstrap_95": [
+        -0.0004478083613018244,
+        -2.8421152848751737e-05
+      ],
+      "candidate_better_targets": 34,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "geneformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.009333333333333329,
+      "target_bootstrap_95": [
+        0.0005333333333333323,
+        0.020269999999999958
+      ],
+      "candidate_better_targets": 18,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "geneformer/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.008929199458770277,
+      "target_bootstrap_95": [
+        -0.004215180149928176,
+        0.02206369851944949
+      ],
+      "candidate_better_targets": 29,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00027012910383443554,
+      "target_bootstrap_95": [
+        2.3669702854632666e-05,
+        0.0005158861210414602
+      ],
+      "candidate_better_targets": 19,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.01213333333333333,
+      "target_bootstrap_95": [
+        0.001599999999999995,
+        0.026136666666666617
+      ],
+      "candidate_better_targets": 21,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11774150551605939,
+      "target_bootstrap_95": [
+        0.09672050196805176,
+        0.13887184363560967
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "concat/mean",
+      "metric": "mae",
+      "difference": 8.549866576989543e-05,
+      "target_bootstrap_95": [
+        -6.0423254035414314e-05,
+        0.0002312368890270629
+      ],
+      "candidate_better_targets": 18,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "concat/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.004399999999999991,
+      "target_bootstrap_95": [
+        -0.011470000000000001,
+        0.0013333333333333513
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "gated/mean",
+      "reference": "concat/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.014909296506259512,
+      "target_bootstrap_95": [
+        -0.026564191979382243,
+        -0.003571931841665585
+      ],
+      "candidate_better_targets": 19,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "concat/mean",
+      "metric": "mae",
+      "difference": -0.00013238218302527946,
+      "target_bootstrap_95": [
+        -0.0002572346801559129,
+        -1.0435484504945772e-05
+      ],
+      "candidate_better_targets": 31,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "concat/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0022666666666666664,
+      "target_bootstrap_95": [
+        -0.0056000000000000025,
+        0.011733333333333335
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "concat/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.012189121431075488,
+      "target_bootstrap_95": [
+        -0.018753945061989033,
+        -0.0059366236896590185
+      ],
+      "candidate_better_targets": 19,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "gated/mean",
+      "metric": "mae",
+      "difference": -0.0002178808487951749,
+      "target_bootstrap_95": [
+        -0.00035321502185736616,
+        -7.120166734482207e-05
+      ],
+      "candidate_better_targets": 38,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "gated/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.006666666666666657,
+      "target_bootstrap_95": [
+        2.7339241981394623e-18,
+        0.01653333333333331
+      ],
+      "candidate_better_targets": 19,
+      "targets": 50
+    },
+    {
+      "candidate": "cross_attention/mean",
+      "reference": "gated/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.002720175075184021,
+      "target_bootstrap_95": [
+        -0.0115206639640678,
+        0.01661588864353764
+      ],
+      "candidate_better_targets": 29,
+      "targets": 50
+    }
+  ],
+  "scope": "three seeds averaged within each of 50 fixed validation targets; 5000 paired target bootstraps; conditional on fitted models, checkpoint selection and fixed control sample; no multiplicity adjustment; not biological replicates or a held-out test",
+  "bootstrap_seed": 2025,
+  "test_used": false
+}

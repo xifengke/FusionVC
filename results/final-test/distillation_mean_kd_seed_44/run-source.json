@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "distillation_mean_kd_seed_44",
+    "kind": "checkpoint",
+    "model": "distillation",
+    "variant": "mean_kd",
+    "seed": 44,
+    "experiment": "08_distillation",
+    "role": "main",
+    "checkpoint_path": "outputs/08_distillation/seed_44/best.pt",
+    "checkpoint_sha256": "1751dbd7b178269e65d9a10d529fa4ba5460db781ac7c512a35049b346164efc",
+    "validation_metrics_path": "results/distillation/08_distillation/seed_44/metrics.json",
+    "validation_metrics_sha256": "4efb53caaf908910820eb6caac6df82856205123a2946a7fdd5555eee5358544",
+    "validation_mae": 0.027627041507512332
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

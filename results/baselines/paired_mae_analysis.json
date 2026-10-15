@@ -1,0 +1,12 @@
+{
+  "contrast": "Transformer minus MLP; positive means MLP lower MAE",
+  "mean_difference": 0.00452533124635617,
+  "percentile_95_interval": [
+    0.0038455217011893763,
+    0.005229700594830016
+  ],
+  "mlp_lower_mae_targets": 49,
+  "targets": 50,
+  "method": "paired bootstrap over 50 fixed validation target losses; seeds averaged",
+  "scope": "conditional on fitted models and this validation set; no test inference"
+}

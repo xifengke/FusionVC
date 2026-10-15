@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-15",
+  "request": "Add pure MMD and mean+MMD loss to all three fusion models",
+  "protocol": "docs/fusion-mmd-protocol.md",
+  "status": "complete",
+  "prior_snapshot": "results\\fusion-mmd\\prior-artifact-snapshot.json",
+  "completed": [
+    "51 prior checkpoint hashes recorded",
+    "six loss configs created",
+    "36 preflight tests passed",
+    "Ruff passed after report modules complete",
+    "six two-epoch smoke runs passed",
+    "independent training-side review passed",
+    "18 formal runs and full validation evaluations",
+    "six exact seed42 tensor reruns",
+    "all added artifacts verified",
+    "69 tests passed and Ruff passed",
+    "comparison plot visually inspected"
+  ],
+  "pending": [],
+  "failed_attempts": [],
+  "test_used": false,
+  "completed_formal_groups": [
+    "05_concat_energy",
+    "05_concat_hybrid",
+    "06_gated_energy",
+    "06_gated_hybrid",
+    "07_cross_attention_energy",
+    "07_cross_attention_hybrid"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "contrasts": [
+    {
+      "candidate": "scgpt/mean",
+      "reference": "mlp/mean",
+      "metric": "mae",
+      "difference": -8.576817810535307e-05,
+      "target_bootstrap_95": [
+        -0.0002680201108256923,
+        9.502101053173375e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 26
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "mlp/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.006800000000000007,
+      "target_bootstrap_95": [
+        -0.0018666666666666445,
+        0.016933333333333335
+      ],
+      "targets": 50,
+      "candidate_better_targets": 15
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "mlp/mean",
+      "metric": "overlap_at_N",
+      "difference": 0.008753374446559332,
+      "target_bootstrap_95": [
+        0.0023191698060190395,
+        0.015224197931886011
+      ],
+      "targets": 50,
+      "candidate_better_targets": 29
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "mlp/mean",
+      "metric": "energy_mmd_rms",
+      "difference": -3.3754855394238503e-07,
+      "target_bootstrap_95": [
+        -4.543673992157181e-05,
+        4.527609546978844e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 25
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "transformer/mean",
+      "metric": "mae",
+      "difference": -0.004611099424461524,
+      "target_bootstrap_95": [
+        -0.0053657270167022895,
+        -0.003885073129863792
+      ],
+      "targets": 50,
+      "candidate_better_targets": 48
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "transformer/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0035999999999999986,
+      "target_bootstrap_95": [
+        -0.0058666666666666615,
+        0.013866666666666678
+      ],
+      "targets": 50,
+      "candidate_better_targets": 21
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "transformer/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.0465629196452855,
+      "target_bootstrap_95": [
+        -0.0653787546902616,
+        -0.02833002547746184
+      ],
+      "targets": 50,
+      "candidate_better_targets": 16
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "transformer/mean",
+      "metric": "energy_mmd_rms",
+      "difference": -0.0007901418209075937,
+      "target_bootstrap_95": [
+        -0.0008964799810200912,
+        -0.0006771054860825389
+      ],
+      "targets": 50,
+      "candidate_better_targets": 49
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "scgpt/mean",
+      "metric": "mae",
+      "difference": -0.0001265496574342253,
+      "target_bootstrap_95": [
+        -0.00019951111807797818,
+        -5.680252409850983e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 33
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "scgpt/mean",
+      "metric": "discrimination_score_l1",
+      "difference": -0.0015999999999999973,
+      "target_bootstrap_95": [
+        -0.006003333333333346,
+        0.0020000000000000013
+      ],
+      "targets": 50,
+      "candidate_better_targets": 10
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "scgpt/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.004162929621928463,
+      "target_bootstrap_95": [
+        -0.006023846566066915,
+        -0.002375643090263491
+      ],
+      "targets": 50,
+      "candidate_better_targets": 13
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "scgpt/mean",
+      "metric": "energy_mmd_rms",
+      "difference": 1.1547779043516935e-05,
+      "target_bootstrap_95": [
+        -1.1323171978192437e-05,
+        3.511407381544509e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 24
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "scgpt/mean",
+      "metric": "mae",
+      "difference": -5.191883693138981e-05,
+      "target_bootstrap_95": [
+        -7.145605779563646e-05,
+        -3.356969170272812e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 38
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "scgpt/mean",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0005333333333333354,
+      "target_bootstrap_95": [
+        -0.00013333333333333586,
+        0.001200000000000008
+      ],
+      "targets": 50,
+      "candidate_better_targets": 6
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "scgpt/mean",
+      "metric": "overlap_at_N",
+      "difference": -0.0012607101655736,
+      "target_bootstrap_95": [
+        -0.0021118498547922655,
+        -0.0004592834415709806
+      ],
+      "targets": 50,
+      "candidate_better_targets": 16
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "scgpt/mean",
+      "metric": "energy_mmd_rms",
+      "difference": -4.235083858169786e-06,
+      "target_bootstrap_95": [
+        -1.0527423893405085e-05,
+        1.4681260411977537e-06
+      ],
+      "targets": 50,
+      "candidate_better_targets": 32
+    }
+  ],
+  "scope": "seed-averaged paired validation targets; conditional on fitted models; 5000 target bootstraps",
+  "test_used": false
+}

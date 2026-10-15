@@ -1,0 +1,7 @@
+{
+  "python": "3.12.6",
+  "torch": "2.8.0+cu128",
+  "cuda": "12.8",
+  "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "platform": "Windows-11-10.0.26200-SP0"
+}

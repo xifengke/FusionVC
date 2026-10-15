@@ -1,0 +1,272 @@
+{
+  "scgpt_runs": [
+    {
+      "experiment": "03_scgpt",
+      "seed": 42,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt",
+      "seed": 43,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt",
+      "seed": 44,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt_energy",
+      "seed": 42,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt_energy",
+      "seed": 43,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt_energy",
+      "seed": 44,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt_hybrid",
+      "seed": 42,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt_hybrid",
+      "seed": 43,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    },
+    {
+      "experiment": "03_scgpt_hybrid",
+      "seed": 44,
+      "checkpoint_hash_matches": true,
+      "full_genes_and_cells": true,
+      "targets_scored": 50,
+      "distribution_targets_scored": 50,
+      "metrics_finite": true,
+      "aggregates_match_target_scores": true,
+      "distribution_aggregate_matches": true,
+      "frozen_feature_manifest_matches": true,
+      "control_plan_matches_original_mlp": true,
+      "test_unused": true,
+      "temporary_prediction_removed": true,
+      "published_metrics_match": true
+    }
+  ],
+  "original_runs": [
+    {
+      "experiment": "01_mlp",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "01_mlp",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "01_mlp",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 42,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 43,
+      "checkpoint_unchanged": true
+    },
+    {
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 44,
+      "checkpoint_unchanged": true
+    }
+  ],
+  "all_checks_passed": true,
+  "test_used": false
+}

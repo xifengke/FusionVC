@@ -1,0 +1,43 @@
+{
+  "reference": "no_perturbation",
+  "signature": {
+    "protocol": "no-perturbation-full-v1",
+    "predictor": "delta=0 for every perturbation and control; same apply_residual and scales",
+    "source_sha256": {
+      "src/fusionvc/control_evaluation.py": "1feb6a20b77c04e18614a2edd8463bea81450f29c9c77d6ab564d5b8ae8a46d2",
+      "src/fusionvc/models.py": "1f7af08637cd3067d3dcd598c1e6c15ac0d7a92e6ec04e0b3b9bc906fe72a885",
+      "src/fusionvc/fast_de.py": "bc09d63b9e880058fb6906e72f5812d16273eab63801017489c51912640659f9",
+      "src/fusionvc/evaluate.py": "a1a55cfb9e424f32d679ac11251b099a0bf04a35a90a406ad3ef6e3b9bef518a",
+      "data/processed/baselines-v1/manifest.json": "280ebe8477a69d35cac9e83713dbc4420db8361a5a6005b1d043587b836de384",
+      "data/processed/baselines-v1/genes.json": "a12b25bcaaba61e5ce00edbf52f330455000b82921bc854e89cfcf1401e3ec47",
+      "outputs/evaluation-cache/real-ready.json": "3d9d63af5d483d948aa82b563aa04e5aa653d9fdd83c4873d485ebabf05dc51d",
+      "outputs/evaluation-cache/real_means.npy": "f050114503fc3a97db99f5db9b7d62bedbb7aff875d571c4ea7bddf87b94d9bd",
+      "outputs/evaluation-cache/real_de.parquet": "353817640fb19ac16eac2ea0fda71228244b2279e78ad723fd472b180b1309f5"
+    },
+    "training_controls": {
+      "bytes": 2760888448,
+      "mtime_ns": 1791004152333443300
+    },
+    "validation_matrix": {
+      "bytes": 7154400768,
+      "mtime_ns": 1791004315675768200
+    },
+    "control_sampling_seed": 2025,
+    "test_used": false
+  },
+  "metrics": {
+    "mae": 0.027546873511746527,
+    "discrimination_score_l1": 0.5144000000000001,
+    "overlap_at_N": 0.00018707589325086215
+  },
+  "split": "official validation (50 held-out perturbations)",
+  "gene_count": 18080,
+  "predicted_cell_count": 98927,
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "profile": "vcc",
+  "de": "same validated asymptotic Mann-Whitney as all models; full cells",
+  "global_fdr": "BH over all genes and all perturbations; FDR < 0.05",
+  "evaluation_seconds": 52.49479450000217,
+  "test_used": false
+}

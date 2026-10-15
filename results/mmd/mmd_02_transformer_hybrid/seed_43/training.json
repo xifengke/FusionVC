@@ -1,0 +1,23 @@
+{
+  "experiment": "mmd_02_transformer_hybrid",
+  "seed": 43,
+  "epochs_run": 21,
+  "best_epoch": 1,
+  "selection_validation_mae": 0.03629828847944736,
+  "parameters": 1279904,
+  "trainable_parameters": 1279904,
+  "training_seconds": 14.647732700000233,
+  "peak_allocated_gpu_bytes": 684279296,
+  "peak_reserved_gpu_bytes": 926941184,
+  "checkpoint_bytes": 5169530,
+  "checkpoint_sha256": "486372168da16180ec099ea37bfca95c033ca6c93668be9ff645188470f023cd",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "mmd-v1",
+  "loss": "unpaired_mean_energy_mmd",
+  "model": "transformer",
+  "variant": "hybrid",
+  "cell_set_size": 32,
+  "target_set_size": 32,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "all training cells; separate RNG seed+100000"
+}

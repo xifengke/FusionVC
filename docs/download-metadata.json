@@ -1,0 +1,120 @@
+{
+  "checked_date": "2026-10-03",
+  "vcc2025_files": [
+    {
+      "name": "virtual-cell-challenge/2025/gene_names.csv",
+      "generation": "1765906114880540",
+      "size": "116023",
+      "md5Hash": "PnSuaCYgIvYvcHAb7FolCQ==",
+      "crc32c": "Px7c5g=="
+    },
+    {
+      "name": "virtual-cell-challenge/2025/test/adata_Test.h5ad",
+      "generation": "1765905295402700",
+      "size": "11950739168",
+      "crc32c": "JMP5RQ=="
+    },
+    {
+      "name": "virtual-cell-challenge/2025/test/pert_counts_Test.csv",
+      "generation": "1765906557881304",
+      "size": "1894",
+      "md5Hash": "uN65ffyTEiKmM/RBiukicA==",
+      "crc32c": "dCaUQw=="
+    },
+    {
+      "name": "virtual-cell-challenge/2025/train/adata_Training.h5ad",
+      "generation": "1765904883947296",
+      "size": "15482497461",
+      "crc32c": "/Z0row=="
+    },
+    {
+      "name": "virtual-cell-challenge/2025/train/pert_counts_Training.csv",
+      "generation": "1765906581937013",
+      "size": "2824",
+      "md5Hash": "bh3NLwtPpGQowaNqmLiQdA==",
+      "crc32c": "scYxHQ=="
+    },
+    {
+      "name": "virtual-cell-challenge/2025/validation/adata_Validation.h5ad",
+      "generation": "1765905029341737",
+      "size": "6928967541",
+      "crc32c": "EendZg=="
+    },
+    {
+      "name": "virtual-cell-challenge/2025/validation/pert_counts_Validation.csv",
+      "generation": "1765906468730692",
+      "size": "978",
+      "md5Hash": "GxyJJsYNW+VZ2fyzHbfbEA==",
+      "crc32c": "KEc2qw=="
+    }
+  ],
+  "raw_fastq_total_bytes": 5810226748327,
+  "scgpt_files": [
+    {
+      "name": "args.json",
+      "file_id": "1hh2zGKyWAx3DyovD30GStZ3QlzmSqdk1",
+      "size_bytes": 1300
+    },
+    {
+      "name": "best_model.pt",
+      "file_id": "14AebJfGOUF047Eg40hk57HCtrb0fyDTm",
+      "size_bytes": 205385258
+    },
+    {
+      "name": "vocab.json",
+      "file_id": "1H3E_MJ-Dl36AQV6jLbna2EdvgPaqvqcC",
+      "size_bytes": 1317639
+    }
+  ],
+  "scgpt_source": "https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y",
+  "geneformer_v1_files": [
+    {
+      "name": "config.json",
+      "size_bytes": 565
+    },
+    {
+      "name": "model.safetensors",
+      "size_bytes": 41183536
+    },
+    {
+      "name": "ensembl_mapping_dict_gc30M.pkl",
+      "size_bytes": 584125
+    },
+    {
+      "name": "gene_median_dictionary_gc30M.pkl",
+      "size_bytes": 940965
+    },
+    {
+      "name": "gene_name_id_dict_gc30M.pkl",
+      "size_bytes": 1117117
+    },
+    {
+      "name": "token_dictionary_gc30M.pkl",
+      "size_bytes": 788424
+    }
+  ],
+  "geneformer_v1_source": "https://huggingface.co/ctheodoris/Geneformer/tree/main/Geneformer-V1-10M",
+  "vcc2025_availability_checks": [
+    {
+      "split": "train",
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/train/adata_Training.h5ad",
+      "status": 200,
+      "bytes": "15482497461",
+      "etag": "\"-CKCuwqrMwpEDEAE=\""
+    },
+    {
+      "split": "validation",
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/validation/adata_Validation.h5ad",
+      "status": 200,
+      "bytes": "6928967541",
+      "etag": "\"-CKnE7O/MwpEDEAE=\""
+    },
+    {
+      "split": "test",
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/adata_Test.h5ad",
+      "status": 200,
+      "bytes": "11950739168",
+      "etag": "\"-CMzN2+7NwpEDEAE=\""
+    }
+  ]
+}

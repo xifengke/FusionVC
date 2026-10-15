@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "experiment": "01_mlp",
+      "seed": 42,
+      "repeated_training_state_equal": true,
+      "maximum_tensor_difference": 0.0
+    },
+    {
+      "experiment": "02_transformer",
+      "seed": 42,
+      "repeated_training_state_equal": true,
+      "maximum_tensor_difference": 0.0
+    }
+  ],
+  "scope": "exact weights on same machine and installed environment; no cross-device bitwise guarantee"
+}

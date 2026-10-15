@@ -1,0 +1,15 @@
+{
+  "experiment": "01_mlp",
+  "seed": 42,
+  "epochs_run": 36,
+  "best_epoch": 16,
+  "selection_validation_mae": 0.03278011202812195,
+  "parameters": 1266144,
+  "trainable_parameters": 1266144,
+  "training_seconds": 6.448996800001623,
+  "peak_allocated_gpu_bytes": 349361152,
+  "peak_reserved_gpu_bytes": 591396864,
+  "checkpoint_bytes": 5104781,
+  "checkpoint_sha256": "c7b170cd9bb6c9c7611962b8ca607f7cd6d4c011fb2b809f54720e0bb1188189",
+  "scope": "validation only; test untouched; pseudobulk-trained mean-shift baseline"
+}

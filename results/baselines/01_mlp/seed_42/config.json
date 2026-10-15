@@ -1,0 +1,25 @@
+{
+  "experiment": "01_mlp",
+  "model": "mlp",
+  "width": 64,
+  "dropout": 0.1,
+  "layers": 2,
+  "heads": 4,
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "epochs": 120,
+  "patience": 20,
+  "batch_size": 16,
+  "control_bank_size": 32,
+  "validation_control_cells": 256,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "loss": "unpaired_pseudobulk_mse",
+  "selection": "validation_pseudobulk_mae",
+  "mixed_precision": "bf16",
+  "seed": 42
+}

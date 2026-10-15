@@ -1,0 +1,1489 @@
+{
+  "protocol": "final-test-v1",
+  "producer": "fusionvc.final_selection-v1",
+  "frozen": true,
+  "test_used": false,
+  "selection_basis": "official_validation_mae_mean_over_seeds",
+  "selection_rule": "lowest three-seed official validation MAE group per architecture; exact ties by experiment lexicographic order; no seed selection",
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "candidate_groups": [
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "experiment": "mmd_01_mlp_energy",
+      "validation_mae_mean": 0.02805272011707226,
+      "validation_mae_by_seed": {
+        "42": 0.028182023726403712,
+        "43": 0.028235550709068774,
+        "44": 0.027740585915744305
+      }
+    },
+    {
+      "model": "mlp",
+      "variant": "mean",
+      "experiment": "mmd_01_mlp_mean",
+      "validation_mae_mean": 0.028150261950989564,
+      "validation_mae_by_seed": {
+        "42": 0.02822646690532565,
+        "43": 0.028435385562479498,
+        "44": 0.027788933385163545
+      }
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "experiment": "mmd_01_mlp_hybrid",
+      "validation_mae_mean": 0.02822868854428331,
+      "validation_mae_by_seed": {
+        "42": 0.028531516548246146,
+        "43": 0.028421980012208223,
+        "44": 0.027732569072395564
+      }
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "experiment": "mmd_02_transformer_hybrid",
+      "validation_mae_mean": 0.03263727533320586,
+      "validation_mae_by_seed": {
+        "42": 0.03267867485061288,
+        "43": 0.03278279999271035,
+        "44": 0.03245035115629435
+      }
+    },
+    {
+      "model": "transformer",
+      "variant": "mean",
+      "experiment": "mmd_02_transformer_mean",
+      "validation_mae_mean": 0.03267559319734573,
+      "validation_mae_by_seed": {
+        "42": 0.032703618723899125,
+        "43": 0.03283798290416598,
+        "44": 0.032485177963972094
+      }
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "experiment": "mmd_02_transformer_energy",
+      "validation_mae_mean": 0.03308468021452427,
+      "validation_mae_by_seed": {
+        "42": 0.033071187026798725,
+        "43": 0.03320335444062948,
+        "44": 0.0329794991761446
+      }
+    },
+    {
+      "model": "scgpt",
+      "variant": "energy",
+      "experiment": "03_scgpt_energy",
+      "validation_mae_mean": 0.027937944115449986,
+      "validation_mae_by_seed": {
+        "42": 0.028345247022807597,
+        "43": 0.027871480882167815,
+        "44": 0.027597104441374542
+      }
+    },
+    {
+      "model": "scgpt",
+      "variant": "hybrid",
+      "experiment": "03_scgpt_hybrid",
+      "validation_mae_mean": 0.028012574935952824,
+      "validation_mae_by_seed": {
+        "42": 0.02817260043695569,
+        "43": 0.028121880926191806,
+        "44": 0.02774324344471097
+      }
+    },
+    {
+      "model": "scgpt",
+      "variant": "mean",
+      "experiment": "03_scgpt",
+      "validation_mae_mean": 0.02806449377288421,
+      "validation_mae_by_seed": {
+        "42": 0.02821187349036336,
+        "43": 0.02820392793044448,
+        "44": 0.02777767989784479
+      }
+    },
+    {
+      "model": "geneformer",
+      "variant": "energy",
+      "experiment": "04_geneformer_energy",
+      "validation_mae_mean": 0.027827768288552764,
+      "validation_mae_by_seed": {
+        "42": 0.028083262611180545,
+        "43": 0.02777005881071091,
+        "44": 0.027629983443766833
+      }
+    },
+    {
+      "model": "geneformer",
+      "variant": "hybrid",
+      "experiment": "04_geneformer_hybrid",
+      "validation_mae_mean": 0.02801317201306423,
+      "validation_mae_by_seed": {
+        "42": 0.028131156880408525,
+        "43": 0.02811700876802206,
+        "44": 0.027791350390762092
+      }
+    },
+    {
+      "model": "geneformer",
+      "variant": "mean",
+      "experiment": "04_geneformer",
+      "validation_mae_mean": 0.028047438841313124,
+      "validation_mae_by_seed": {
+        "42": 0.028162028528749942,
+        "43": 0.028146441224962473,
+        "44": 0.027833846770226954
+      }
+    },
+    {
+      "model": "concat",
+      "variant": "energy",
+      "experiment": "05_concat_energy",
+      "validation_mae_mean": 0.027686955276876687,
+      "validation_mae_by_seed": {
+        "42": 0.027640323601663113,
+        "43": 0.02766595847904682,
+        "44": 0.02775458374992013
+      }
+    },
+    {
+      "model": "concat",
+      "variant": "hybrid",
+      "experiment": "05_concat_hybrid",
+      "validation_mae_mean": 0.027816579546779394,
+      "validation_mae_by_seed": {
+        "42": 0.027672160919755696,
+        "43": 0.02784819930791855,
+        "44": 0.027929378412663936
+      }
+    },
+    {
+      "model": "concat",
+      "variant": "mean",
+      "experiment": "05_concat",
+      "validation_mae_mean": 0.02794938479860624,
+      "validation_mae_by_seed": {
+        "42": 0.027670157719403506,
+        "43": 0.02813376797363162,
+        "44": 0.028044228702783586
+      }
+    },
+    {
+      "model": "gated",
+      "variant": "energy",
+      "experiment": "06_gated_energy",
+      "validation_mae_mean": 0.027762526118506988,
+      "validation_mae_by_seed": {
+        "42": 0.028043420519679785,
+        "43": 0.0276419673115015,
+        "44": 0.027602190524339675
+      }
+    },
+    {
+      "model": "gated",
+      "variant": "hybrid",
+      "experiment": "06_gated_hybrid",
+      "validation_mae_mean": 0.027986672477175793,
+      "validation_mae_by_seed": {
+        "42": 0.028193212412297726,
+        "43": 0.02799639005213976,
+        "44": 0.02777041496708989
+      }
+    },
+    {
+      "model": "gated",
+      "variant": "mean",
+      "experiment": "06_gated",
+      "validation_mae_mean": 0.02803488346437613,
+      "validation_mae_by_seed": {
+        "42": 0.02818520797416568,
+        "43": 0.02809640746563673,
+        "44": 0.027823034953325988
+      }
+    },
+    {
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "experiment": "07_cross_attention_hybrid",
+      "validation_mae_mean": 0.02768948197364807,
+      "validation_mae_by_seed": {
+        "42": 0.027704687137156726,
+        "43": 0.02775452461093664,
+        "44": 0.027609234172850848
+      }
+    },
+    {
+      "model": "cross_attention",
+      "variant": "energy",
+      "experiment": "07_cross_attention_energy",
+      "validation_mae_mean": 0.0278114261602362,
+      "validation_mae_by_seed": {
+        "42": 0.02778739407658577,
+        "43": 0.02782656755298376,
+        "44": 0.02782031685113907
+      }
+    },
+    {
+      "model": "cross_attention",
+      "variant": "mean",
+      "experiment": "07_cross_attention",
+      "validation_mae_mean": 0.027817002615580955,
+      "validation_mae_by_seed": {
+        "42": 0.027890750858932733,
+        "43": 0.027610031086951495,
+        "44": 0.02795022590085864
+      }
+    }
+  ],
+  "candidate_runs": [
+    {
+      "model": "mlp",
+      "variant": "mean",
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 42,
+      "mae": 0.02822646690532565,
+      "checkpoint_sha256": "efb0c1360401ca7730e56004f1db360305bc67e69946adad60d6996eb0a3a662",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_42/metrics.json",
+      "validation_metrics_sha256": "cf8ff7e6dabad4d5b0dbc597978d81ed72f35a41e556d535086eba7f9e82a734"
+    },
+    {
+      "model": "mlp",
+      "variant": "mean",
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 43,
+      "mae": 0.028435385562479498,
+      "checkpoint_sha256": "ca66a4be6d90856591636169e2a253340390864014cf44a19da5898f45a1b81a",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_43/metrics.json",
+      "validation_metrics_sha256": "46406256ba70347efccd49ab441ab5fa292e3bbecc85ea71d1ee9e88d0c2c8b3"
+    },
+    {
+      "model": "mlp",
+      "variant": "mean",
+      "experiment": "mmd_01_mlp_mean",
+      "seed": 44,
+      "mae": 0.027788933385163545,
+      "checkpoint_sha256": "4aef2cf86a274a6c242bc7e9eefeda6a04bd119d82794da92dc65d4e7d7fa849",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_44/metrics.json",
+      "validation_metrics_sha256": "ff134e7f05c8b251fc73ef9aafad39e35b44d0774ab29cc01ae36395308a482d"
+    },
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 42,
+      "mae": 0.028182023726403712,
+      "checkpoint_sha256": "d57823a2d0533238d42a4ad4af8c1bc0182c406fcec520759fa51aa0cce454b0",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "a854b516e0f17f774364f3c900e89b98c4fa9566753f5cef58d2a9a1c3e611e6"
+    },
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 43,
+      "mae": 0.028235550709068774,
+      "checkpoint_sha256": "fb4db16905ac082eab7fd049b0dbfc0a148bea7d89b814925600eb5878598656",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "f1c5385ea09e7888d5afa93e2bc9ea177c326399c4d24f78af6b351c000e715d"
+    },
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "experiment": "mmd_01_mlp_energy",
+      "seed": 44,
+      "mae": 0.027740585915744305,
+      "checkpoint_sha256": "3cd62cc06a06b1171691b768632396bfc288d998c4cf079e746895a36ccf0235",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "c72d8652e6f52a6fd181ded9dbcc45c5a9caf52420bbcccf7a28a08328e2d516"
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 42,
+      "mae": 0.028531516548246146,
+      "checkpoint_sha256": "77720c622a7e4af7b19f6f9450b354a8b1fb0ba6cde7e9f456eb4f5570584fb9",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "782571d87e0a36cbf309d2e066c28ad1bb3e5f786ea5e83a570cdc5450f91ecb"
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 43,
+      "mae": 0.028421980012208223,
+      "checkpoint_sha256": "1029b719fdec6fc8a11edc596d804dda9dfaedbffb65d94c03d55ff726b5af29",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "806dffe59d6c133a4f71d3100fac0ba3ca6ccb49427e9ac7e0b8e32aab41c2cf"
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "experiment": "mmd_01_mlp_hybrid",
+      "seed": 44,
+      "mae": 0.027732569072395564,
+      "checkpoint_sha256": "9dcd8dcf50476301f9b45edcc31c5e43ba54719c4504cb90750cabfda6148a2d",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "eca32a0bc4e14466071c5a1addd773de840f941ef68b9a62656d48ef5ad0d1f9"
+    },
+    {
+      "model": "transformer",
+      "variant": "mean",
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 42,
+      "mae": 0.032703618723899125,
+      "checkpoint_sha256": "bfe27f99b57b83f75ddd6f220c975958ad8a222b688cab9c2d9b1e0a67ca4469",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_mean/seed_42/metrics.json",
+      "validation_metrics_sha256": "bb443e3cb777f5031cd92a5011e44a5b58ebb47c9217a3cae8d05be869703f5a"
+    },
+    {
+      "model": "transformer",
+      "variant": "mean",
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 43,
+      "mae": 0.03283798290416598,
+      "checkpoint_sha256": "ee0fea3f3aa7deafa02670201b567f3bc8bac38ad9906067c3d770facf75ac77",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_mean/seed_43/metrics.json",
+      "validation_metrics_sha256": "2fe08c3c7194821b91b5219aa4aa824f8961216fb093a842870d25aeb3ef660e"
+    },
+    {
+      "model": "transformer",
+      "variant": "mean",
+      "experiment": "mmd_02_transformer_mean",
+      "seed": 44,
+      "mae": 0.032485177963972094,
+      "checkpoint_sha256": "5e10755cf97d7344befaa55f3657a69f70399191b2bb2ee5bef5fa822b51dca4",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_mean/seed_44/metrics.json",
+      "validation_metrics_sha256": "16e66f7827ba1067606a18047739b96d8655df287fe820f4f989715a8baa5b44"
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 42,
+      "mae": 0.033071187026798725,
+      "checkpoint_sha256": "1c17f8aa2842b05fe95f49f832be80488b71140e3c7243f869f5a7c83ef41886",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "70e15774cf5529f3f4d9d0a434209091b44bfb5761c6c67e6c036a84bfa2096d"
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 43,
+      "mae": 0.03320335444062948,
+      "checkpoint_sha256": "50008c23a59450d1cd5f4f505f0b6c8bcbc49c6d04bce51f238b56ab8bf378e9",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "dd19b4bb6c59f2b1d5a881f0aea269b6cf623a1dff190c671b920071df391c1c"
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "experiment": "mmd_02_transformer_energy",
+      "seed": 44,
+      "mae": 0.0329794991761446,
+      "checkpoint_sha256": "b80f3ee20804eda478a6d5447d0eec2e0204295663a807165a7d9fe7edaae32a",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "761dd26e47b2bac12b398781a3fb2fe6ea34d6ef9c141ba4ac5cb9d6435f37c2"
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 42,
+      "mae": 0.03267867485061288,
+      "checkpoint_sha256": "0c08979866872a527d4c56671fb62449707e4d76359873d9e5cc2b1c66a1f579",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "cf6abb9b6300a965ad1fc344b4563f0c283f8b6c204ccf6e95aa5789696b77e9"
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 43,
+      "mae": 0.03278279999271035,
+      "checkpoint_sha256": "486372168da16180ec099ea37bfca95c033ca6c93668be9ff645188470f023cd",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "acce5786263752bd3d9ce1dc9cf032be1f8a244e1e81eaabeb44e514907778c7"
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "experiment": "mmd_02_transformer_hybrid",
+      "seed": 44,
+      "mae": 0.03245035115629435,
+      "checkpoint_sha256": "d7371a2c3d2e6c33dd1c61d907198630232183a55bd22236f4e97daec6f52dbd",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "ce87d9997803fa2ea9c2782f9f435d29f6449e9f061dd132bd4f4c297e42f666"
+    },
+    {
+      "model": "scgpt",
+      "variant": "mean",
+      "experiment": "03_scgpt",
+      "seed": 42,
+      "mae": 0.02821187349036336,
+      "checkpoint_sha256": "13a745592d7063a65188890fe13c2b708b1da44623b32d32519717b3bd41e56a",
+      "validation_metrics_path": "results/scgpt/03_scgpt/seed_42/metrics.json",
+      "validation_metrics_sha256": "367e2fca05ffba986e33c5f54728d239e0039a6913fe77e9e41e7ea17dd851cb"
+    },
+    {
+      "model": "scgpt",
+      "variant": "mean",
+      "experiment": "03_scgpt",
+      "seed": 43,
+      "mae": 0.02820392793044448,
+      "checkpoint_sha256": "7b1cb433e9aadc61b423cc5869db7c2898231160785da15ab8806c9721f83ee5",
+      "validation_metrics_path": "results/scgpt/03_scgpt/seed_43/metrics.json",
+      "validation_metrics_sha256": "315f79b4e1fdc2e3806863bfdffa6a9a99710352713e3f566e564ad1e6d9d4b4"
+    },
+    {
+      "model": "scgpt",
+      "variant": "mean",
+      "experiment": "03_scgpt",
+      "seed": 44,
+      "mae": 0.02777767989784479,
+      "checkpoint_sha256": "43a02e2d923a622d773662070a46452380c6d37cec100d54c43efa17571c9ed7",
+      "validation_metrics_path": "results/scgpt/03_scgpt/seed_44/metrics.json",
+      "validation_metrics_sha256": "ab7d7ad2dfd1357b610bd5b3f7e6f045d4816e569ed1674c73ad3ddc89681792"
+    },
+    {
+      "model": "scgpt",
+      "variant": "energy",
+      "experiment": "03_scgpt_energy",
+      "seed": 42,
+      "mae": 0.028345247022807597,
+      "checkpoint_sha256": "a8a17894c8ebdc4a36ef29b3391fa9fcafe9cdd2ade6c3f36ec2cbfbeb59131f",
+      "validation_metrics_path": "results/scgpt/03_scgpt_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "6cba71d35e02a8b3639fd49446acb557d34173fb151ec1b5f8180f12a1d92620"
+    },
+    {
+      "model": "scgpt",
+      "variant": "energy",
+      "experiment": "03_scgpt_energy",
+      "seed": 43,
+      "mae": 0.027871480882167815,
+      "checkpoint_sha256": "8776beeb40f8692055ebcbb3d9fe04b6d25d50d748bae47d5961fe1ac2a516c6",
+      "validation_metrics_path": "results/scgpt/03_scgpt_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "f06b3feeac2807399e39e69789ca0a7e8b4955fea5a3829211988d421a990114"
+    },
+    {
+      "model": "scgpt",
+      "variant": "energy",
+      "experiment": "03_scgpt_energy",
+      "seed": 44,
+      "mae": 0.027597104441374542,
+      "checkpoint_sha256": "b7355b1cec8d76f2f169e557a9ced34040df836b5a79eb20fa915af32ebab494",
+      "validation_metrics_path": "results/scgpt/03_scgpt_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "1871fcbaeb3c151d310718ff3212f76faea7b028e39f0c110707f3a33bcbf3e7"
+    },
+    {
+      "model": "scgpt",
+      "variant": "hybrid",
+      "experiment": "03_scgpt_hybrid",
+      "seed": 42,
+      "mae": 0.02817260043695569,
+      "checkpoint_sha256": "299ee6f3fd4bb617acbf436da9225cab7b6dd87f674944d2ca56d588b75c81db",
+      "validation_metrics_path": "results/scgpt/03_scgpt_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "8553873dbf8029a9c418e8171c742440c4d2d3032f8d4d5f53c127f9dfe30637"
+    },
+    {
+      "model": "scgpt",
+      "variant": "hybrid",
+      "experiment": "03_scgpt_hybrid",
+      "seed": 43,
+      "mae": 0.028121880926191806,
+      "checkpoint_sha256": "31140b5eefe29f7a6c6abd40b3ab8cb2a2371d0a2fb65a3bbcbb2a8cfd931a2c",
+      "validation_metrics_path": "results/scgpt/03_scgpt_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "7b4e23d30dfb4d4f04d45bbd7fd1bcc2f866327aa2969a4b0eb9c48ede093d9e"
+    },
+    {
+      "model": "scgpt",
+      "variant": "hybrid",
+      "experiment": "03_scgpt_hybrid",
+      "seed": 44,
+      "mae": 0.02774324344471097,
+      "checkpoint_sha256": "e4bc293f313c6a25d0b7428a38f94de4eaf1c6b5b1397509e54d785944736d39",
+      "validation_metrics_path": "results/scgpt/03_scgpt_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "a540551806a79f8ddb7b0d4be435ac817e5bedfc567e1705b26f6e351d45056e"
+    },
+    {
+      "model": "geneformer",
+      "variant": "mean",
+      "experiment": "04_geneformer",
+      "seed": 42,
+      "mae": 0.028162028528749942,
+      "checkpoint_sha256": "d6e9e51a392e8b5dd08379aac3c668bdb545eb37badf47fd034e7d2fb98f9518",
+      "validation_metrics_path": "results/geneformer/04_geneformer/seed_42/metrics.json",
+      "validation_metrics_sha256": "8c64430ebd97fd1a682796bf1d036ab6dbe85e11a940784eaa1c3a6fa7260414"
+    },
+    {
+      "model": "geneformer",
+      "variant": "mean",
+      "experiment": "04_geneformer",
+      "seed": 43,
+      "mae": 0.028146441224962473,
+      "checkpoint_sha256": "888bde681ab7f3af8f6f3f61365e774252aff30ddd491c2171715d44edf7a46b",
+      "validation_metrics_path": "results/geneformer/04_geneformer/seed_43/metrics.json",
+      "validation_metrics_sha256": "fe32948f73b33f7d5b47ac8f55d29d78a9e061a68ae663b4213fb2e9292ff48c"
+    },
+    {
+      "model": "geneformer",
+      "variant": "mean",
+      "experiment": "04_geneformer",
+      "seed": 44,
+      "mae": 0.027833846770226954,
+      "checkpoint_sha256": "42745111a067edc62e1915cb00b5abd4087c97625c67c84ad315a5fe596a3936",
+      "validation_metrics_path": "results/geneformer/04_geneformer/seed_44/metrics.json",
+      "validation_metrics_sha256": "9b9a893b605c70c00ba4b104504906370cf5c746d853ca7f749faaf792473955"
+    },
+    {
+      "model": "geneformer",
+      "variant": "energy",
+      "experiment": "04_geneformer_energy",
+      "seed": 42,
+      "mae": 0.028083262611180545,
+      "checkpoint_sha256": "8edfebd9a052f0888972912c78d54df38d706e1da278dabfc8dc1b7513d77e0f",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "16dbc7b6c0885893200877566ac166cc8483a69ceb2d72a0c7f542b776b27b3b"
+    },
+    {
+      "model": "geneformer",
+      "variant": "energy",
+      "experiment": "04_geneformer_energy",
+      "seed": 43,
+      "mae": 0.02777005881071091,
+      "checkpoint_sha256": "568e59deb7d3b16c8089ce540f04522485afcbe6c1072b80831f1559052959c6",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "269b4da458fa727ae391549e2d7e31646a18d08749f191f0d1b632a0ec76df49"
+    },
+    {
+      "model": "geneformer",
+      "variant": "energy",
+      "experiment": "04_geneformer_energy",
+      "seed": 44,
+      "mae": 0.027629983443766833,
+      "checkpoint_sha256": "339714ba00cb56a1a4144cfb52418bc3ee044a57a9cc0038434d344103121b77",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "bf8a14f8d51f862e8c4183e46dace1b830c2de07044c2d202b5fd05581849e22"
+    },
+    {
+      "model": "geneformer",
+      "variant": "hybrid",
+      "experiment": "04_geneformer_hybrid",
+      "seed": 42,
+      "mae": 0.028131156880408525,
+      "checkpoint_sha256": "2e363de2eb21f0deedc8d607dee9e8667a9430034066b346c5df8d69f436abc5",
+      "validation_metrics_path": "results/geneformer/04_geneformer_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "c7a96e9b690c86f2991849f9fc252c176dce0c9f65d167d213184fa349bbaa13"
+    },
+    {
+      "model": "geneformer",
+      "variant": "hybrid",
+      "experiment": "04_geneformer_hybrid",
+      "seed": 43,
+      "mae": 0.02811700876802206,
+      "checkpoint_sha256": "056b95fa57b921adcc9ccfe7241ec56e04041f51b23252d3df46eed96ca0f0d0",
+      "validation_metrics_path": "results/geneformer/04_geneformer_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "88c3cba14ea6a9e5c0e8ec60407068363aca5585643a98e054295ecfbd633f4a"
+    },
+    {
+      "model": "geneformer",
+      "variant": "hybrid",
+      "experiment": "04_geneformer_hybrid",
+      "seed": 44,
+      "mae": 0.027791350390762092,
+      "checkpoint_sha256": "d2cb401ef3635b311467320e9ca9aadf118476c1753a55467efd575d52a5eebe",
+      "validation_metrics_path": "results/geneformer/04_geneformer_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "021b09063cbb9a740cd422aad8af585d9bc368081d020bef96d2374f5f002e7e"
+    },
+    {
+      "model": "concat",
+      "variant": "mean",
+      "experiment": "05_concat",
+      "seed": 42,
+      "mae": 0.027670157719403506,
+      "checkpoint_sha256": "45e66e8f811382943eb5b7d04dfab56912c8871fd16b7940354cc64b7b8c1851",
+      "validation_metrics_path": "results/fusion/05_concat/seed_42/metrics.json",
+      "validation_metrics_sha256": "ce35573e70462c4f3767ee94dd679ace1351ddeb2bddd5f6dcc8706e9261d54e"
+    },
+    {
+      "model": "concat",
+      "variant": "mean",
+      "experiment": "05_concat",
+      "seed": 43,
+      "mae": 0.02813376797363162,
+      "checkpoint_sha256": "5f2c1449acada268018d97d80bf7dff499f24f12daa859a4f6323c1655db5f22",
+      "validation_metrics_path": "results/fusion/05_concat/seed_43/metrics.json",
+      "validation_metrics_sha256": "ecc300bbe42a038926f09a2efc04b48e8b515ad0064038a8024d296953dea781"
+    },
+    {
+      "model": "concat",
+      "variant": "mean",
+      "experiment": "05_concat",
+      "seed": 44,
+      "mae": 0.028044228702783586,
+      "checkpoint_sha256": "3c8ce544eeeca761e453f6011548fc29993c2c207e2b095abd44c353b1c454c6",
+      "validation_metrics_path": "results/fusion/05_concat/seed_44/metrics.json",
+      "validation_metrics_sha256": "d3595d7e6fe8b3e05d49c58c863f9369b0b210cfa465cfb16fb0a96e925dc291"
+    },
+    {
+      "model": "concat",
+      "variant": "energy",
+      "experiment": "05_concat_energy",
+      "seed": 42,
+      "mae": 0.027640323601663113,
+      "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+      "validation_metrics_path": "results/fusion/05_concat_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "e8ab4cf700f35e65e43fda476a7386a306f790070b94250c8f1664ee41408bef"
+    },
+    {
+      "model": "concat",
+      "variant": "energy",
+      "experiment": "05_concat_energy",
+      "seed": 43,
+      "mae": 0.02766595847904682,
+      "checkpoint_sha256": "12c16a66d6c77129294b44ea4789a13f3b6f06576ad7f46b5e3bd01b65f1518b",
+      "validation_metrics_path": "results/fusion/05_concat_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "fe7badc4d0bec0bcb3efc6b35ff27867c873fa326aec9b882748b661b1559237"
+    },
+    {
+      "model": "concat",
+      "variant": "energy",
+      "experiment": "05_concat_energy",
+      "seed": 44,
+      "mae": 0.02775458374992013,
+      "checkpoint_sha256": "b9403ec0f516a80130803a1543ae2e1cfa2bfce46ac281d21a64e73267a57985",
+      "validation_metrics_path": "results/fusion/05_concat_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "f8a2779ec2e45105e81b45b1a973ea4821570bbb773cb517698de15b91e92f39"
+    },
+    {
+      "model": "concat",
+      "variant": "hybrid",
+      "experiment": "05_concat_hybrid",
+      "seed": 42,
+      "mae": 0.027672160919755696,
+      "checkpoint_sha256": "c992dd593626a49aa97e1a1a8ee0921a60bd04a84c0bde3c7d5ccccbd94f48c8",
+      "validation_metrics_path": "results/fusion/05_concat_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "833e931762778fa52aff3644953d25abc8a3d375de43c4058ec1fca2f75be8aa"
+    },
+    {
+      "model": "concat",
+      "variant": "hybrid",
+      "experiment": "05_concat_hybrid",
+      "seed": 43,
+      "mae": 0.02784819930791855,
+      "checkpoint_sha256": "8c5a0ef5da571202d3b267249cd4026c5cb5fa5977130dc5845badb78d867ef7",
+      "validation_metrics_path": "results/fusion/05_concat_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "0851f4a12149665d923186706c57782e5f278a36b9653313b8fbd8bd0b62dbe3"
+    },
+    {
+      "model": "concat",
+      "variant": "hybrid",
+      "experiment": "05_concat_hybrid",
+      "seed": 44,
+      "mae": 0.027929378412663936,
+      "checkpoint_sha256": "a819c162ae4fa73e3ba4603e77d3ff8b50798b7e2136d6718bd0625fdae426dd",
+      "validation_metrics_path": "results/fusion/05_concat_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "ca959544feee9421c26c7d00029bc5e8af4fce82f2e4b3b2bbb26d0149947ed4"
+    },
+    {
+      "model": "gated",
+      "variant": "mean",
+      "experiment": "06_gated",
+      "seed": 42,
+      "mae": 0.02818520797416568,
+      "checkpoint_sha256": "31e70826bc0642e26d0988824a781aa03bab108205313c6caa59f7f50e5edd2e",
+      "validation_metrics_path": "results/fusion/06_gated/seed_42/metrics.json",
+      "validation_metrics_sha256": "2c3363c43f97877e376c418a99b23ccd67da4acc9faad4f67bfe1512984de759"
+    },
+    {
+      "model": "gated",
+      "variant": "mean",
+      "experiment": "06_gated",
+      "seed": 43,
+      "mae": 0.02809640746563673,
+      "checkpoint_sha256": "f4f9584014881a57662b8eb7e9648a6a21bf2d2b3b6f57fc2d546a1430ff52ab",
+      "validation_metrics_path": "results/fusion/06_gated/seed_43/metrics.json",
+      "validation_metrics_sha256": "908876ac6cb16a18d4a2d4b483790e4a75c069648519adde5fd29c98bbc5e15a"
+    },
+    {
+      "model": "gated",
+      "variant": "mean",
+      "experiment": "06_gated",
+      "seed": 44,
+      "mae": 0.027823034953325988,
+      "checkpoint_sha256": "459745d813adf4332b6488cbe3ea41c4e79a924610695b09b90b3d31d2d6afd0",
+      "validation_metrics_path": "results/fusion/06_gated/seed_44/metrics.json",
+      "validation_metrics_sha256": "455cba12a6e0311a2cbfdb609fb35a5a37e6728039c48006b9f3bae24c2ba631"
+    },
+    {
+      "model": "gated",
+      "variant": "energy",
+      "experiment": "06_gated_energy",
+      "seed": 42,
+      "mae": 0.028043420519679785,
+      "checkpoint_sha256": "b7d1b0ef19a047d614d895daa57f760988ad349baa2aea1f010e0db6a1f74f14",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "c6b854e622b9dd98d3b14c3fd9296ce8a56616abadea074a46aa4a0fdad01944"
+    },
+    {
+      "model": "gated",
+      "variant": "energy",
+      "experiment": "06_gated_energy",
+      "seed": 43,
+      "mae": 0.0276419673115015,
+      "checkpoint_sha256": "26e0072f4ddd24e773b6e0bf6deaded6685dee160d1854ca2ae5fedfc73538a2",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "b7e48595854cdd5ac31dbcb4b3ec2cf8ea4119d31e2fbb70aba8814ce6d44792"
+    },
+    {
+      "model": "gated",
+      "variant": "energy",
+      "experiment": "06_gated_energy",
+      "seed": 44,
+      "mae": 0.027602190524339675,
+      "checkpoint_sha256": "8835e6a880c097d5b82c802b019928a5fd031989c53abcca145ff713fb4d1425",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "227a3300953f80bd925cf444d0d0840bcd4dd3e0eb696f30f5d7d1daa515595e"
+    },
+    {
+      "model": "gated",
+      "variant": "hybrid",
+      "experiment": "06_gated_hybrid",
+      "seed": 42,
+      "mae": 0.028193212412297726,
+      "checkpoint_sha256": "9d0cb4df38aec956b1ef532a543f5f67c604823d18cacd93cb99a3dfa9b5f8f0",
+      "validation_metrics_path": "results/fusion/06_gated_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "d0d3a16a0550d3500e2539d68881750859b9ad9bf9a4489c8ffc49ee86f14438"
+    },
+    {
+      "model": "gated",
+      "variant": "hybrid",
+      "experiment": "06_gated_hybrid",
+      "seed": 43,
+      "mae": 0.02799639005213976,
+      "checkpoint_sha256": "c64d5970609f15cf4cebd884741648ea665e9a8c34d0d2f4c39ab0a6b34559d4",
+      "validation_metrics_path": "results/fusion/06_gated_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "f2fe3825f2927192ade302afd35310afb80bb1c4c6624e0a5419ca8e0a334ee6"
+    },
+    {
+      "model": "gated",
+      "variant": "hybrid",
+      "experiment": "06_gated_hybrid",
+      "seed": 44,
+      "mae": 0.02777041496708989,
+      "checkpoint_sha256": "4a2384f0ae29f53a15dd4abe694dfd305628b2a348a7a83a1c42436b51a58522",
+      "validation_metrics_path": "results/fusion/06_gated_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "40b4e0da9c5b5484f57aab9a992cf6fc6556f753939cdfccddbdf0cadbc7dbc7"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "mean",
+      "experiment": "07_cross_attention",
+      "seed": 42,
+      "mae": 0.027890750858932733,
+      "checkpoint_sha256": "f9163f9776b6717fb8e482f1eb3d0d53e9d128437b40e565d56c668b16d9ac43",
+      "validation_metrics_path": "results/fusion/07_cross_attention/seed_42/metrics.json",
+      "validation_metrics_sha256": "b770f0649cb5455434689cf05af4d0fd9ba497348f59b44e60f8e5bf82421804"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "mean",
+      "experiment": "07_cross_attention",
+      "seed": 43,
+      "mae": 0.027610031086951495,
+      "checkpoint_sha256": "d0aa18167df73eeba723f6feae41928674922c4fc65cb46eacaa9cf37332d204",
+      "validation_metrics_path": "results/fusion/07_cross_attention/seed_43/metrics.json",
+      "validation_metrics_sha256": "8e24ee1c6274bb3cd614e3cbb3f85e71daa9b263eea5a3225280f17f2905ed13"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "mean",
+      "experiment": "07_cross_attention",
+      "seed": 44,
+      "mae": 0.02795022590085864,
+      "checkpoint_sha256": "05c6aecc52943a629de0b843dbd2ce8274ca775682e7ea873edb7f5c4a25582d",
+      "validation_metrics_path": "results/fusion/07_cross_attention/seed_44/metrics.json",
+      "validation_metrics_sha256": "c5221b4f2ecfeee9141156cb7766b0ef81a6544f9466927ecd9922878e51d265"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "energy",
+      "experiment": "07_cross_attention_energy",
+      "seed": 42,
+      "mae": 0.02778739407658577,
+      "checkpoint_sha256": "6b8746be9ce190e46a8fadc929e091a598e074e2b553ee179ea27fbd5aadf5b5",
+      "validation_metrics_path": "results/fusion/07_cross_attention_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "dca468f1158c0363accf69dccf93d123667207fbb19a9a31452724bbd108b8b5"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "energy",
+      "experiment": "07_cross_attention_energy",
+      "seed": 43,
+      "mae": 0.02782656755298376,
+      "checkpoint_sha256": "686ccff443e0e62f6a0c21abea08793e0389c1eef8cc6224a6933142bab0ac3b",
+      "validation_metrics_path": "results/fusion/07_cross_attention_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "5e03c0b2d117bbaeccce97d0b4351b056dff2cef74da6a03a2166f66b93a6ec2"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "energy",
+      "experiment": "07_cross_attention_energy",
+      "seed": 44,
+      "mae": 0.02782031685113907,
+      "checkpoint_sha256": "ef13a171eeee1174b544ec734e55bd9ac4f31c644b0aa95ab13009314826a329",
+      "validation_metrics_path": "results/fusion/07_cross_attention_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "cf913eca02ef8098c652cf6904bac5b7d6ce3c0c87127d76eb1ba5fefbd76e8a"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "experiment": "07_cross_attention_hybrid",
+      "seed": 42,
+      "mae": 0.027704687137156726,
+      "checkpoint_sha256": "456a7432ce793a27792f6c47c8d0622638b83e4451e1392bcf73e2a74b2ae642",
+      "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "f64c62dc2788c7e25299560a361ad054efab7879b610c67d67531d292c0f6464"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "experiment": "07_cross_attention_hybrid",
+      "seed": 43,
+      "mae": 0.02775452461093664,
+      "checkpoint_sha256": "f62413695285af60cc45ed225e66700fce27aa2612f77218ee24e4cf8e9de0fa",
+      "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "41000c3a833d98034a053eedec29e69f202ecf79ed2f0cde4014a9c62b874b03"
+    },
+    {
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "experiment": "07_cross_attention_hybrid",
+      "seed": 44,
+      "mae": 0.027609234172850848,
+      "checkpoint_sha256": "db7e786dda2edf6d7f52da6553d1d05e44979f5c17776c7f31f1d095ea4bc17e",
+      "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "a4b6075c1b8975c94aa6625c6695cd09bad576df9ba7fd77bd9f5c8ca100d836"
+    }
+  ],
+  "selected_groups": [
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "experiment": "mmd_01_mlp_energy",
+      "validation_mae_mean": 0.02805272011707226,
+      "validation_mae_by_seed": {
+        "42": 0.028182023726403712,
+        "43": 0.028235550709068774,
+        "44": 0.027740585915744305
+      }
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "experiment": "mmd_02_transformer_hybrid",
+      "validation_mae_mean": 0.03263727533320586,
+      "validation_mae_by_seed": {
+        "42": 0.03267867485061288,
+        "43": 0.03278279999271035,
+        "44": 0.03245035115629435
+      }
+    },
+    {
+      "model": "scgpt",
+      "variant": "energy",
+      "experiment": "03_scgpt_energy",
+      "validation_mae_mean": 0.027937944115449986,
+      "validation_mae_by_seed": {
+        "42": 0.028345247022807597,
+        "43": 0.027871480882167815,
+        "44": 0.027597104441374542
+      }
+    },
+    {
+      "model": "geneformer",
+      "variant": "energy",
+      "experiment": "04_geneformer_energy",
+      "validation_mae_mean": 0.027827768288552764,
+      "validation_mae_by_seed": {
+        "42": 0.028083262611180545,
+        "43": 0.02777005881071091,
+        "44": 0.027629983443766833
+      }
+    },
+    {
+      "model": "concat",
+      "variant": "energy",
+      "experiment": "05_concat_energy",
+      "validation_mae_mean": 0.027686955276876687,
+      "validation_mae_by_seed": {
+        "42": 0.027640323601663113,
+        "43": 0.02766595847904682,
+        "44": 0.02775458374992013
+      }
+    },
+    {
+      "model": "gated",
+      "variant": "energy",
+      "experiment": "06_gated_energy",
+      "validation_mae_mean": 0.027762526118506988,
+      "validation_mae_by_seed": {
+        "42": 0.028043420519679785,
+        "43": 0.0276419673115015,
+        "44": 0.027602190524339675
+      }
+    },
+    {
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "experiment": "07_cross_attention_hybrid",
+      "validation_mae_mean": 0.02768948197364807,
+      "validation_mae_by_seed": {
+        "42": 0.027704687137156726,
+        "43": 0.02775452461093664,
+        "44": 0.027609234172850848
+      }
+    }
+  ],
+  "student": {
+    "model": "distillation",
+    "variant": "mean_kd",
+    "experiment": "08_distillation",
+    "kd_weight": 1.0
+  },
+  "teacher_selection": {
+    "rule": "minimum three-seed official validation MAE mean over nine fusion model/loss groups; exact ties by experiment; fixed seed42 checkpoint; no ensemble",
+    "candidates": [
+      {
+        "experiment": "05_concat_energy",
+        "model": "concat",
+        "variant": "energy",
+        "validation_mae_mean": 0.027686955276876687,
+        "validation_mae_std": 5.99541033563171e-05,
+        "seeds": 3
+      },
+      {
+        "experiment": "07_cross_attention_hybrid",
+        "model": "cross_attention",
+        "variant": "hybrid",
+        "validation_mae_mean": 0.02768948197364807,
+        "validation_mae_std": 7.38290295059064e-05,
+        "seeds": 3
+      },
+      {
+        "experiment": "06_gated_energy",
+        "model": "gated",
+        "variant": "energy",
+        "validation_mae_mean": 0.027762526118506988,
+        "validation_mae_std": 0.00024407334278224232,
+        "seeds": 3
+      },
+      {
+        "experiment": "07_cross_attention_energy",
+        "model": "cross_attention",
+        "variant": "energy",
+        "validation_mae_mean": 0.0278114261602362,
+        "validation_mae_std": 2.1045750208149173e-05,
+        "seeds": 3
+      },
+      {
+        "experiment": "05_concat_hybrid",
+        "model": "concat",
+        "variant": "hybrid",
+        "validation_mae_mean": 0.027816579546779394,
+        "validation_mae_std": 0.00013149169797128994,
+        "seeds": 3
+      },
+      {
+        "experiment": "07_cross_attention",
+        "model": "cross_attention",
+        "variant": "mean",
+        "validation_mae_mean": 0.027817002615580955,
+        "validation_mae_std": 0.0001816926811966675,
+        "seeds": 3
+      },
+      {
+        "experiment": "05_concat",
+        "model": "concat",
+        "variant": "mean",
+        "validation_mae_mean": 0.02794938479860624,
+        "validation_mae_std": 0.00024592710622472184,
+        "seeds": 3
+      },
+      {
+        "experiment": "06_gated_hybrid",
+        "model": "gated",
+        "variant": "hybrid",
+        "validation_mae_mean": 0.027986672477175793,
+        "validation_mae_std": 0.00021156616781979417,
+        "seeds": 3
+      },
+      {
+        "experiment": "06_gated",
+        "model": "gated",
+        "variant": "mean",
+        "validation_mae_mean": 0.02803488346437613,
+        "validation_mae_std": 0.00018876235404437054,
+        "seeds": 3
+      }
+    ],
+    "experiment": "05_concat_energy",
+    "model": "concat",
+    "variant": "energy",
+    "seed": 42,
+    "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+    "teacher_checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+    "teacher_experiment": "05_concat_energy",
+    "teacher_seed": 42,
+    "selected_checkpoint_validation_mae": 0.027640323601663113,
+    "selected_group_validation_mae_mean": 0.027686955276876687,
+    "test_used": false
+  },
+  "validation_receipts": [
+    {
+      "path": "results/fusion-mmd/report-provenance.json",
+      "sha256": "05395bbf1ddabffaf541616e6352fe124b7677580ec0cf8712d017aef7305fd1"
+    },
+    {
+      "path": "results/fusion-mmd/artifact-verification.json",
+      "sha256": "88840a1a8bddef028d13b767e9519288bdb4ad123829aedb61de4d5db39da855"
+    },
+    {
+      "path": "results/fusion-mmd/reproducibility-check.json",
+      "sha256": "e05bc460c35e689395c3bb7a526e2460f0dc23a5958c74199fe3c4f284522a8c"
+    },
+    {
+      "path": "results/fusion-mmd/validation-checks.json",
+      "sha256": "c832f97e075a14cde7277202c51eeabeb014e012b1df28d0de4fb007da4c5092"
+    },
+    {
+      "path": "results/fusion/implementation-check.json",
+      "sha256": "4eb5c0c9963b6c431d1ee4ccc9f9d4cf24a6cda8a5da6a14d22000c71c3d6233"
+    },
+    {
+      "path": "results/distillation/teacher-selection.json",
+      "sha256": "346c4f033eb80d5ab23a670c9fa05347f2d6d63e301202e43fe42b9a0a4144f8"
+    },
+    {
+      "path": "results/distillation/report-provenance.json",
+      "sha256": "575f87577eb0e49556a2abe996741a0f08e9d440a194d6b387b3502f92a7c071"
+    },
+    {
+      "path": "results/distillation/artifact-verification.json",
+      "sha256": "1a08fd29a2e422bee33680b3948d3803665f506b95767ef445649b41df1fa962"
+    },
+    {
+      "path": "results/distillation/reproducibility-check.json",
+      "sha256": "ab990a815c6cdc9f87ca0c1d95dbd174ebe4d6db64c3a88696c03f9e170dc35c"
+    },
+    {
+      "path": "results/distillation/zero-kd-parity.json",
+      "sha256": "55adb82b3d176d95c26add1f169cc2a990f7b2511684e29d06f0cb2adb137feb"
+    },
+    {
+      "path": "results/distillation/validation-checks.json",
+      "sha256": "a121d41a7aaf3bc823ec2b7f218ff1ddbc62629288ec6d3bc2f3598d943f1f7f"
+    },
+    {
+      "path": "results/distillation/cost-benchmark.json",
+      "sha256": "662093bd80885d0dce34a5d4465bc5364dd186d412942ee84bc936fda8e825d6"
+    }
+  ],
+  "runs": [
+    {
+      "label": "mlp_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "mmd_01_mlp_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_01_mlp_energy/seed_42/best.pt",
+      "checkpoint_sha256": "d57823a2d0533238d42a4ad4af8c1bc0182c406fcec520759fa51aa0cce454b0",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "a854b516e0f17f774364f3c900e89b98c4fa9566753f5cef58d2a9a1c3e611e6",
+      "validation_mae": 0.028182023726403712
+    },
+    {
+      "label": "mlp_energy_seed_43",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "energy",
+      "seed": 43,
+      "experiment": "mmd_01_mlp_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_01_mlp_energy/seed_43/best.pt",
+      "checkpoint_sha256": "fb4db16905ac082eab7fd049b0dbfc0a148bea7d89b814925600eb5878598656",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "f1c5385ea09e7888d5afa93e2bc9ea177c326399c4d24f78af6b351c000e715d",
+      "validation_mae": 0.028235550709068774
+    },
+    {
+      "label": "mlp_energy_seed_44",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "energy",
+      "seed": 44,
+      "experiment": "mmd_01_mlp_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_01_mlp_energy/seed_44/best.pt",
+      "checkpoint_sha256": "3cd62cc06a06b1171691b768632396bfc288d998c4cf079e746895a36ccf0235",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "c72d8652e6f52a6fd181ded9dbcc45c5a9caf52420bbcccf7a28a08328e2d516",
+      "validation_mae": 0.027740585915744305
+    },
+    {
+      "label": "transformer_hybrid_seed_42",
+      "kind": "checkpoint",
+      "model": "transformer",
+      "variant": "hybrid",
+      "seed": 42,
+      "experiment": "mmd_02_transformer_hybrid",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_02_transformer_hybrid/seed_42/best.pt",
+      "checkpoint_sha256": "0c08979866872a527d4c56671fb62449707e4d76359873d9e5cc2b1c66a1f579",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "cf6abb9b6300a965ad1fc344b4563f0c283f8b6c204ccf6e95aa5789696b77e9",
+      "validation_mae": 0.03267867485061288
+    },
+    {
+      "label": "transformer_hybrid_seed_43",
+      "kind": "checkpoint",
+      "model": "transformer",
+      "variant": "hybrid",
+      "seed": 43,
+      "experiment": "mmd_02_transformer_hybrid",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_02_transformer_hybrid/seed_43/best.pt",
+      "checkpoint_sha256": "486372168da16180ec099ea37bfca95c033ca6c93668be9ff645188470f023cd",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "acce5786263752bd3d9ce1dc9cf032be1f8a244e1e81eaabeb44e514907778c7",
+      "validation_mae": 0.03278279999271035
+    },
+    {
+      "label": "transformer_hybrid_seed_44",
+      "kind": "checkpoint",
+      "model": "transformer",
+      "variant": "hybrid",
+      "seed": 44,
+      "experiment": "mmd_02_transformer_hybrid",
+      "role": "main",
+      "checkpoint_path": "outputs/mmd_02_transformer_hybrid/seed_44/best.pt",
+      "checkpoint_sha256": "d7371a2c3d2e6c33dd1c61d907198630232183a55bd22236f4e97daec6f52dbd",
+      "validation_metrics_path": "results/mmd/mmd_02_transformer_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "ce87d9997803fa2ea9c2782f9f435d29f6449e9f061dd132bd4f4c297e42f666",
+      "validation_mae": 0.03245035115629435
+    },
+    {
+      "label": "scgpt_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "scgpt",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "03_scgpt_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/03_scgpt_energy/seed_42/best.pt",
+      "checkpoint_sha256": "a8a17894c8ebdc4a36ef29b3391fa9fcafe9cdd2ade6c3f36ec2cbfbeb59131f",
+      "validation_metrics_path": "results/scgpt/03_scgpt_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "6cba71d35e02a8b3639fd49446acb557d34173fb151ec1b5f8180f12a1d92620",
+      "validation_mae": 0.028345247022807597
+    },
+    {
+      "label": "scgpt_energy_seed_43",
+      "kind": "checkpoint",
+      "model": "scgpt",
+      "variant": "energy",
+      "seed": 43,
+      "experiment": "03_scgpt_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/03_scgpt_energy/seed_43/best.pt",
+      "checkpoint_sha256": "8776beeb40f8692055ebcbb3d9fe04b6d25d50d748bae47d5961fe1ac2a516c6",
+      "validation_metrics_path": "results/scgpt/03_scgpt_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "f06b3feeac2807399e39e69789ca0a7e8b4955fea5a3829211988d421a990114",
+      "validation_mae": 0.027871480882167815
+    },
+    {
+      "label": "scgpt_energy_seed_44",
+      "kind": "checkpoint",
+      "model": "scgpt",
+      "variant": "energy",
+      "seed": 44,
+      "experiment": "03_scgpt_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/03_scgpt_energy/seed_44/best.pt",
+      "checkpoint_sha256": "b7355b1cec8d76f2f169e557a9ced34040df836b5a79eb20fa915af32ebab494",
+      "validation_metrics_path": "results/scgpt/03_scgpt_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "1871fcbaeb3c151d310718ff3212f76faea7b028e39f0c110707f3a33bcbf3e7",
+      "validation_mae": 0.027597104441374542
+    },
+    {
+      "label": "geneformer_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "geneformer",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "04_geneformer_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/04_geneformer_energy/seed_42/best.pt",
+      "checkpoint_sha256": "8edfebd9a052f0888972912c78d54df38d706e1da278dabfc8dc1b7513d77e0f",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "16dbc7b6c0885893200877566ac166cc8483a69ceb2d72a0c7f542b776b27b3b",
+      "validation_mae": 0.028083262611180545
+    },
+    {
+      "label": "geneformer_energy_seed_43",
+      "kind": "checkpoint",
+      "model": "geneformer",
+      "variant": "energy",
+      "seed": 43,
+      "experiment": "04_geneformer_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/04_geneformer_energy/seed_43/best.pt",
+      "checkpoint_sha256": "568e59deb7d3b16c8089ce540f04522485afcbe6c1072b80831f1559052959c6",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "269b4da458fa727ae391549e2d7e31646a18d08749f191f0d1b632a0ec76df49",
+      "validation_mae": 0.02777005881071091
+    },
+    {
+      "label": "geneformer_energy_seed_44",
+      "kind": "checkpoint",
+      "model": "geneformer",
+      "variant": "energy",
+      "seed": 44,
+      "experiment": "04_geneformer_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/04_geneformer_energy/seed_44/best.pt",
+      "checkpoint_sha256": "339714ba00cb56a1a4144cfb52418bc3ee044a57a9cc0038434d344103121b77",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "bf8a14f8d51f862e8c4183e46dace1b830c2de07044c2d202b5fd05581849e22",
+      "validation_mae": 0.027629983443766833
+    },
+    {
+      "label": "concat_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "concat",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "05_concat_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/05_concat_energy/seed_42/best.pt",
+      "checkpoint_sha256": "1da8f64bcc9774bcb571169d41afd90c9c043cd29b234c57af3dc86e1a087c20",
+      "validation_metrics_path": "results/fusion/05_concat_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "e8ab4cf700f35e65e43fda476a7386a306f790070b94250c8f1664ee41408bef",
+      "validation_mae": 0.027640323601663113
+    },
+    {
+      "label": "concat_energy_seed_43",
+      "kind": "checkpoint",
+      "model": "concat",
+      "variant": "energy",
+      "seed": 43,
+      "experiment": "05_concat_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/05_concat_energy/seed_43/best.pt",
+      "checkpoint_sha256": "12c16a66d6c77129294b44ea4789a13f3b6f06576ad7f46b5e3bd01b65f1518b",
+      "validation_metrics_path": "results/fusion/05_concat_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "fe7badc4d0bec0bcb3efc6b35ff27867c873fa326aec9b882748b661b1559237",
+      "validation_mae": 0.02766595847904682
+    },
+    {
+      "label": "concat_energy_seed_44",
+      "kind": "checkpoint",
+      "model": "concat",
+      "variant": "energy",
+      "seed": 44,
+      "experiment": "05_concat_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/05_concat_energy/seed_44/best.pt",
+      "checkpoint_sha256": "b9403ec0f516a80130803a1543ae2e1cfa2bfce46ac281d21a64e73267a57985",
+      "validation_metrics_path": "results/fusion/05_concat_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "f8a2779ec2e45105e81b45b1a973ea4821570bbb773cb517698de15b91e92f39",
+      "validation_mae": 0.02775458374992013
+    },
+    {
+      "label": "gated_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "gated",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "06_gated_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/06_gated_energy/seed_42/best.pt",
+      "checkpoint_sha256": "b7d1b0ef19a047d614d895daa57f760988ad349baa2aea1f010e0db6a1f74f14",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "c6b854e622b9dd98d3b14c3fd9296ce8a56616abadea074a46aa4a0fdad01944",
+      "validation_mae": 0.028043420519679785
+    },
+    {
+      "label": "gated_energy_seed_43",
+      "kind": "checkpoint",
+      "model": "gated",
+      "variant": "energy",
+      "seed": 43,
+      "experiment": "06_gated_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/06_gated_energy/seed_43/best.pt",
+      "checkpoint_sha256": "26e0072f4ddd24e773b6e0bf6deaded6685dee160d1854ca2ae5fedfc73538a2",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_43/metrics.json",
+      "validation_metrics_sha256": "b7e48595854cdd5ac31dbcb4b3ec2cf8ea4119d31e2fbb70aba8814ce6d44792",
+      "validation_mae": 0.0276419673115015
+    },
+    {
+      "label": "gated_energy_seed_44",
+      "kind": "checkpoint",
+      "model": "gated",
+      "variant": "energy",
+      "seed": 44,
+      "experiment": "06_gated_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/06_gated_energy/seed_44/best.pt",
+      "checkpoint_sha256": "8835e6a880c097d5b82c802b019928a5fd031989c53abcca145ff713fb4d1425",
+      "validation_metrics_path": "results/fusion/06_gated_energy/seed_44/metrics.json",
+      "validation_metrics_sha256": "227a3300953f80bd925cf444d0d0840bcd4dd3e0eb696f30f5d7d1daa515595e",
+      "validation_mae": 0.027602190524339675
+    },
+    {
+      "label": "cross_attention_hybrid_seed_42",
+      "kind": "checkpoint",
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "seed": 42,
+      "experiment": "07_cross_attention_hybrid",
+      "role": "main",
+      "checkpoint_path": "outputs/07_cross_attention_hybrid/seed_42/best.pt",
+      "checkpoint_sha256": "456a7432ce793a27792f6c47c8d0622638b83e4451e1392bcf73e2a74b2ae642",
+      "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_42/metrics.json",
+      "validation_metrics_sha256": "f64c62dc2788c7e25299560a361ad054efab7879b610c67d67531d292c0f6464",
+      "validation_mae": 0.027704687137156726
+    },
+    {
+      "label": "cross_attention_hybrid_seed_43",
+      "kind": "checkpoint",
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "seed": 43,
+      "experiment": "07_cross_attention_hybrid",
+      "role": "main",
+      "checkpoint_path": "outputs/07_cross_attention_hybrid/seed_43/best.pt",
+      "checkpoint_sha256": "f62413695285af60cc45ed225e66700fce27aa2612f77218ee24e4cf8e9de0fa",
+      "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_43/metrics.json",
+      "validation_metrics_sha256": "41000c3a833d98034a053eedec29e69f202ecf79ed2f0cde4014a9c62b874b03",
+      "validation_mae": 0.02775452461093664
+    },
+    {
+      "label": "cross_attention_hybrid_seed_44",
+      "kind": "checkpoint",
+      "model": "cross_attention",
+      "variant": "hybrid",
+      "seed": 44,
+      "experiment": "07_cross_attention_hybrid",
+      "role": "main",
+      "checkpoint_path": "outputs/07_cross_attention_hybrid/seed_44/best.pt",
+      "checkpoint_sha256": "db7e786dda2edf6d7f52da6553d1d05e44979f5c17776c7f31f1d095ea4bc17e",
+      "validation_metrics_path": "results/fusion/07_cross_attention_hybrid/seed_44/metrics.json",
+      "validation_metrics_sha256": "a4b6075c1b8975c94aa6625c6695cd09bad576df9ba7fd77bd9f5c8ca100d836",
+      "validation_mae": 0.027609234172850848
+    },
+    {
+      "label": "mlp_mean_seed_42",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "mean",
+      "seed": 42,
+      "experiment": "mmd_01_mlp_mean",
+      "role": "kd_control",
+      "checkpoint_path": "outputs/mmd_01_mlp_mean/seed_42/best.pt",
+      "checkpoint_sha256": "efb0c1360401ca7730e56004f1db360305bc67e69946adad60d6996eb0a3a662",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_42/metrics.json",
+      "validation_metrics_sha256": "cf8ff7e6dabad4d5b0dbc597978d81ed72f35a41e556d535086eba7f9e82a734",
+      "validation_mae": 0.02822646690532565
+    },
+    {
+      "label": "mlp_mean_seed_43",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "mean",
+      "seed": 43,
+      "experiment": "mmd_01_mlp_mean",
+      "role": "kd_control",
+      "checkpoint_path": "outputs/mmd_01_mlp_mean/seed_43/best.pt",
+      "checkpoint_sha256": "ca66a4be6d90856591636169e2a253340390864014cf44a19da5898f45a1b81a",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_43/metrics.json",
+      "validation_metrics_sha256": "46406256ba70347efccd49ab441ab5fa292e3bbecc85ea71d1ee9e88d0c2c8b3",
+      "validation_mae": 0.028435385562479498
+    },
+    {
+      "label": "mlp_mean_seed_44",
+      "kind": "checkpoint",
+      "model": "mlp",
+      "variant": "mean",
+      "seed": 44,
+      "experiment": "mmd_01_mlp_mean",
+      "role": "kd_control",
+      "checkpoint_path": "outputs/mmd_01_mlp_mean/seed_44/best.pt",
+      "checkpoint_sha256": "4aef2cf86a274a6c242bc7e9eefeda6a04bd119d82794da92dc65d4e7d7fa849",
+      "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_44/metrics.json",
+      "validation_metrics_sha256": "ff134e7f05c8b251fc73ef9aafad39e35b44d0774ab29cc01ae36395308a482d",
+      "validation_mae": 0.027788933385163545
+    },
+    {
+      "label": "distillation_mean_kd_seed_42",
+      "kind": "checkpoint",
+      "model": "distillation",
+      "variant": "mean_kd",
+      "seed": 42,
+      "experiment": "08_distillation",
+      "role": "main",
+      "checkpoint_path": "outputs/08_distillation/seed_42/best.pt",
+      "checkpoint_sha256": "8933d68aa41351e9d618f486a0dc876bf8bbe7015ed9c39cf4dc030532d563bd",
+      "validation_metrics_path": "results/distillation/08_distillation/seed_42/metrics.json",
+      "validation_metrics_sha256": "14934b5f48c57faeb8fdf828ccc9dca4ff35aaeb55f906cb18b2b1d1e7ccadd2",
+      "validation_mae": 0.027803188655525446
+    },
+    {
+      "label": "distillation_mean_kd_seed_43",
+      "kind": "checkpoint",
+      "model": "distillation",
+      "variant": "mean_kd",
+      "seed": 43,
+      "experiment": "08_distillation",
+      "role": "main",
+      "checkpoint_path": "outputs/08_distillation/seed_43/best.pt",
+      "checkpoint_sha256": "c8712d454a041b11ce297ecfc66c09ba660f0d4d37c02ab1e5ea3ca2bd32e943",
+      "validation_metrics_path": "results/distillation/08_distillation/seed_43/metrics.json",
+      "validation_metrics_sha256": "931bfb2945647321a1c1fc8359c3ff5158e136110910052d5ac3bd1681041028",
+      "validation_mae": 0.02783921517431736
+    },
+    {
+      "label": "distillation_mean_kd_seed_44",
+      "kind": "checkpoint",
+      "model": "distillation",
+      "variant": "mean_kd",
+      "seed": 44,
+      "experiment": "08_distillation",
+      "role": "main",
+      "checkpoint_path": "outputs/08_distillation/seed_44/best.pt",
+      "checkpoint_sha256": "1751dbd7b178269e65d9a10d529fa4ba5460db781ac7c512a35049b346164efc",
+      "validation_metrics_path": "results/distillation/08_distillation/seed_44/metrics.json",
+      "validation_metrics_sha256": "4efb53caaf908910820eb6caac6df82856205123a2946a7fdd5555eee5358544",
+      "validation_mae": 0.027627041507512332
+    },
+    {
+      "label": "no_perturbation",
+      "kind": "no_perturbation",
+      "model": "no_perturbation",
+      "variant": "reference",
+      "role": "reference"
+    }
+  ],
+  "frozen_at_utc": "2026-10-15T05:12:50.615857+00:00"
+}

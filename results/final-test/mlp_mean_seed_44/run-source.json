@@ -1,0 +1,20 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "run": {
+    "label": "mlp_mean_seed_44",
+    "kind": "checkpoint",
+    "model": "mlp",
+    "variant": "mean",
+    "seed": 44,
+    "experiment": "mmd_01_mlp_mean",
+    "role": "kd_control",
+    "checkpoint_path": "outputs/mmd_01_mlp_mean/seed_44/best.pt",
+    "checkpoint_sha256": "4aef2cf86a274a6c242bc7e9eefeda6a04bd119d82794da92dc65d4e7d7fa849",
+    "validation_metrics_path": "results/mmd/mmd_01_mlp_mean/seed_44/metrics.json",
+    "validation_metrics_sha256": "ff134e7f05c8b251fc73ef9aafad39e35b44d0774ab29cc01ae36395308a482d",
+    "validation_mae": 0.027788933385163545
+  },
+  "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+  "test_used": true
+}

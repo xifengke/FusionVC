@@ -1,0 +1,45 @@
+{
+  "protocol": "final-test-v1",
+  "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+  "status": "complete",
+  "files": [
+    {
+      "name": "virtual-cell-challenge/2025/test/pert_counts_Test.csv",
+      "path": "data/raw/vcc2025/test/pert_counts_Test.csv",
+      "generation": "1765906557881304",
+      "size_bytes": 1894,
+      "crc32c": "dCaUQw==",
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/pert_counts_Test.csv?generation=1765906557881304",
+      "sha256": "c4f0ba439d7c3121562ca1f79fa3854d8f96fc7c3de24dca23eb9e7c41c8923a",
+      "verified_against_source_checksum": true,
+      "mtime_ns": 1792041248063817900,
+      "http_metadata": {
+        "status": 200,
+        "content_length": "1894",
+        "generation": "1765906557881304",
+        "hash": "crc32c=dCaUQw==, md5=uN65ffyTEiKmM/RBiukicA==",
+        "anonymous_access": true
+      }
+    },
+    {
+      "name": "virtual-cell-challenge/2025/test/adata_Test.h5ad",
+      "path": "data/raw/vcc2025/test/adata_Test.h5ad",
+      "generation": "1765905295402700",
+      "size_bytes": 11950739168,
+      "crc32c": "JMP5RQ==",
+      "url": "https://storage.googleapis.com/arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/test/adata_Test.h5ad?generation=1765905295402700",
+      "sha256": "ba5ce66729e4c8e50b6f147c7d73d3f9f28f76c91fa43ff33e3f6bc2ed831f03",
+      "verified_against_source_checksum": true,
+      "mtime_ns": 1792042836055255100,
+      "http_metadata": {
+        "status": 200,
+        "content_length": "11950739168",
+        "generation": "1765905295402700",
+        "hash": "crc32c=JMP5RQ==",
+        "anonymous_access": true
+      }
+    }
+  ],
+  "test_used": false,
+  "scope": "bytes/checksums only; no test expressions loaded"
+}

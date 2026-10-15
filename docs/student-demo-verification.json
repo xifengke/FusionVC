@@ -1,0 +1,23 @@
+{
+  "bundle_manifest_sha256": "af0d7f4a0cae902d6f6ccbbedb76cd3c01d75f0aa26ab9b92259060cbedd6809",
+  "source_checkpoint_sha256": "8933d68aa41351e9d618f486a0dc876bf8bbe7015ed9c39cf4dc030532d563bd",
+  "demo_sha256": "64e75881c4e1aecf1b7919779b988324009ecce3897e72e140ef3ca07ab3dbcc",
+  "package_bytes": 26304135,
+  "shape": [
+    32,
+    18080
+  ],
+  "target": "ACLY",
+  "checks": {
+    "original_student_tensors_exact": true,
+    "package_matches_direct_prediction_exact": true,
+    "repeated_prediction_exact": true,
+    "all_values_finite_nonnegative": true,
+    "gene_order_exact": true,
+    "training_library_scale_preserved": true
+  },
+  "library_sum_max_absolute_error": 0.007460259788786061,
+  "test_used": false,
+  "scope": "fixed 256 training-control subset standalone CPU inference; not official evaluation",
+  "all_checks_passed": true
+}

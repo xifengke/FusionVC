@@ -1,0 +1,35 @@
+{
+  "runs": [
+    {
+      "experiment": "03_scgpt",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "13a745592d7063a65188890fe13c2b708b1da44623b32d32519717b3bd41e56a",
+      "repeated_checkpoint_sha256": "27cd2028ae2f259054992d7acfc29cd88872c36d4c7cdfd9254fb9a63a05e390"
+    },
+    {
+      "experiment": "03_scgpt_energy",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "a8a17894c8ebdc4a36ef29b3391fa9fcafe9cdd2ade6c3f36ec2cbfbeb59131f",
+      "repeated_checkpoint_sha256": "38adbfe721c543b361a39bb086695b350647f05eabcccbc87ac0c9792dacf756"
+    },
+    {
+      "experiment": "03_scgpt_hybrid",
+      "seed": 42,
+      "every_tensor_equal": true,
+      "selected_epoch_equal": true,
+      "frozen_feature_provenance_equal": true,
+      "original_checkpoint_sha256": "299ee6f3fd4bb617acbf436da9225cab7b6dd87f674944d2ca56d588b75c81db",
+      "repeated_checkpoint_sha256": "35a7a94cfc9c25d4df196817626df1ce76faecf6e3cb4bce2277a3a406a3b4c0"
+    }
+  ],
+  "all_tensors_equal": true,
+  "pretrained_assets_unchanged": true,
+  "scope": "seed 42 repeated for all three losses; official evaluation not repeated for equal tensors",
+  "test_used": false
+}

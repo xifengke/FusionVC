@@ -1,0 +1,438 @@
+{
+  "contrasts": [
+    {
+      "candidate": "mlp/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0006033884392430417,
+      "target_bootstrap_95": [
+        0.00032814864953980834,
+        0.000883007322127612
+      ],
+      "candidate_better_targets": 15,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.001066666666666665,
+      "target_bootstrap_95": [
+        -0.0029333333333333377,
+        0.0051999999999999946
+      ],
+      "candidate_better_targets": 15,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11066535616283733,
+      "target_bootstrap_95": [
+        0.0894776643132785,
+        0.13324224777556515
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/energy",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0005058466053257458,
+      "target_bootstrap_95": [
+        0.00027708291728050123,
+        0.0007352341529913299
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/energy",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0012000000000000025,
+      "target_bootstrap_95": [
+        -0.003199999999999994,
+        0.005333333333333339
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/energy",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.10961456588878801,
+      "target_bootstrap_95": [
+        0.08820648306746616,
+        0.13348598756433994
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/hybrid",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0006818150325367861,
+      "target_bootstrap_95": [
+        0.0004026384656317613,
+        0.0009714882746338847
+      ],
+      "candidate_better_targets": 14,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/hybrid",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0017333333333333387,
+      "target_bootstrap_95": [
+        -0.0017333333333333272,
+        0.005466666666666675
+      ],
+      "candidate_better_targets": 18,
+      "targets": 50
+    },
+    {
+      "candidate": "mlp/hybrid",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11062409369106396,
+      "target_bootstrap_95": [
+        0.08897120294073964,
+        0.1338234291995851
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.005128719685599211,
+      "target_bootstrap_95": [
+        0.004207708212314186,
+        0.006068451572131985
+      ],
+      "candidate_better_targets": 3,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.004266666666666673,
+      "target_bootstrap_95": [
+        -0.005333333333333324,
+        0.014133333333333331
+      ],
+      "candidate_better_targets": 20,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.1659816502546822,
+      "target_bootstrap_95": [
+        0.12379944780524824,
+        0.20937120805658524
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/energy",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00553780670277775,
+      "target_bootstrap_95": [
+        0.004676092052056151,
+        0.006418829516973345
+      ],
+      "candidate_better_targets": 2,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/energy",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.002800000000000009,
+      "target_bootstrap_95": [
+        -0.006133333333333324,
+        0.012000000000000005
+      ],
+      "candidate_better_targets": 20,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/energy",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.16350747821682343,
+      "target_bootstrap_95": [
+        0.12157679662615688,
+        0.20674359176092313
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/hybrid",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.005090401821459335,
+      "target_bootstrap_95": [
+        0.004165357546259964,
+        0.006010041636802874
+      ],
+      "candidate_better_targets": 2,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/hybrid",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0037333333333333368,
+      "target_bootstrap_95": [
+        -0.0058666666666666555,
+        0.014003333333333291
+      ],
+      "candidate_better_targets": 20,
+      "targets": 50
+    },
+    {
+      "candidate": "transformer/hybrid",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.16498376046497953,
+      "target_bootstrap_95": [
+        0.12545097803310357,
+        0.20939430613923213
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0005176202611376888,
+      "target_bootstrap_95": [
+        0.00023691389833888828,
+        0.0008010667220999889
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.007866666666666671,
+      "target_bootstrap_95": [
+        -0.00119999999999999,
+        0.019600000000000003
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11941873060939667,
+      "target_bootstrap_95": [
+        0.09413311868156932,
+        0.14576670753600063
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00039107060370346345,
+      "target_bootstrap_95": [
+        0.00015058868572427167,
+        0.0006411211969486161
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.006266666666666675,
+      "target_bootstrap_95": [
+        -0.001333333333333321,
+        0.015733333333333335
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/energy",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11525580098746824,
+      "target_bootstrap_95": [
+        0.09060364969528056,
+        0.1403577050247787
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00046570142420629895,
+      "target_bootstrap_95": [
+        0.00019269503862597774,
+        0.000741120910271998
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.008400000000000006,
+      "target_bootstrap_95": [
+        -0.0005333333333333412,
+        0.020399999999999995
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "scgpt/hybrid",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.11815802044382308,
+      "target_bootstrap_95": [
+        0.09328528587196232,
+        0.14477520403965313
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0005005653295666051,
+      "target_bootstrap_95": [
+        0.0002114347165140116,
+        0.0008013585464408086
+      ],
+      "candidate_better_targets": 17,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0028000000000000004,
+      "target_bootstrap_95": [
+        -0.0013333333333333352,
+        0.00746666666666667
+      ],
+      "candidate_better_targets": 20,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/mean",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.10881230605728909,
+      "target_bootstrap_95": [
+        0.08663295050793304,
+        0.13230899890446252
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0002808947768062408,
+      "target_bootstrap_95": [
+        7.51499305479318e-05,
+        0.0004896246174660916
+      ],
+      "candidate_better_targets": 20,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0021333333333333356,
+      "target_bootstrap_95": [
+        -0.0012000000000000088,
+        0.006266666666666668
+      ],
+      "candidate_better_targets": 15,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/energy",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.10311127036013742,
+      "target_bootstrap_95": [
+        0.08066463619650009,
+        0.1262942835691013
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.0004662985013177033,
+      "target_bootstrap_95": [
+        0.00021165522700175484,
+        0.0007250899789699697
+      ],
+      "candidate_better_targets": 16,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0022666666666666716,
+      "target_bootstrap_95": [
+        -0.0013333333333333409,
+        0.0064000000000000124
+      ],
+      "candidate_better_targets": 18,
+      "targets": 50
+    },
+    {
+      "candidate": "geneformer/hybrid",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.10559459693304724,
+      "target_bootstrap_95": [
+        0.08334572345713076,
+        0.12935851772490475
+      ],
+      "candidate_better_targets": 50,
+      "targets": 50
+    }
+  ],
+  "scope": "three seeds averaged; 5000 paired bootstraps over 50 fixed validation targets; conditional on fitted models and fixed control sample; not biological replicates",
+  "test_used": false
+}

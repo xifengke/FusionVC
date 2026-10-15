@@ -1,0 +1,182 @@
+{
+  "contrasts": [
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "metric": "mae",
+      "difference_from_mean": -9.7541833917296e-05,
+      "target_bootstrap_95": [
+        -0.00015948235429822603,
+        -4.071476326013813e-05
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "metric": "discrimination_score_l1",
+      "difference_from_mean": 0.00013333333333333751,
+      "target_bootstrap_95": [
+        -0.0022666666666666564,
+        0.002266666666666672
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "metric": "overlap_at_N",
+      "difference_from_mean": -0.001050790274049315,
+      "target_bootstrap_95": [
+        -0.0053595529856774165,
+        0.0031063875065171468
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "energy",
+      "metric": "energy_mmd_rms",
+      "difference_from_mean": -1.1560743053752875e-05,
+      "target_bootstrap_95": [
+        -2.6006443115567227e-05,
+        2.8978505482293846e-06
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "metric": "mae",
+      "difference_from_mean": 7.842659329374429e-05,
+      "target_bootstrap_95": [
+        1.874833833426015e-05,
+        0.00014363920533408796
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "metric": "discrimination_score_l1",
+      "difference_from_mean": 0.0006666666666666737,
+      "target_bootstrap_95": [
+        -0.0017333333333333324,
+        0.0029333333333333446
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "metric": "overlap_at_N",
+      "difference_from_mean": -4.126247177338033e-05,
+      "target_bootstrap_95": [
+        -0.0034384925886194904,
+        0.003069233367715453
+      ],
+      "targets": 50
+    },
+    {
+      "model": "mlp",
+      "variant": "hybrid",
+      "metric": "energy_mmd_rms",
+      "difference_from_mean": 1.869959135850467e-05,
+      "target_bootstrap_95": [
+        -2.0928901309769287e-06,
+        4.019144581010021e-05
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "metric": "mae",
+      "difference_from_mean": 0.0004090870171785378,
+      "target_bootstrap_95": [
+        0.0002825927023465472,
+        0.0005413517050134586
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "metric": "discrimination_score_l1",
+      "difference_from_mean": -0.0014666666666666628,
+      "target_bootstrap_95": [
+        -0.004799999999999999,
+        0.0018666666666666732
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "metric": "overlap_at_N",
+      "difference_from_mean": -0.0024741720378587307,
+      "target_bootstrap_95": [
+        -0.004883383855548612,
+        0.00010082718908474026
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "energy",
+      "metric": "energy_mmd_rms",
+      "difference_from_mean": 9.613070636987596e-05,
+      "target_bootstrap_95": [
+        6.561692835142162e-05,
+        0.00012601710855960949
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "metric": "mae",
+      "difference_from_mean": -3.8317864139876815e-05,
+      "target_bootstrap_95": [
+        -5.567361693829772e-05,
+        -2.1344633152094618e-05
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "metric": "discrimination_score_l1",
+      "difference_from_mean": -0.0005333333333333354,
+      "target_bootstrap_95": [
+        -0.0021333333333333317,
+        0.0007999999999999991
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "metric": "overlap_at_N",
+      "difference_from_mean": -0.0009978897897026428,
+      "target_bootstrap_95": [
+        -0.001555430601111264,
+        -0.0004371869787925244
+      ],
+      "targets": 50
+    },
+    {
+      "model": "transformer",
+      "variant": "hybrid",
+      "metric": "energy_mmd_rms",
+      "difference_from_mean": -6.5612668792400246e-06,
+      "target_bootstrap_95": [
+        -1.0295051770903608e-05,
+        -3.0094978089125224e-06
+      ],
+      "targets": 50
+    }
+  ],
+  "scope": "conditional on fitted models and fixed validation targets; seed means",
+  "test_used": false
+}

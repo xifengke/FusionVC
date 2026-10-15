@@ -1,0 +1,8 @@
+{
+  "protocol": "mmd-v1",
+  "runs": 18,
+  "expected_runs": 18,
+  "complete": true,
+  "test_used": false,
+  "metrics_source": "cell-eval 0.6.6 VCC profile + supplementary sampled energy MMD"
+}

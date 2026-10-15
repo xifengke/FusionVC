@@ -1,0 +1,6 @@
+{
+  "runs": 6,
+  "test_used": false,
+  "metrics_source": "cell-eval 0.6.6 VCC profile",
+  "de_adapter": "tie/continuity-corrected U with pooled BH; parity verified"
+}

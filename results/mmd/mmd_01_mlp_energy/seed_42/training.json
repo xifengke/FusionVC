@@ -1,0 +1,23 @@
+{
+  "experiment": "mmd_01_mlp_energy",
+  "seed": 42,
+  "epochs_run": 30,
+  "best_epoch": 10,
+  "selection_validation_mae": 0.032702749446034435,
+  "parameters": 1266144,
+  "trainable_parameters": 1266144,
+  "training_seconds": 17.962719000000106,
+  "peak_allocated_gpu_bytes": 576198144,
+  "peak_reserved_gpu_bytes": 817889280,
+  "checkpoint_bytes": 5104973,
+  "checkpoint_sha256": "d57823a2d0533238d42a4ad4af8c1bc0182c406fcec520759fa51aa0cce454b0",
+  "scope": "validation only; test untouched; condition mean-shift model",
+  "protocol": "mmd-v1",
+  "loss": "unpaired_energy_mmd",
+  "model": "mlp",
+  "variant": "energy",
+  "cell_set_size": 32,
+  "target_set_size": 32,
+  "energy_kernel": "negative Euclidean distance divided by sqrt(18080)",
+  "target_sampling": "all training cells; separate RNG seed+100000"
+}

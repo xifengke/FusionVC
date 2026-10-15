@@ -1,0 +1,12 @@
+{
+  "version": "mmd-v1",
+  "shape": [
+    221273,
+    18080
+  ],
+  "target_sum": 53912.0,
+  "source": "training cells only",
+  "source_bytes": 15482497461,
+  "source_mtime_ns": 1790999608313258500,
+  "dtype": "float32"
+}

@@ -1,0 +1,24 @@
+{
+  "tests": {
+    "label": "tests",
+    "command": [
+      "E:\\各种项目\\FusionVC\\.venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "-q",
+      "tests/test_distillation.py",
+      "--basetemp",
+      "E:\\各种项目\\FusionVC\\tmp\\pytest-distillation"
+    ],
+    "log": "outputs\\distillation-recipe\\logs\\tests-1792041092952249500.log",
+    "output_sha256": "3ff5187ce9e035965a980c42fedf2fe7e20584651d2086c2aeb6f8db35e283b0",
+    "exit_code": 0,
+    "seconds": 8.219228100000691,
+    "failure": null,
+    "passed": 13,
+    "warnings": 0
+  },
+  "ruff_passed": true,
+  "comparison_plot_visually_inspected": true,
+  "test_used": false
+}

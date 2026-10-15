@@ -1,0 +1,139 @@
+{
+  "contrasts": [
+    {
+      "candidate": "distilled_mlp",
+      "reference": "supervised_mlp",
+      "metric": "mae",
+      "difference": -0.0003937801718711874,
+      "target_bootstrap_95": [
+        -0.0004824705060261042,
+        -0.0003074402304676648
+      ],
+      "targets": 50,
+      "candidate_better_targets": 44
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "supervised_mlp",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0002666666666666695,
+      "target_bootstrap_95": [
+        -0.0022666666666666707,
+        0.0026666666666666757
+      ],
+      "targets": 50,
+      "candidate_better_targets": 16
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "supervised_mlp",
+      "metric": "overlap_at_N",
+      "difference": -0.0027934203749882098,
+      "target_bootstrap_95": [
+        -0.010958040269835429,
+        0.005106935064680528
+      ],
+      "targets": 50,
+      "candidate_better_targets": 24
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "supervised_mlp",
+      "metric": "energy_mmd_rms",
+      "difference": -4.580521335204243e-05,
+      "target_bootstrap_95": [
+        -6.985345575958525e-05,
+        -2.461270770678272e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 37
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "teacher",
+      "metric": "mae",
+      "difference": 0.00011615817745527116,
+      "target_bootstrap_95": [
+        -4.7610395432752847e-05,
+        0.0002745159709205347
+      ],
+      "targets": 50,
+      "candidate_better_targets": 17
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "teacher",
+      "metric": "discrimination_score_l1",
+      "difference": -0.001066666666666661,
+      "target_bootstrap_95": [
+        -0.004666666666666663,
+        0.0024000000000000046
+      ],
+      "targets": 50,
+      "candidate_better_targets": 19
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "teacher",
+      "metric": "overlap_at_N",
+      "difference": -0.0033715072022109647,
+      "target_bootstrap_95": [
+        -0.01152475836149278,
+        0.004971648085056753
+      ],
+      "targets": 50,
+      "candidate_better_targets": 20
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "teacher",
+      "metric": "energy_mmd_rms",
+      "difference": -1.0155327618122655e-05,
+      "target_bootstrap_95": [
+        -8.323883482565662e-05,
+        4.748144124944656e-05
+      ],
+      "targets": 50,
+      "candidate_better_targets": 22
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "no_perturbation",
+      "metric": "mae",
+      "difference": 0.00020960826737185446,
+      "target_bootstrap_95": [
+        -5.057625006878563e-06,
+        0.0004300355692394156
+      ],
+      "targets": 50,
+      "candidate_better_targets": 23
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "no_perturbation",
+      "metric": "discrimination_score_l1",
+      "difference": 0.0013333333333333344,
+      "target_bootstrap_95": [
+        -0.002133333333333336,
+        0.005333333333333326
+      ],
+      "targets": 50,
+      "candidate_better_targets": 20
+    },
+    {
+      "candidate": "distilled_mlp",
+      "reference": "no_perturbation",
+      "metric": "overlap_at_N",
+      "difference": 0.10787193578784914,
+      "target_bootstrap_95": [
+        0.09051701850923666,
+        0.12601114020996182
+      ],
+      "targets": 50,
+      "candidate_better_targets": 50
+    }
+  ],
+  "bootstrap_seed": 2025,
+  "scope": "student and supervised MLP three-seed means; one fixed seed42 teacher; paired 5000 bootstraps of 50 validation targets; conditional on models, teacher/checkpoint selection and fixed controls; no multiplicity correction; not biological replicates",
+  "test_used": false
+}

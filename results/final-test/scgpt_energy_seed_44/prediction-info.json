@@ -1,0 +1,12 @@
+{
+  "shape": [
+    170846,
+    18080
+  ],
+  "genes": 18080,
+  "target_sum": 54125.5,
+  "control_sampling_seed": 2025,
+  "control_counts_match_official": true,
+  "seconds": 27.00481579999905,
+  "test_used": true
+}

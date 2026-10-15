@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "scgpt_ids_match_fixed_covered_candidates": true,
+    "scgpt_counts_equal_2048_per_gene": true,
+    "geneformer_ids_match_native_token_identity": true,
+    "geneformer_counts_match_native_rank_sequences": true,
+    "geneformer_valid_mask_matches_native_observations": true,
+    "native_padding_is_zero": true,
+    "native_valid_tokens_are_known_gene_tokens": true,
+    "source_pooling_within_predeclared_tolerance": true
+  },
+  "all_checks_passed": true,
+  "scgpt_genes": 242,
+  "geneformer_genes": 254,
+  "native_geneformer_padding_slots_checked": 86363,
+  "token_cache_manifest_sha256": "63552ab585c7c1d953e7a6cc12e7311f6cabc0394fdf572a14d9259ed135d2dd",
+  "scope": "independent identity/count reconstruction from original native input caches; extraction pooling parity recorded at extraction time",
+  "test_used": false
+}

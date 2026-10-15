@@ -1,0 +1,18 @@
+{
+  "split": "official validation (50 held-out perturbations)",
+  "metrics": {
+    "discrimination_score_l1": 0.5148000000000003,
+    "mae": 0.027788933385163545,
+    "overlap_at_N": 0.09793267768473593
+  },
+  "evaluation_seconds": 58.7708320999991,
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "gene_count": 18080,
+  "predicted_cell_count": 98927,
+  "profile": "vcc",
+  "de": "validated asymptotic Mann-Whitney acceleration",
+  "global_fdr": "BH over all genes and all perturbations",
+  "test_used": false,
+  "checkpoint_sha256": "3f20916106363d0462d5bf6ce895f26ed29595f6a715f1bd3de4ee991cdb9921"
+}

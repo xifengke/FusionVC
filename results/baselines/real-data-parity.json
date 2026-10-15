@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "comparison": "native pdex 0.1.27 vs blocked adapter",
+  "cells": 41457,
+  "control_cells": 38176,
+  "targets": [
+    "UQCRB",
+    "VCL",
+    "MAT2A"
+  ],
+  "genes": [
+    "SAMD11",
+    "NOC2L",
+    "TTLL10",
+    "ATAD3C",
+    "SLC2A7",
+    "WNT4",
+    "ZBTB40",
+    "EDN2",
+    "BOLA1",
+    "SPAST",
+    "AC093323.1",
+    "ZNF484",
+    "ARMH4",
+    "OAZ1",
+    "VPREB1",
+    "MT-CYB"
+  ],
+  "maximum_absolute_errors": {
+    "p_value": 2.220446049250313e-16,
+    "statistic": 0.0,
+    "fdr": 2.7755575615628914e-16,
+    "fold_change": 7.450580569168253e-10,
+    "target_mean": 0.0,
+    "reference_mean": 0.0
+  }
+}

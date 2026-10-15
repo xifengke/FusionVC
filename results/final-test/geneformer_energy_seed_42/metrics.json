@@ -1,0 +1,54 @@
+{
+  "protocol": "final-test-v1",
+  "split": "official test",
+  "test_used": true,
+  "label": "geneformer_energy_seed_42",
+  "model": "geneformer",
+  "role": "main",
+  "seed": 42,
+  "variant": "energy",
+  "metrics": {
+    "mae": 0.02676707520149648,
+    "discrimination_score_l1": 0.5144,
+    "overlap_at_N": 0.12143760881221027
+  },
+  "checkpoint_sha256": "8edfebd9a052f0888972912c78d54df38d706e1da278dabfc8dc1b7513d77e0f",
+  "gene_count": 18080,
+  "predicted_cell_count": 170846,
+  "perturbation_count": 100,
+  "control_cell_count": 38176,
+  "profile": "vcc",
+  "cell_eval_version": "0.6.6",
+  "pdex_version": "0.1.27",
+  "de": "validated asymptotic Mann-Whitney acceleration",
+  "global_fdr": "BH over all genes and all test perturbations",
+  "evaluation_seconds": 137.12707539999974,
+  "distribution": {
+    "energy_mmd_rms": 0.022367480043321848,
+    "cells_per_set": 64,
+    "prediction_seed": 2026,
+    "observation_seed": 2027,
+    "kernel": "negative Euclidean distance divided by sqrt(gene_count)",
+    "scope": "supplementary sampled distribution metric; not an official VCC score"
+  },
+  "signature": {
+    "protocol": "final-test-v1",
+    "selection_sha256": "ed901b687fbba5f0b294f78aef23bb3ee7509d11f885b966a3ef0ca01189843e",
+    "run": {
+      "label": "geneformer_energy_seed_42",
+      "kind": "checkpoint",
+      "model": "geneformer",
+      "variant": "energy",
+      "seed": 42,
+      "experiment": "04_geneformer_energy",
+      "role": "main",
+      "checkpoint_path": "outputs/04_geneformer_energy/seed_42/best.pt",
+      "checkpoint_sha256": "8edfebd9a052f0888972912c78d54df38d706e1da278dabfc8dc1b7513d77e0f",
+      "validation_metrics_path": "results/geneformer/04_geneformer_energy/seed_42/metrics.json",
+      "validation_metrics_sha256": "16dbc7b6c0885893200877566ac166cc8483a69ceb2d72a0c7f542b776b27b3b",
+      "validation_mae": 0.028083262611180545
+    },
+    "real_cache_manifest_sha256": "5de76c891b98a93a617f494ee3447cbebc0836d512c70479f820f276c823eac0",
+    "test_used": true
+  }
+}
